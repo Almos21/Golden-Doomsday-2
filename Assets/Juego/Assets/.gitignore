@@ -1,0 +1,10 @@
+# Git configuration for Assets folder
+# This ensures empty folders are preserved in the repository
+
+# Keep placeholder files so empty directories are preserved
+!.gitkeep
+!.gitignore
+
+# You can add other patterns here as needed for your Unity project
+# For example, to ignore temporary files:
+# *.tmp
