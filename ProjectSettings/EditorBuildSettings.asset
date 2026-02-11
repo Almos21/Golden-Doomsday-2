@@ -224,12 +224,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Core/MMSceneLoading/LoadingScreens/MMAdditiveLoadingScreenSimple.unity
     guid: 945e5b97212e8e74ebcd35bddde3970c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Juego/Scenes/Home.unity
     guid: 5d67fd00ad0c7d5408cd0f5017b9cfd0
   - enabled: 1
+    path: "Assets/Juego/Scenes/Men\xFA Inicial.unity"
+    guid: 2042b418c1aa84c4ba3fcc75bc787626
+  - enabled: 1
     path: Assets/Juego/Scenes/Nivel1.unity
     guid: 3d839257c4e005046b9c2a66ea3a908a
+  - enabled: 1
+    path: "Assets/Juego/Scenes/Cinem\xE1tica.unity"
+    guid: 01409db3ec4f1ba4abd956884afa1f21
   - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Core/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
