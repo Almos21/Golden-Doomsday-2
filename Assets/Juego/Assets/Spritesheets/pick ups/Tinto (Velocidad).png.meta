@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 64f2278605ef49143814f8961fb76b33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8368340161821086648
+    second: Tinto (Velocidad)_0
+  - first:
+      213: -2638870203516120627
+    second: Tinto (Velocidad)_1
+  - first:
+      213: -2585869964834250506
+    second: Tinto (Velocidad)_2
+  - first:
+      213: 8523666016318373328
+    second: Tinto (Velocidad)_3
+  - first:
+      213: -2007138461777217075
+    second: Tinto (Velocidad)_4
+  - first:
+      213: -5977934657643763406
+    second: Tinto (Velocidad)_5
+  - first:
+      213: 2724094155816133623
+    second: Tinto (Velocidad)_6
+  - first:
+      213: 696713373615172185
+    second: Tinto (Velocidad)_7
+  - first:
+      213: -1957846420495285671
+    second: Tinto (Velocidad)_8
+  - first:
+      213: -1922008237657768392
+    second: Tinto (Velocidad)_9
+  - first:
+      213: -3847826613995549687
+    second: Tinto (Velocidad)_10
+  - first:
+      213: 8535542449662720298
+    second: Tinto (Velocidad)_11
+  - first:
+      213: -6682272674349949164
+    second: Tinto (Velocidad)_12
+  - first:
+      213: 5924675288448624673
+    second: Tinto (Velocidad)_13
+  - first:
+      213: 1081260950235811981
+    second: Tinto (Velocidad)_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 103
+        width: 452
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ce40fc5feaddb80800000000000000
+      internalID: -8368340161821086648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_1
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 86
+        width: 452
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc11f0ff789d06bd0800000000000000
+      internalID: -2638870203516120627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_2
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 61
+        width: 449
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0e3bea7f42d1cd0800000000000000
+      internalID: -2585869964834250506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_3
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 38
+        width: 442
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddb9bed4152a4670800000000000000
+      internalID: 8523666016318373328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_4
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 38
+        width: 442
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9beba04363524e0800000000000000
+      internalID: -2007138461777217075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_5
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 54
+        width: 449
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239a5a0f91c1a0da0800000000000000
+      internalID: -5977934657643763406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_6
+      rect:
+        serializedVersion: 2
+        x: 3785
+        y: 77
+        width: 457
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3632ca33dedc520800000000000000
+      internalID: 2724094155816133623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_7
+      rect:
+        serializedVersion: 2
+        x: 4405
+        y: 84
+        width: 458
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95aa8983f193ba900800000000000000
+      internalID: 696713373615172185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_8
+      rect:
+        serializedVersion: 2
+        x: 5038
+        y: 96
+        width: 464
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952cb9dbd0554d4e0800000000000000
+      internalID: -1957846420495285671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_9
+      rect:
+        serializedVersion: 2
+        x: 5497
+        y: 358
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83eb80be0b7a355e0800000000000000
+      internalID: -1922008237657768392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_10
+      rect:
+        serializedVersion: 2
+        x: 5646
+        y: 105
+        width: 462
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c408bc416c99ac0800000000000000
+      internalID: -3847826613995549687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_11
+      rect:
+        serializedVersion: 2
+        x: 6265
+        y: 101
+        width: 456
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29f96d72a6547670800000000000000
+      internalID: 8535542449662720298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_12
+      rect:
+        serializedVersion: 2
+        x: 6887
+        y: 103
+        width: 452
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f5219286cc343a0800000000000000
+      internalID: -6682272674349949164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_13
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 318
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128e389d8cca83250800000000000000
+      internalID: 5924675288448624673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tinto (Velocidad)_14
+      rect:
+        serializedVersion: 2
+        x: 4356
+        y: 172
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d809e400b19610f00800000000000000
+      internalID: 1081260950235811981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tinto (Velocidad)_0: -8368340161821086648
+      Tinto (Velocidad)_1: -2638870203516120627
+      Tinto (Velocidad)_10: -3847826613995549687
+      Tinto (Velocidad)_11: 8535542449662720298
+      Tinto (Velocidad)_12: -6682272674349949164
+      Tinto (Velocidad)_13: 5924675288448624673
+      Tinto (Velocidad)_14: 1081260950235811981
+      Tinto (Velocidad)_2: -2585869964834250506
+      Tinto (Velocidad)_3: 8523666016318373328
+      Tinto (Velocidad)_4: -2007138461777217075
+      Tinto (Velocidad)_5: -5977934657643763406
+      Tinto (Velocidad)_6: 2724094155816133623
+      Tinto (Velocidad)_7: 696713373615172185
+      Tinto (Velocidad)_8: -1957846420495285671
+      Tinto (Velocidad)_9: -1922008237657768392
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
