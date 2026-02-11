@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 6a4a7939693f1644387db26c5e5a9f68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4825761378006219102
+    second: RobotSierra Walk_0
+  - first:
+      213: -4354856756201291944
+    second: RobotSierra Walk_1
+  - first:
+      213: -3504506675271317599
+    second: RobotSierra Walk_2
+  - first:
+      213: 6693755564034876924
+    second: RobotSierra Walk_3
+  - first:
+      213: -4477191433204974043
+    second: RobotSierra Walk_4
+  - first:
+      213: 9091176913697443169
+    second: RobotSierra Walk_5
+  - first:
+      213: 1540779797087445002
+    second: RobotSierra Walk_6
+  - first:
+      213: -1622166322311372805
+    second: RobotSierra Walk_7
+  - first:
+      213: -2497664435934945927
+    second: RobotSierra Walk_8
+  - first:
+      213: -3454252373977315239
+    second: RobotSierra Walk_9
+  - first:
+      213: 7229633433132155141
+    second: RobotSierra Walk_10
+  - first:
+      213: -9177231094048221855
+    second: RobotSierra Walk_11
+  - first:
+      213: -4413588602037488287
+    second: RobotSierra Walk_12
+  - first:
+      213: -6291348979215290308
+    second: RobotSierra Walk_13
+  - first:
+      213: -529132666896844938
+    second: RobotSierra Walk_14
+  - first:
+      213: -2735898941660621626
+    second: RobotSierra Walk_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 360
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RobotSierra Walk_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1898
+        width: 500
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6c32d3893770db0800000000000000
+      internalID: -4825761378006219102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1898
+        width: 500
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f79ee6ad07093c0800000000000000
+      internalID: -4354856756201291944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_2
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1898
+        width: 500
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7c77b1fbd7d5fc0800000000000000
+      internalID: -3504506675271317599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_3
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1927
+        width: 500
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5e79f683ff4ec50800000000000000
+      internalID: 6693755564034876924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1308
+        width: 500
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e3568dc12ddd1c0800000000000000
+      internalID: -4477191433204974043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1308
+        width: 500
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d0b236c395a2e70800000000000000
+      internalID: 9091176913697443169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1308
+        width: 500
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00ee72ef03f16510800000000000000
+      internalID: 1540779797087445002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1278
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff57001358ec79e0800000000000000
+      internalID: -1622166322311372805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 659
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d98ffbd63865dd0800000000000000
+      internalID: -2497664435934945927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 660
+        width: 500
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958488c64c70010d0800000000000000
+      internalID: -3454252373977315239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_10
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 660
+        width: 500
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501412e9d41d45460800000000000000
+      internalID: 7229633433132155141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_11
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 660
+        width: 500
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165169961fce3a080800000000000000
+      internalID: -9177231094048221855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 41
+        width: 500
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165b7d6fc88cfb2c0800000000000000
+      internalID: -4413588602037488287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 42
+        width: 500
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c303bd7bf63a0b8a0800000000000000
+      internalID: -6291348979215290308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 42
+        width: 500
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677fe8694a428a8f0800000000000000
+      internalID: -529132666896844938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotSierra Walk_15
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 41
+        width: 500
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c493f07862280ad0800000000000000
+      internalID: -2735898941660621626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RobotSierra Walk_0: -4825761378006219102
+      RobotSierra Walk_1: -4354856756201291944
+      RobotSierra Walk_10: 7229633433132155141
+      RobotSierra Walk_11: -9177231094048221855
+      RobotSierra Walk_12: -4413588602037488287
+      RobotSierra Walk_13: -6291348979215290308
+      RobotSierra Walk_14: -529132666896844938
+      RobotSierra Walk_15: -2735898941660621626
+      RobotSierra Walk_2: -3504506675271317599
+      RobotSierra Walk_3: 6693755564034876924
+      RobotSierra Walk_4: -4477191433204974043
+      RobotSierra Walk_5: 9091176913697443169
+      RobotSierra Walk_6: 1540779797087445002
+      RobotSierra Walk_7: -1622166322311372805
+      RobotSierra Walk_8: -2497664435934945927
+      RobotSierra Walk_9: -3454252373977315239
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
