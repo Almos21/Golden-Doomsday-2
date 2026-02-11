@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 114299600733101238}
   - component: {fileID: 5296012744010930771}
   m_Layer: 13
-  m_Name: RetroSwordsmanWithAGun
+  m_Name: robotLaser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
