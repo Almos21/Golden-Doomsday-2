@@ -1,0 +1,1021 @@
+fileFormatVersion: 2
+guid: b447206884d99eb4c9f4b011945f4f60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3403668239236031275
+    second: Destransformacion_0
+  - first:
+      213: 1659739948832613829
+    second: Destransformacion_1
+  - first:
+      213: 1174012658741871248
+    second: Destransformacion_2
+  - first:
+      213: -8337295417973859393
+    second: Destransformacion_3
+  - first:
+      213: 1016299652198706104
+    second: Destransformacion_4
+  - first:
+      213: -4809592935019768553
+    second: Destransformacion_5
+  - first:
+      213: 5207393803452629258
+    second: Destransformacion_6
+  - first:
+      213: -3861584391806992267
+    second: Destransformacion_7
+  - first:
+      213: 9076832085451830392
+    second: Destransformacion_8
+  - first:
+      213: 6213345167513881619
+    second: Destransformacion_9
+  - first:
+      213: 662048251260830012
+    second: Destransformacion_10
+  - first:
+      213: 5186766208348940017
+    second: Destransformacion_11
+  - first:
+      213: 6382144602862571650
+    second: Destransformacion_12
+  - first:
+      213: -6624403531517288506
+    second: Destransformacion_13
+  - first:
+      213: -6939950858599386668
+    second: Destransformacion_14
+  - first:
+      213: -1520769322736476717
+    second: Destransformacion_15
+  - first:
+      213: -2373884816575714459
+    second: Destransformacion_16
+  - first:
+      213: -1844575163807711939
+    second: Destransformacion_17
+  - first:
+      213: 7428400185655475135
+    second: Destransformacion_18
+  - first:
+      213: 5736408805192013510
+    second: Destransformacion_19
+  - first:
+      213: 8320397896218632580
+    second: Destransformacion_20
+  - first:
+      213: -750842542794752636
+    second: Destransformacion_21
+  - first:
+      213: -9187192836576163490
+    second: Destransformacion_22
+  - first:
+      213: 68286417150136505
+    second: Destransformacion_23
+  - first:
+      213: 2383008941670796094
+    second: Destransformacion_24
+  - first:
+      213: -4934025688597297147
+    second: Destransformacion_25
+  - first:
+      213: 2422891850085410775
+    second: Destransformacion_26
+  - first:
+      213: 7486921117696949086
+    second: Destransformacion_27
+  - first:
+      213: -482902411471463262
+    second: Destransformacion_28
+  - first:
+      213: 1173784174605979839
+    second: Destransformacion_29
+  - first:
+      213: 2165860588341533802
+    second: Destransformacion_30
+  - first:
+      213: -2250362442455438119
+    second: Destransformacion_31
+  - first:
+      213: 8225498238168103614
+    second: Destransformacion_32
+  - first:
+      213: 8647048583262487004
+    second: Destransformacion_33
+  - first:
+      213: -4896382942006698047
+    second: Destransformacion_34
+  - first:
+      213: -5498526059899328762
+    second: Destransformacion_35
+  - first:
+      213: 4849176024838219977
+    second: Destransformacion_36
+  - first:
+      213: -277995532596332881
+    second: Destransformacion_37
+  - first:
+      213: 6367542386939839572
+    second: Destransformacion_38
+  - first:
+      213: -5058919602727382708
+    second: Destransformacion_39
+  - first:
+      213: -8099877009983608109
+    second: Destransformacion_40
+  - first:
+      213: 306544425226690354
+    second: Destransformacion_41
+  - first:
+      213: 2016015376590646957
+    second: Destransformacion_42
+  - first:
+      213: 4971307455995507567
+    second: Destransformacion_43
+  - first:
+      213: 3698599845307312344
+    second: Destransformacion_44
+  - first:
+      213: -1971140204633802192
+    second: Destransformacion_45
+  - first:
+      213: -965191148689772124
+    second: Destransformacion_46
+  - first:
+      213: 1516854637965173819
+    second: Destransformacion_47
+  - first:
+      213: -2639253455319046036
+    second: Destransformacion_48
+  - first:
+      213: -2186692647075109395
+    second: Destransformacion_49
+  - first:
+      213: 4174625160086017997
+    second: Destransformacion_50
+  - first:
+      213: 6609919324449957802
+    second: Destransformacion_51
+  - first:
+      213: 8682201644373030433
+    second: Destransformacion_52
+  - first:
+      213: 8875811013130566396
+    second: Destransformacion_53
+  - first:
+      213: -6455777329045021847
+    second: Destransformacion_54
+  - first:
+      213: 6466442774103122664
+    second: Destransformacion_55
+  - first:
+      213: 1591215437774859863
+    second: Destransformacion_56
+  - first:
+      213: 5977467968830934804
+    second: Destransformacion_57
+  - first:
+      213: 7238909790548100810
+    second: Destransformacion_58
+  - first:
+      213: -4098094298970761371
+    second: Destransformacion_59
+  - first:
+      213: 1309883317524698446
+    second: Destransformacion_60
+  - first:
+      213: 7687180056560417694
+    second: Destransformacion_61
+  - first:
+      213: -725745149722682390
+    second: Destransformacion_62
+  - first:
+      213: 2446450414811613072
+    second: Destransformacion_63
+  - first:
+      213: -4736451171149799616
+    second: Destransformacion_64
+  - first:
+      213: 8766564585685794055
+    second: Destransformacion_65
+  - first:
+      213: 3514191192538842020
+    second: Destransformacion_66
+  - first:
+      213: 8630900537867182252
+    second: Destransformacion_67
+  - first:
+      213: 536322096561710335
+    second: Destransformacion_68
+  - first:
+      213: -6643693145182248000
+    second: Destransformacion_69
+  - first:
+      213: -2276096849250079597
+    second: Destransformacion_70
+  - first:
+      213: -2445988132222942759
+    second: Destransformacion_71
+  - first:
+      213: 3557154782965598713
+    second: Destransformacion_72
+  - first:
+      213: -3667515694331459873
+    second: Destransformacion_73
+  - first:
+      213: -3182179347169821673
+    second: Destransformacion_74
+  - first:
+      213: -2270988709355459387
+    second: Destransformacion_75
+  - first:
+      213: 3211502479972910653
+    second: Destransformacion_76
+  - first:
+      213: -5102206825018244271
+    second: Destransformacion_77
+  - first:
+      213: -3458252872015255219
+    second: Destransformacion_78
+  - first:
+      213: 4682245276519208229
+    second: Destransformacion_79
+  - first:
+      213: -1430314821123082193
+    second: Destransformacion_80
+  - first:
+      213: -4145436365320337566
+    second: Destransformacion_81
+  - first:
+      213: -4053960991936374621
+    second: Destransformacion_82
+  - first:
+      213: 7004521293579730192
+    second: Destransformacion_83
+  - first:
+      213: -975607601671558402
+    second: Destransformacion_84
+  - first:
+      213: 2752227446329667524
+    second: Destransformacion_85
+  - first:
+      213: -1746015284408878520
+    second: Destransformacion_86
+  - first:
+      213: 7417491326263057099
+    second: Destransformacion_87
+  - first:
+      213: 6112205987083595816
+    second: Destransformacion_88
+  - first:
+      213: 6592154984712080574
+    second: Destransformacion_89
+  - first:
+      213: 6318947407252756974
+    second: Destransformacion_90
+  - first:
+      213: -3281896888896187995
+    second: Destransformacion_91
+  - first:
+      213: 7396890780989234597
+    second: Destransformacion_92
+  - first:
+      213: -6524156707794040015
+    second: Destransformacion_93
+  - first:
+      213: 1036216669529635122
+    second: Destransformacion_94
+  - first:
+      213: 3246704995378659665
+    second: Destransformacion_95
+  - first:
+      213: -1235677978485812336
+    second: Destransformacion_96
+  - first:
+      213: 4690520816924252149
+    second: Destransformacion_97
+  - first:
+      213: -1983885738216142544
+    second: Destransformacion_98
+  - first:
+      213: 1799180993686025782
+    second: Destransformacion_99
+  - first:
+      213: -1734817530878438715
+    second: Destransformacion_100
+  - first:
+      213: -6018786709965732190
+    second: Destransformacion_101
+  - first:
+      213: 7597562454349700842
+    second: Destransformacion_102
+  - first:
+      213: -5179343599139421863
+    second: Destransformacion_103
+  - first:
+      213: 5440596541434296922
+    second: Destransformacion_104
+  - first:
+      213: -1485032783453381287
+    second: Destransformacion_105
+  - first:
+      213: 2756655179158054040
+    second: Destransformacion_106
+  - first:
+      213: -3755267327932287044
+    second: Destransformacion_107
+  - first:
+      213: 397905482184908208
+    second: Destransformacion_108
+  - first:
+      213: 1018898597034055763
+    second: Destransformacion_109
+  - first:
+      213: 8434514847990187387
+    second: Destransformacion_110
+  - first:
+      213: -8551803668574915852
+    second: Destransformacion_111
+  - first:
+      213: -8559044718512134414
+    second: Destransformacion_112
+  - first:
+      213: 7330089341535102192
+    second: Destransformacion_113
+  - first:
+      213: -1257542570252767303
+    second: Destransformacion_114
+  - first:
+      213: 7998544773288093764
+    second: Destransformacion_115
+  - first:
+      213: 8511553762191613478
+    second: Destransformacion_116
+  - first:
+      213: 8331593021265212749
+    second: Destransformacion_117
+  - first:
+      213: -5215294056481557789
+    second: Destransformacion_118
+  - first:
+      213: 6270023003443844911
+    second: Destransformacion_119
+  - first:
+      213: 354781762976830187
+    second: Destransformacion_120
+  - first:
+      213: -4983029646377489981
+    second: Destransformacion_121
+  - first:
+      213: -1786349676571819712
+    second: Destransformacion_122
+  - first:
+      213: 5351681122417818193
+    second: Destransformacion_123
+  - first:
+      213: 5451765982402747763
+    second: Destransformacion_124
+  - first:
+      213: 2409256102796596339
+    second: Destransformacion_125
+  - first:
+      213: 3526289290147805536
+    second: Destransformacion_126
+  - first:
+      213: 3757199621256140523
+    second: Destransformacion_127
+  - first:
+      213: 9191470076981860401
+    second: Destransformacion_128
+  - first:
+      213: 92201497774803341
+    second: Destransformacion_129
+  - first:
+      213: 3810706474124117667
+    second: Destransformacion_130
+  - first:
+      213: 1290628993342458976
+    second: Destransformacion_131
+  - first:
+      213: 7116463621707164149
+    second: Destransformacion_132
+  - first:
+      213: -4923073535030081318
+    second: Destransformacion_133
+  - first:
+      213: -7776098880107696099
+    second: Destransformacion_134
+  - first:
+      213: -5211560939320335153
+    second: Destransformacion_135
+  - first:
+      213: -8614305806468078788
+    second: Destransformacion_136
+  - first:
+      213: 4459255695372946969
+    second: Destransformacion_137
+  - first:
+      213: 8120018225649200581
+    second: Destransformacion_138
+  - first:
+      213: -3359783734304469398
+    second: Destransformacion_139
+  - first:
+      213: 5810796897085967313
+    second: Destransformacion_140
+  - first:
+      213: 6049519330346258890
+    second: Destransformacion_141
+  - first:
+      213: 8515544983219585864
+    second: Destransformacion_142
+  - first:
+      213: -3451602825304690636
+    second: Destransformacion_143
+  - first:
+      213: 4682817814609574136
+    second: Destransformacion_144
+  - first:
+      213: -8594160627021945413
+    second: Destransformacion_145
+  - first:
+      213: -1674314605775746861
+    second: Destransformacion_146
+  - first:
+      213: -1976797495187800841
+    second: Destransformacion_147
+  - first:
+      213: 703737255601678246
+    second: Destransformacion_148
+  - first:
+      213: -1443583608538544217
+    second: Destransformacion_149
+  - first:
+      213: 1789747263911234589
+    second: Destransformacion_150
+  - first:
+      213: -4705072984387890837
+    second: Destransformacion_151
+  - first:
+      213: 5727371861969976575
+    second: Destransformacion_152
+  - first:
+      213: -5706992385391664519
+    second: Destransformacion_153
+  - first:
+      213: 8578223056083829443
+    second: Destransformacion_154
+  - first:
+      213: 941133455065486378
+    second: Destransformacion_155
+  - first:
+      213: 452892862922386078
+    second: Destransformacion_156
+  - first:
+      213: -3265071189384842939
+    second: Destransformacion_157
+  - first:
+      213: 3202897497199391036
+    second: Destransformacion_158
+  - first:
+      213: -7365489418198595233
+    second: Destransformacion_159
+  - first:
+      213: 42789135043924086
+    second: Destransformacion_160
+  - first:
+      213: 3943304682111858470
+    second: Destransformacion_161
+  - first:
+      213: 1431514766340109928
+    second: Destransformacion_162
+  - first:
+      213: 5895908533779163371
+    second: Destransformacion_163
+  - first:
+      213: -7018340489180416330
+    second: Destransformacion_164
+  - first:
+      213: 4026453074282907509
+    second: Destransformacion_165
+  - first:
+      213: -5666495699548290868
+    second: Destransformacion_166
+  - first:
+      213: -5864936742383228808
+    second: Destransformacion_167
+  - first:
+      213: 7343010139284283112
+    second: Destransformacion_168
+  - first:
+      213: 7330206834684040508
+    second: Destransformacion_169
+  - first:
+      213: 8430535217254752911
+    second: Destransformacion_170
+  - first:
+      213: -4599182016505767708
+    second: Destransformacion_171
+  - first:
+      213: 7792195073491273397
+    second: Destransformacion_172
+  - first:
+      213: -8683986645251315480
+    second: Destransformacion_173
+  - first:
+      213: 3807542333385975574
+    second: Destransformacion_174
+  - first:
+      213: 321777472381576160
+    second: Destransformacion_175
+  - first:
+      213: 717046274541633889
+    second: Destransformacion_176
+  - first:
+      213: 6568111509368373880
+    second: Destransformacion_177
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Destransformacion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc9e0315cdb3c0d0800000000000000
+      internalID: -3403668239236031275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_1
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c561b590b4980710800000000000000
+      internalID: 1659739948832613829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_2
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0920f1efa4eea4010800000000000000
+      internalID: 1174012658741871248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_3
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb1d208df9fb4c80800000000000000
+      internalID: -8337295417973859393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb28aa262f9a1e00800000000000000
+      internalID: 1016299652198706104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_5
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7151be935b4e04db0800000000000000
+      internalID: -4809592935019768553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_6
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a014d540311644840800000000000000
+      internalID: 5207393803452629258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_7
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570c6288475e86ac0800000000000000
+      internalID: -3861584391806992267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874793bc0b267fd70800000000000000
+      internalID: 9076832085451830392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_9
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c0e88928c3a3650800000000000000
+      internalID: 6213345167513881619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_10
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3102987061103900800000000000000
+      internalID: 662048251260830012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_11
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f663a5c2681bf740800000000000000
+      internalID: 5186766208348940017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280dcc6c3bee19850800000000000000
+      internalID: 6382144602862571650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_13
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf911fe5146114a0800000000000000
+      internalID: -6624403531517288506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_14
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1348aa67750bf90800000000000000
+      internalID: -6939950858599386668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Destransformacion_15
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd1bfcbb5425eae0800000000000000
+      internalID: -1520769322736476717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb1d0427e554b1841af8269d9c6bb554
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Destransformacion_0: -3403668239236031275
+      Destransformacion_1: 1659739948832613829
+      Destransformacion_10: 662048251260830012
+      Destransformacion_11: 5186766208348940017
+      Destransformacion_12: 6382144602862571650
+      Destransformacion_13: -6624403531517288506
+      Destransformacion_14: -6939950858599386668
+      Destransformacion_15: -1520769322736476717
+      Destransformacion_2: 1174012658741871248
+      Destransformacion_3: -8337295417973859393
+      Destransformacion_4: 1016299652198706104
+      Destransformacion_5: -4809592935019768553
+      Destransformacion_6: 5207393803452629258
+      Destransformacion_7: -3861584391806992267
+      Destransformacion_8: 9076832085451830392
+      Destransformacion_9: 6213345167513881619
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

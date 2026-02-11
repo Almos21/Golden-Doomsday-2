@@ -1,0 +1,855 @@
+fileFormatVersion: 2
+guid: b9147a1629330d7428fba41e14fd4083
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4175183088000267228
+    second: "Transformaci\xF3n_0"
+  - first:
+      213: -1021976066519665109
+    second: "Transformaci\xF3n_1"
+  - first:
+      213: 3708672250308243817
+    second: "Transformaci\xF3n_2"
+  - first:
+      213: 8444739136257355055
+    second: "Transformaci\xF3n_3"
+  - first:
+      213: -8747608850800062069
+    second: "Transformaci\xF3n_4"
+  - first:
+      213: 8848456053360653599
+    second: "Transformaci\xF3n_5"
+  - first:
+      213: -3786054047141507763
+    second: "Transformaci\xF3n_6"
+  - first:
+      213: -3989547698602397483
+    second: "Transformaci\xF3n_7"
+  - first:
+      213: 4527103770167091698
+    second: "Transformaci\xF3n_8"
+  - first:
+      213: 5018190454826492242
+    second: "Transformaci\xF3n_9"
+  - first:
+      213: -7807674116271530749
+    second: "Transformaci\xF3n_10"
+  - first:
+      213: 7109542927042127696
+    second: "Transformaci\xF3n_11"
+  - first:
+      213: 2851070252252210802
+    second: "Transformaci\xF3n_12"
+  - first:
+      213: -8966778945701830780
+    second: "Transformaci\xF3n_13"
+  - first:
+      213: -8082084664930412328
+    second: "Transformaci\xF3n_14"
+  - first:
+      213: 6860250989882712701
+    second: "Transformaci\xF3n_15"
+  - first:
+      213: -3018910037865911620
+    second: "Transformaci\xF3n_16"
+  - first:
+      213: 8452692015741920472
+    second: "Transformaci\xF3n_17"
+  - first:
+      213: -1852158139867637370
+    second: "Transformaci\xF3n_18"
+  - first:
+      213: -352579828939356836
+    second: "Transformaci\xF3n_19"
+  - first:
+      213: 1837956661392745378
+    second: "Transformaci\xF3n_20"
+  - first:
+      213: -1521303527222585739
+    second: "Transformaci\xF3n_21"
+  - first:
+      213: 6346544249032268201
+    second: "Transformaci\xF3n_22"
+  - first:
+      213: -4877817872304100206
+    second: "Transformaci\xF3n_23"
+  - first:
+      213: 2561680454642550342
+    second: "Transformaci\xF3n_24"
+  - first:
+      213: -3706521668189371211
+    second: "Transformaci\xF3n_25"
+  - first:
+      213: 7364207699506077778
+    second: "Transformaci\xF3n_26"
+  - first:
+      213: -8041217785149551908
+    second: "Transformaci\xF3n_27"
+  - first:
+      213: -1648839359057553966
+    second: "Transformaci\xF3n_28"
+  - first:
+      213: 4838574331399138449
+    second: "Transformaci\xF3n_29"
+  - first:
+      213: 4630632044666146366
+    second: "Transformaci\xF3n_30"
+  - first:
+      213: 3152593313801806189
+    second: "Transformaci\xF3n_31"
+  - first:
+      213: 7834207781138052426
+    second: "Transformaci\xF3n_32"
+  - first:
+      213: 2376352647827407581
+    second: "Transformaci\xF3n_33"
+  - first:
+      213: -312080663609874331
+    second: "Transformaci\xF3n_34"
+  - first:
+      213: -6985132194854178768
+    second: "Transformaci\xF3n_35"
+  - first:
+      213: 6121543274727306217
+    second: "Transformaci\xF3n_36"
+  - first:
+      213: 6833091485901578270
+    second: "Transformaci\xF3n_37"
+  - first:
+      213: -2211278936202838085
+    second: "Transformaci\xF3n_38"
+  - first:
+      213: 8201609977001069723
+    second: "Transformaci\xF3n_39"
+  - first:
+      213: 847244936751468481
+    second: "Transformaci\xF3n_40"
+  - first:
+      213: -6533326764507696831
+    second: "Transformaci\xF3n_41"
+  - first:
+      213: 5138341865969726468
+    second: "Transformaci\xF3n_42"
+  - first:
+      213: -1909018227048527765
+    second: "Transformaci\xF3n_43"
+  - first:
+      213: -7544405017039032386
+    second: "Transformaci\xF3n_44"
+  - first:
+      213: 2363727042537734699
+    second: "Transformaci\xF3n_45"
+  - first:
+      213: -2071778527815967999
+    second: "Transformaci\xF3n_46"
+  - first:
+      213: -2864864877720213506
+    second: "Transformaci\xF3n_47"
+  - first:
+      213: -5781414743956841764
+    second: "Transformaci\xF3n_48"
+  - first:
+      213: 6766848473602383005
+    second: "Transformaci\xF3n_49"
+  - first:
+      213: 2737353421034531866
+    second: "Transformaci\xF3n_50"
+  - first:
+      213: 5684136703757566456
+    second: "Transformaci\xF3n_51"
+  - first:
+      213: 9150650158207992988
+    second: "Transformaci\xF3n_52"
+  - first:
+      213: -1347874943355035812
+    second: "Transformaci\xF3n_53"
+  - first:
+      213: -3812332751144682666
+    second: "Transformaci\xF3n_54"
+  - first:
+      213: 7565588702904413016
+    second: "Transformaci\xF3n_55"
+  - first:
+      213: -1408694001067497062
+    second: "Transformaci\xF3n_56"
+  - first:
+      213: 186764520729781953
+    second: "Transformaci\xF3n_57"
+  - first:
+      213: 6510323949499307708
+    second: "Transformaci\xF3n_58"
+  - first:
+      213: 8515856093966752938
+    second: "Transformaci\xF3n_59"
+  - first:
+      213: 9043109698536958474
+    second: "Transformaci\xF3n_60"
+  - first:
+      213: -5724521388303606891
+    second: "Transformaci\xF3n_61"
+  - first:
+      213: -5870230763911914815
+    second: "Transformaci\xF3n_62"
+  - first:
+      213: 7925721729166270654
+    second: "Transformaci\xF3n_63"
+  - first:
+      213: 2643350154792285739
+    second: "Transformaci\xF3n_64"
+  - first:
+      213: -2395873607037177572
+    second: "Transformaci\xF3n_65"
+  - first:
+      213: -3682020084455658107
+    second: "Transformaci\xF3n_66"
+  - first:
+      213: -836768804152468119
+    second: "Transformaci\xF3n_67"
+  - first:
+      213: 751781343564210422
+    second: "Transformaci\xF3n_68"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2476
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd37970c5ea31f930800000000000000
+      internalID: 4175183088000267228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_1"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 2476
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26f422ae2631d1f0800000000000000
+      internalID: -1021976066519665109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_2"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 2476
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961b8f323c9d77330800000000000000
+      internalID: 3708672250308243817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_3"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 2476
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d6575908db13570800000000000000
+      internalID: 8444739136257355055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_4"
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 2476
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81dff5d8104a9680800000000000000
+      internalID: -8747608850800062069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_5"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15773f36e70cca70800000000000000
+      internalID: 8848456053360653599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_6"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d43bb47eb357bc0800000000000000
+      internalID: -3786054047141507763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_7"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0b352718742a8c0800000000000000
+      internalID: -3989547698602397483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_8"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f12422b4e083de30800000000000000
+      internalID: 4527103770167091698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_9"
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251603391a134a540800000000000000
+      internalID: 5018190454826492242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_10"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d9f9112c195a390800000000000000
+      internalID: -7807674116271530749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_11"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057acb9cf9b2aa260800000000000000
+      internalID: 7109542927042127696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_12"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2762d2fe949019720800000000000000
+      internalID: 2851070252252210802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_13"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f9df19e0a9f8380800000000000000
+      internalID: -8966778945701830780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_14"
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8d03661daa6df80800000000000000
+      internalID: -8082084664930412328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_15"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d722bf99de1843f50800000000000000
+      internalID: 6860250989882712701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_16"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba2420c05daa16d0800000000000000
+      internalID: -3018910037865911620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_17"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4e312aa9efd4570800000000000000
+      internalID: 8452692015741920472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_18"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68957552cffcb46e0800000000000000
+      internalID: -1852158139867637370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_19"
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c550a1d73826b1bf0800000000000000
+      internalID: -352579828939356836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_20"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3a0ea78dbb18910800000000000000
+      internalID: 1837956661392745378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_21"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5765950908e33eae0800000000000000
+      internalID: -1521303527222585739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transformaci\xF3n_22"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9ddda7e54731850800000000000000
+      internalID: 6346544249032268201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cb8aa12c651c64f45ab854f1b7ca83f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Transformaci\xF3n_0": 4175183088000267228
+      "Transformaci\xF3n_1": -1021976066519665109
+      "Transformaci\xF3n_10": -7807674116271530749
+      "Transformaci\xF3n_11": 7109542927042127696
+      "Transformaci\xF3n_12": 2851070252252210802
+      "Transformaci\xF3n_13": -8966778945701830780
+      "Transformaci\xF3n_14": -8082084664930412328
+      "Transformaci\xF3n_15": 6860250989882712701
+      "Transformaci\xF3n_16": -3018910037865911620
+      "Transformaci\xF3n_17": 8452692015741920472
+      "Transformaci\xF3n_18": -1852158139867637370
+      "Transformaci\xF3n_19": -352579828939356836
+      "Transformaci\xF3n_2": 3708672250308243817
+      "Transformaci\xF3n_20": 1837956661392745378
+      "Transformaci\xF3n_21": -1521303527222585739
+      "Transformaci\xF3n_22": 6346544249032268201
+      "Transformaci\xF3n_3": 8444739136257355055
+      "Transformaci\xF3n_4": -8747608850800062069
+      "Transformaci\xF3n_5": 8848456053360653599
+      "Transformaci\xF3n_6": -3786054047141507763
+      "Transformaci\xF3n_7": -3989547698602397483
+      "Transformaci\xF3n_8": 4527103770167091698
+      "Transformaci\xF3n_9": 5018190454826492242
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: fdcd472ff2cdad84b9eed627e5f02992
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5665643366570939490
+    second: "Spritesheet Transformacio\u0301n_0"
+  - first:
+      213: -7538187950100137099
+    second: "Spritesheet Transformacio\u0301n_1"
+  - first:
+      213: 317769332961283927
+    second: "Spritesheet Transformacio\u0301n_2"
+  - first:
+      213: 1132194122406886581
+    second: "Spritesheet Transformacio\u0301n_3"
+  - first:
+      213: 1969201493277522735
+    second: "Spritesheet Transformacio\u0301n_4"
+  - first:
+      213: -3535574104086656849
+    second: "Spritesheet Transformacio\u0301n_5"
+  - first:
+      213: -620691743228879515
+    second: "Spritesheet Transformacio\u0301n_6"
+  - first:
+      213: 3050390300126961168
+    second: "Spritesheet Transformacio\u0301n_7"
+  - first:
+      213: 9010441080649331003
+    second: "Spritesheet Transformacio\u0301n_8"
+  - first:
+      213: -1544264303285037278
+    second: "Spritesheet Transformacio\u0301n_9"
+  - first:
+      213: -4973569387119481420
+    second: "Spritesheet Transformacio\u0301n_10"
+  - first:
+      213: -1634234212268334983
+    second: "Spritesheet Transformacio\u0301n_11"
+  - first:
+      213: -3838906323590602926
+    second: "Spritesheet Transformacio\u0301n_12"
+  - first:
+      213: 4545144345071665953
+    second: "Spritesheet Transformacio\u0301n_13"
+  - first:
+      213: 2510823280537679685
+    second: "Spritesheet Transformacio\u0301n_14"
+  - first:
+      213: 4595315861950818660
+    second: "Spritesheet Transformacio\u0301n_15"
+  - first:
+      213: -1288686568890839970
+    second: "Spritesheet Transformacio\u0301n_16"
+  - first:
+      213: -7609857055704527446
+    second: "Spritesheet Transformacio\u0301n_17"
+  - first:
+      213: 2907925974461468286
+    second: "Spritesheet Transformacio\u0301n_18"
+  - first:
+      213: 5050023739946073595
+    second: "Spritesheet Transformacio\u0301n_19"
+  - first:
+      213: 1706532024089939047
+    second: "Spritesheet Transformacio\u0301n_20"
+  - first:
+      213: 632922820377089591
+    second: "Spritesheet Transformacio\u0301n_21"
+  - first:
+      213: 171076097929965738
+    second: "Spritesheet Transformacio\u0301n_22"
+  - first:
+      213: -8685851287343968274
+    second: "Spritesheet Transformacio\u0301n_23"
+  - first:
+      213: -7503882490034510646
+    second: "Spritesheet Transformacio\u0301n_24"
+  - first:
+      213: 2647028355618528980
+    second: "Spritesheet Transformacio\u0301n_25"
+  - first:
+      213: 7800527061065056519
+    second: "Spritesheet Transformacio\u0301n_26"
+  - first:
+      213: 3902612121177911152
+    second: "Spritesheet Transformacio\u0301n_27"
+  - first:
+      213: 656915173155484009
+    second: "Spritesheet Transformacio\u0301n_28"
+  - first:
+      213: -2937768486606673143
+    second: "Spritesheet Transformacio\u0301n_29"
+  - first:
+      213: 1578315281362292119
+    second: "Spritesheet Transformacio\u0301n_30"
+  - first:
+      213: -2585382250365050103
+    second: "Spritesheet Transformacio\u0301n_31"
+  - first:
+      213: 6407355131615113633
+    second: "Spritesheet Transformacio\u0301n_32"
+  - first:
+      213: 6110674293151445544
+    second: "Spritesheet Transformacio\u0301n_33"
+  - first:
+      213: 5550212450596526773
+    second: "Spritesheet Transformacio\u0301n_34"
+  - first:
+      213: 211209146612919462
+    second: "Spritesheet Transformacio\u0301n_35"
+  - first:
+      213: 8859240214639011710
+    second: "Spritesheet Transformacio\u0301n_36"
+  - first:
+      213: 8745769229955642839
+    second: "Spritesheet Transformacio\u0301n_37"
+  - first:
+      213: 7159457770356927359
+    second: "Spritesheet Transformacio\u0301n_38"
+  - first:
+      213: 8107676865190360124
+    second: "Spritesheet Transformacio\u0301n_39"
+  - first:
+      213: -4916355039836603287
+    second: "Spritesheet Transformacio\u0301n_40"
+  - first:
+      213: -536038862228167019
+    second: "Spritesheet Transformacio\u0301n_41"
+  - first:
+      213: 2355313663226536362
+    second: "Spritesheet Transformacio\u0301n_42"
+  - first:
+      213: -2311050795353136564
+    second: "Spritesheet Transformacio\u0301n_43"
+  - first:
+      213: -4860730919152876097
+    second: "Spritesheet Transformacio\u0301n_44"
+  - first:
+      213: 3521757063234343986
+    second: "Spritesheet Transformacio\u0301n_45"
+  - first:
+      213: 553177051085235051
+    second: "Spritesheet Transformacio\u0301n_46"
+  - first:
+      213: -3079060668045279251
+    second: "Spritesheet Transformacio\u0301n_47"
+  - first:
+      213: -322188681158600114
+    second: "Spritesheet Transformacio\u0301n_48"
+  - first:
+      213: 6301369581203179489
+    second: "Spritesheet Transformacio\u0301n_49"
+  - first:
+      213: -1370137284022228770
+    second: "Spritesheet Transformacio\u0301n_50"
+  - first:
+      213: -5787016286304328383
+    second: "Spritesheet Transformacio\u0301n_51"
+  - first:
+      213: 6028138521296315986
+    second: "Spritesheet Transformacio\u0301n_52"
+  - first:
+      213: 2885726826954679267
+    second: "Spritesheet Transformacio\u0301n_53"
+  - first:
+      213: 177761358424005291
+    second: "Spritesheet Transformacio\u0301n_54"
+  - first:
+      213: -6038680208386818569
+    second: "Spritesheet Transformacio\u0301n_55"
+  - first:
+      213: 4797692954111258815
+    second: "Spritesheet Transformacio\u0301n_56"
+  - first:
+      213: 7751401879070035954
+    second: "Spritesheet Transformacio\u0301n_57"
+  - first:
+      213: 7187747666203405987
+    second: "Spritesheet Transformacio\u0301n_58"
+  - first:
+      213: 5845361701442896189
+    second: "Spritesheet Transformacio\u0301n_59"
+  - first:
+      213: 6083738239988067500
+    second: "Spritesheet Transformacio\u0301n_60"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2645280cf9860ae40800000000000000
+      internalID: 5665643366570939490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_1"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bb6289ff9f26790800000000000000
+      internalID: -7538187950100137099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_2"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f8ba35681f86400800000000000000
+      internalID: 317769332961283927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_3"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcf8d24e8c56bf00800000000000000
+      internalID: 1132194122406886581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bb9f92352045b10800000000000000
+      internalID: 1969201493277522735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_5"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa848d8a51e1feec0800000000000000
+      internalID: -3535574104086656849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_6"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d13d9e52cd267f0800000000000000
+      internalID: -620691743228879515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_7"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e5d59f0d9255a20800000000000000
+      internalID: 3050390300126961168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31b0b96c648b0d70800000000000000
+      internalID: 9010441080649331003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_9"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227116b4ccba19ae0800000000000000
+      internalID: -1544264303285037278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Spritesheet Transformacio\u0301n_10"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd6cf65ef45afab0800000000000000
+      internalID: -4973569387119481420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 25ea8e2acc7a8244cb8b5843a1a41838
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Spritesheet Transformacio\u0301n_0": 5665643366570939490
+      "Spritesheet Transformacio\u0301n_1": -7538187950100137099
+      "Spritesheet Transformacio\u0301n_10": -4973569387119481420
+      "Spritesheet Transformacio\u0301n_2": 317769332961283927
+      "Spritesheet Transformacio\u0301n_3": 1132194122406886581
+      "Spritesheet Transformacio\u0301n_4": 1969201493277522735
+      "Spritesheet Transformacio\u0301n_5": -3535574104086656849
+      "Spritesheet Transformacio\u0301n_6": -620691743228879515
+      "Spritesheet Transformacio\u0301n_7": 3050390300126961168
+      "Spritesheet Transformacio\u0301n_8": 9010441080649331003
+      "Spritesheet Transformacio\u0301n_9": -1544264303285037278
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
