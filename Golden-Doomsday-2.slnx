@@ -5,6 +5,7 @@
   <Project Path="MoreMountains.Tools.Editor.csproj" />
   <Project Path="MoreMountains.CorgiEngine.Editor.csproj" />
   <Project Path="MoreMountains.Interface.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="MoreMountains.CorgiEngine.InputSystem.csproj" />
   <Project Path="MoreMountains.InventoryEngine.Editor.csproj" />
   <Project Path="MoreMountains.Interface.Editor.csproj" />
