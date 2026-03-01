@@ -145,12 +145,12 @@ TextureImporter:
       name: Tinto (Velocidad)_0
       rect:
         serializedVersion: 2
-        x: 78
-        y: 103
-        width: 452
-        height: 347
+        x: 0
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: Tinto (Velocidad)_1
       rect:
         serializedVersion: 2
-        x: 697
-        y: 86
-        width: 452
-        height: 347
+        x: 619
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: Tinto (Velocidad)_2
       rect:
         serializedVersion: 2
-        x: 1313
-        y: 61
-        width: 449
-        height: 348
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -211,12 +211,12 @@ TextureImporter:
       name: Tinto (Velocidad)_3
       rect:
         serializedVersion: 2
-        x: 1938
-        y: 38
-        width: 442
-        height: 354
+        x: 1857
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -233,12 +233,12 @@ TextureImporter:
       name: Tinto (Velocidad)_4
       rect:
         serializedVersion: 2
-        x: 2557
-        y: 38
-        width: 442
-        height: 354
+        x: 2476
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: Tinto (Velocidad)_5
       rect:
         serializedVersion: 2
-        x: 3168
-        y: 54
-        width: 449
-        height: 350
+        x: 3095
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: Tinto (Velocidad)_6
       rect:
         serializedVersion: 2
-        x: 3785
-        y: 77
-        width: 457
-        height: 349
+        x: 3714
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: Tinto (Velocidad)_7
       rect:
         serializedVersion: 2
-        x: 4405
-        y: 84
-        width: 458
-        height: 352
+        x: 4333
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: Tinto (Velocidad)_8
       rect:
         serializedVersion: 2
-        x: 5038
-        y: 96
-        width: 464
-        height: 360
+        x: 4952
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,12 +343,12 @@ TextureImporter:
       name: Tinto (Velocidad)_9
       rect:
         serializedVersion: 2
-        x: 5497
-        y: 358
-        width: 6
-        height: 8
+        x: 5571
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -365,12 +365,12 @@ TextureImporter:
       name: Tinto (Velocidad)_10
       rect:
         serializedVersion: 2
-        x: 5646
-        y: 105
-        width: 462
-        height: 355
+        x: 6190
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -387,12 +387,12 @@ TextureImporter:
       name: Tinto (Velocidad)_11
       rect:
         serializedVersion: 2
-        x: 6265
-        y: 101
-        width: 456
-        height: 350
+        x: 6809
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -405,77 +405,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Tinto (Velocidad)_12
-      rect:
-        serializedVersion: 2
-        x: 6887
-        y: 103
-        width: 452
-        height: 347
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 41f5219286cc343a0800000000000000
-      internalID: -6682272674349949164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tinto (Velocidad)_13
-      rect:
-        serializedVersion: 2
-        x: 3771
-        y: 318
-        width: 45
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 128e389d8cca83250800000000000000
-      internalID: 5924675288448624673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tinto (Velocidad)_14
-      rect:
-        serializedVersion: 2
-        x: 4356
-        y: 172
-        width: 29
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d809e400b19610f00800000000000000
-      internalID: 1081260950235811981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9e427001459452644ac13e5f8a90f043
     internalID: 0
     vertices: []
     indices: 
@@ -483,15 +417,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Tinto (Velocidad)_0: -8368340161821086648
       Tinto (Velocidad)_1: -2638870203516120627
       Tinto (Velocidad)_10: -3847826613995549687
       Tinto (Velocidad)_11: 8535542449662720298
-      Tinto (Velocidad)_12: -6682272674349949164
-      Tinto (Velocidad)_13: 5924675288448624673
-      Tinto (Velocidad)_14: 1081260950235811981
       Tinto (Velocidad)_2: -2585869964834250506
       Tinto (Velocidad)_3: 8523666016318373328
       Tinto (Velocidad)_4: -2007138461777217075

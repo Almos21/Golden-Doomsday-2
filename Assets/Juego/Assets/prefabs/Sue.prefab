@@ -95,7 +95,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.017098427, y: -0.059467018}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -486,10 +486,22 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
+  MovingPlatformsJumpCollisionOffDuration: 0.05
   ParticleEmitter: {fileID: 19839500}
   JetpackForce: 2.5
-  UseTransformation: 1
-  TransformationDuration: 1
+  TransformInDuration: 0.5
+  TransformOutDuration: 0.5
+  AllowInputDuringTransformation: 0
+  JetpackUnlimited: 0
+  JetpackFuelDuration: 5
+  JetpackRefuelCooldown: 1
+  RefuelSpeed: 0.5
+  MinimumFuelRequirement: 0.2
+  JetpackRefueledSfx: {fileID: 0}
+  TransformInSfx: {fileID: 0}
+  TransformOutSfx: {fileID: 0}
+  JetpackFuelDurationLeft: 0
+  IsTransforming: 0
 --- !u!114 &11453748
 MonoBehaviour:
   m_ObjectHideFlags: 0

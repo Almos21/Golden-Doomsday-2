@@ -124,12 +124,12 @@ TextureImporter:
       name: RobotDisparo Disparo_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1274
-        width: 479
-        height: 567
+        x: 0
+        y: 1238
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -146,12 +146,12 @@ TextureImporter:
       name: RobotDisparo Disparo_1
       rect:
         serializedVersion: 2
-        x: 667
-        y: 1298
-        width: 479
-        height: 543
+        x: 619
+        y: 1238
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: RobotDisparo Disparo_2
       rect:
         serializedVersion: 2
-        x: 1335
-        y: 1298
-        width: 479
-        height: 530
+        x: 1238
+        y: 1238
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -190,12 +190,12 @@ TextureImporter:
       name: RobotDisparo Disparo_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 679
-        width: 479
-        height: 543
+        x: 0
+        y: 619
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,12 +212,12 @@ TextureImporter:
       name: RobotDisparo Disparo_4
       rect:
         serializedVersion: 2
-        x: 716
-        y: 679
-        width: 479
-        height: 530
+        x: 619
+        y: 619
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: RobotDisparo Disparo_5
       rect:
         serializedVersion: 2
-        x: 1307
-        y: 655
-        width: 479
-        height: 554
+        x: 1238
+        y: 619
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: RobotDisparo Disparo_6
       rect:
         serializedVersion: 2
-        x: 69
-        y: 36
-        width: 479
-        height: 554
+        x: 0
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: RobotDisparo Disparo_7
       rect:
         serializedVersion: 2
-        x: 635
-        y: 36
-        width: 479
-        height: 567
+        x: 619
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1a712482933feb145852edabfaf80a58
     internalID: 0
     vertices: []
     indices: 
@@ -308,7 +308,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       RobotDisparo Disparo_0: -4964607475257166295
       RobotDisparo Disparo_1: 7390490624993071185

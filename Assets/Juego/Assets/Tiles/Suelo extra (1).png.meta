@@ -1,55 +1,10 @@
 fileFormatVersion: 2
-guid: 6a4a7939693f1644387db26c5e5a9f68
+guid: d9b2e82bc6e0ce74aaf41d7f133cd9f9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4825761378006219102
-    second: RobotSierra Walk_0
-  - first:
-      213: -4354856756201291944
-    second: RobotSierra Walk_1
-  - first:
-      213: -3504506675271317599
-    second: RobotSierra Walk_2
-  - first:
-      213: 6693755564034876924
-    second: RobotSierra Walk_3
-  - first:
-      213: -4477191433204974043
-    second: RobotSierra Walk_4
-  - first:
-      213: 9091176913697443169
-    second: RobotSierra Walk_5
-  - first:
-      213: 1540779797087445002
-    second: RobotSierra Walk_6
-  - first:
-      213: -1622166322311372805
-    second: RobotSierra Walk_7
-  - first:
-      213: -2497664435934945927
-    second: RobotSierra Walk_8
-  - first:
-      213: -3454252373977315239
-    second: RobotSierra Walk_9
-  - first:
-      213: 7229633433132155141
-    second: RobotSierra Walk_10
-  - first:
-      213: -9177231094048221855
-    second: RobotSierra Walk_11
-  - first:
-      213: -4413588602037488287
-    second: RobotSierra Walk_12
-  - first:
-      213: -6291348979215290308
-    second: RobotSierra Walk_13
-  - first:
-      213: -529132666896844938
-    second: RobotSierra Walk_14
-  - first:
-      213: -2735898941660621626
-    second: RobotSierra Walk_15
+      213: 2702689496101323516
+    second: Suelo extra (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 360
+  spritePixelsToUnits: 620
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -145,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RobotSierra Walk_0
+      name: Suelo extra (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -160,58 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a6c32d3893770db0800000000000000
-      internalID: -4825761378006219102
+      spriteID: cf28c49f6c1e18520800000000000000
+      internalID: 2702689496101323516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_1
-      rect:
-        serializedVersion: 2
-        x: 619
-        y: 1857
-        width: 619
-        height: 619
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85f79ee6ad07093c0800000000000000
-      internalID: -4354856756201291944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RobotSierra Walk_2
-      rect:
-        serializedVersion: 2
-        x: 1238
-        y: 1857
-        width: 619
-        height: 619
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a7c77b1fbd7d5fc0800000000000000
-      internalID: -3504506675271317599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RobotSierra Walk_3
+      name: Suelo extra (1)_1
       rect:
         serializedVersion: 2
         x: 1857
@@ -224,16 +135,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf5e79f683ff4ec50800000000000000
-      internalID: 6693755564034876924
+      spriteID: fae1912479f0c824e8e43d987fbf4bdf
+      internalID: 1108836117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_4
+      name: Suelo extra (1)_2
       rect:
         serializedVersion: 2
         x: 0
@@ -246,16 +157,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52e3568dc12ddd1c0800000000000000
-      internalID: -4477191433204974043
+      spriteID: 4f5ad903d2f8ccf4d832a5a4e97f20d5
+      internalID: -1948332858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_5
+      name: Suelo extra (1)_3
       rect:
         serializedVersion: 2
         x: 619
@@ -268,16 +179,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16d0b236c395a2e70800000000000000
-      internalID: 9091176913697443169
+      spriteID: c3e369e382457f149a9fe9798cf69a15
+      internalID: 1192267537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_6
+      name: Suelo extra (1)_4
       rect:
         serializedVersion: 2
         x: 1238
@@ -290,16 +201,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a00ee72ef03f16510800000000000000
-      internalID: 1540779797087445002
+      spriteID: bb8d5a4a0332abf4b9c166aef8b5dc95
+      internalID: 430478647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_7
+      name: Suelo extra (1)_5
       rect:
         serializedVersion: 2
         x: 1857
@@ -312,16 +223,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bff57001358ec79e0800000000000000
-      internalID: -1622166322311372805
+      spriteID: 03363d67e0ecd564fa00e67bb89a6d02
+      internalID: -70337474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_8
+      name: Suelo extra (1)_6
       rect:
         serializedVersion: 2
         x: 0
@@ -334,16 +245,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97d98ffbd63865dd0800000000000000
-      internalID: -2497664435934945927
+      spriteID: d6308d267ec672c489ed1f1bde5c13be
+      internalID: -12884261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_9
+      name: Suelo extra (1)_7
       rect:
         serializedVersion: 2
         x: 619
@@ -356,16 +267,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 958488c64c70010d0800000000000000
-      internalID: -3454252373977315239
+      spriteID: c4bedf745d0cce54bbe34bc10684b622
+      internalID: 152634262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_10
+      name: Suelo extra (1)_8
       rect:
         serializedVersion: 2
         x: 1238
@@ -378,16 +289,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 501412e9d41d45460800000000000000
-      internalID: 7229633433132155141
+      spriteID: 37ec001479792ee4db53789d0b0d66b5
+      internalID: 407979625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_11
+      name: Suelo extra (1)_9
       rect:
         serializedVersion: 2
         x: 1857
@@ -400,16 +311,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 165169961fce3a080800000000000000
-      internalID: -9177231094048221855
+      spriteID: e30af007025f81b40a0862cb6535e1e2
+      internalID: 1854500928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_12
+      name: Suelo extra (1)_10
       rect:
         serializedVersion: 2
         x: 0
@@ -422,16 +333,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 165b7d6fc88cfb2c0800000000000000
-      internalID: -4413588602037488287
+      spriteID: 2d3e1165651c378409520019b2be7f5c
+      internalID: 375847815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_13
+      name: Suelo extra (1)_11
       rect:
         serializedVersion: 2
         x: 619
@@ -444,16 +355,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c303bd7bf63a0b8a0800000000000000
-      internalID: -6291348979215290308
+      spriteID: e0c73cee4e436b24f802d31c136b2286
+      internalID: 7870928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_14
+      name: Suelo extra (1)_12
       rect:
         serializedVersion: 2
         x: 1238
@@ -466,16 +377,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 677fe8694a428a8f0800000000000000
-      internalID: -529132666896844938
+      spriteID: c15f2d758aa439d49acee0d0d7a3f81f
+      internalID: 343197508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RobotSierra Walk_15
+      name: Suelo extra (1)_13
       rect:
         serializedVersion: 2
         x: 1857
@@ -488,10 +399,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6c493f07862280ad0800000000000000
-      internalID: -2735898941660621626
+      spriteID: 4d03b8131e472ec458fd2e12e3a474dc
+      internalID: -1212847702
       vertices: []
       indices: 
       edges: []
@@ -500,7 +411,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9993664fc626ee74b8ae13a6e4d64911
+    spriteID: 04a8efe91abc16540bd7d17edf2ff4a6
     internalID: 0
     vertices: []
     indices: 
@@ -512,22 +423,20 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      RobotSierra Walk_0: -4825761378006219102
-      RobotSierra Walk_1: -4354856756201291944
-      RobotSierra Walk_10: 7229633433132155141
-      RobotSierra Walk_11: -9177231094048221855
-      RobotSierra Walk_12: -4413588602037488287
-      RobotSierra Walk_13: -6291348979215290308
-      RobotSierra Walk_14: -529132666896844938
-      RobotSierra Walk_15: -2735898941660621626
-      RobotSierra Walk_2: -3504506675271317599
-      RobotSierra Walk_3: 6693755564034876924
-      RobotSierra Walk_4: -4477191433204974043
-      RobotSierra Walk_5: 9091176913697443169
-      RobotSierra Walk_6: 1540779797087445002
-      RobotSierra Walk_7: -1622166322311372805
-      RobotSierra Walk_8: -2497664435934945927
-      RobotSierra Walk_9: -3454252373977315239
+      Suelo extra (1)_0: 2702689496101323516
+      Suelo extra (1)_1: 1108836117
+      Suelo extra (1)_10: 375847815
+      Suelo extra (1)_11: 7870928
+      Suelo extra (1)_12: 343197508
+      Suelo extra (1)_13: -1212847702
+      Suelo extra (1)_2: -1948332858
+      Suelo extra (1)_3: 1192267537
+      Suelo extra (1)_4: 430478647
+      Suelo extra (1)_5: -70337474
+      Suelo extra (1)_6: -12884261
+      Suelo extra (1)_7: 152634262
+      Suelo extra (1)_8: 407979625
+      Suelo extra (1)_9: 1854500928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

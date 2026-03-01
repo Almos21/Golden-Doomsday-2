@@ -118,12 +118,12 @@ TextureImporter:
       name: RobotMisil Run_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 679
-        width: 485
-        height: 505
+        x: 0
+        y: 619
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: RobotMisil Run_1
       rect:
         serializedVersion: 2
-        x: 668
-        y: 679
-        width: 485
-        height: 505
+        x: 619
+        y: 619
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: RobotMisil Run_2
       rect:
         serializedVersion: 2
-        x: 1287
-        y: 679
-        width: 485
-        height: 505
+        x: 1238
+        y: 619
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: RobotMisil Run_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 60
-        width: 485
-        height: 479
+        x: 0
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: RobotMisil Run_4
       rect:
         serializedVersion: 2
-        x: 668
-        y: 60
-        width: 485
-        height: 479
+        x: 619
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,12 +228,12 @@ TextureImporter:
       name: RobotMisil Run_5
       rect:
         serializedVersion: 2
-        x: 1287
-        y: 60
-        width: 485
-        height: 505
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9107e444bf581b34a83a751b31dcb449
     internalID: 0
     vertices: []
     indices: 
@@ -258,7 +258,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       RobotMisil Run_0: 1625451864710572544
       RobotMisil Run_1: -2304613361754035360
