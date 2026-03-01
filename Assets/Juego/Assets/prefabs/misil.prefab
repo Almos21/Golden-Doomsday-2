@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8341332788751477261}
   - component: {fileID: 1797987828546332123}
   - component: {fileID: 5869737759290718990}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FrontParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4975,7 +4975,7 @@ GameObject:
   - component: {fileID: 1431841021860536050}
   - component: {fileID: 7179567351606289321}
   - component: {fileID: 1431012425696235764}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MuzzleFlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9893,7 +9893,7 @@ GameObject:
   - component: {fileID: 4701370272350824515}
   - component: {fileID: 5107517738794448080}
   - component: {fileID: 8893442448898240284}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SmokeParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14821,7 +14821,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1628607475
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_RenderMode: 0
@@ -14866,7 +14866,7 @@ GameObject:
   - component: {fileID: 5692207779973546507}
   - component: {fileID: 1315171968273725795}
   - component: {fileID: 6299227852559484584}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SideParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19830,7 +19830,7 @@ GameObject:
   - component: {fileID: 8147841980148399485}
   - component: {fileID: 8147841980148399483}
   - component: {fileID: 8147841980148399482}
-  m_Layer: 8
+  m_Layer: 13
   m_Name: RetroCannonVertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20008,7 +20008,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8147841980159556352}
   - component: {fileID: 8147841980159556606}
-  m_Layer: 8
+  m_Layer: 13
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20100,7 +20100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8147841980398489023}
   - component: {fileID: 8147841980398489020}
-  m_Layer: 8
+  m_Layer: 13
   m_Name: ShootFeedback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20226,6 +20226,7 @@ MonoBehaviour:
   DebugActive: 0
   InScriptDrivenPause: 0
   FeedbacksList:
+  - rid: 1310665794742386817
   - rid: 0
   - rid: 1
   KeepPlayModeChanges: 0
@@ -20242,7 +20243,7 @@ MonoBehaviour:
     - rid: 0
       type: {class: MMF_Scale, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
       data:
-        Active: 1
+        Active: 0
         UniqueID: -1686036637
         Label: Scale
         OriginalLabel: Scale
@@ -20633,6 +20634,105 @@ MonoBehaviour:
         DeclaredDuration: 0
         ForceSimulationSpeed: 0
         ForcedSimulationSpeed: {x: 0.1, y: 1}
+    - rid: 1310665794742386817
+      type: {class: MMF_SpriteSheetAnimation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
+      data:
+        Active: 1
+        UniqueID: -872982128
+        Label: Sprite Sheet Animation
+        OriginalLabel: Sprite Sheet Animation
+        ChannelMode: 0
+        Channel: 0
+        MMChannelDefinition: {fileID: 0}
+        Chance: 100
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          PlayCount: 0
+          LimitPlayCount: 0
+          MaxPlayCount: 3
+          SetPlayCountToZeroOnReset: 0
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        AutomatedTargetAcquisition:
+          Mode: 0
+          ChildIndex: 0
+        RandomizeOutput: 0
+        RandomMultiplier: {x: 0.8, y: 1}
+        RandomizeDuration: 0
+        RandomDurationMultiplier: {x: 0.5, y: 2}
+        UseRange: 0
+        RangeDistance: 5
+        UseRangeFalloff: 0
+        RangeFalloff:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RemapRangeFalloff: {x: 0, y: 1}
+        AutomaticShakerSetupButton:
+          ButtonText: 
+        Owner: {fileID: 8147841980398489020}
+        DebugActive: 0
+        TargetSpriteRenderers:
+        - {fileID: 8147841980159556606}
+        TargetImages: []
+        AnimationSprites:
+        - {fileID: 7608477182403490027, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 7621033978562597152, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 3004005776224364767, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 428934210136852964, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 8650294558426700973, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 4949682848053920980, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 4949682848053920980, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 5725901847296491682, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 3122938628570884778, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: -6719762629188677073, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 7047607170595276519, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 4762192812771214689, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: -6719762629188677073, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 3122938628570884778, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: 6531421242889736453, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: -8872528939008563365, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: -1157245733330157844, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        - {fileID: -952441848886744953, guid: 748b129357f61b146bb16d744355cc64, type: 3}
+        FrameRate: 50
+        RandomOffset: {x: 0, y: 0}
+        Loop: 0
 --- !u!1 &8147841980927431027
 GameObject:
   m_ObjectHideFlags: 0
@@ -20644,7 +20744,7 @@ GameObject:
   - component: {fileID: 8147841980927431024}
   - component: {fileID: 8147841980927431022}
   - component: {fileID: 8147841980927431025}
-  m_Layer: 8
+  m_Layer: 13
   m_Name: misil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20739,7 +20839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8147841981001873256}
-  m_Layer: 8
+  m_Layer: 13
   m_Name: ModelContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}

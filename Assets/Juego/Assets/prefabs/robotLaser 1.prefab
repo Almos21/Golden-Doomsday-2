@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 6502998322943709812}
   - component: {fileID: 2242957725809735447}
   - component: {fileID: 6760010050889715311}
-  - component: {fileID: 8164208706432056557}
+  - component: {fileID: 7749846827148732150}
   - component: {fileID: 2472786301526036825}
   - component: {fileID: 7740592221713171644}
   - component: {fileID: 1510474127934009449}
@@ -297,6 +297,7 @@ Transform:
   - {fileID: 8018418181022333252}
   - {fileID: 8762776742584023755}
   - {fileID: 357583291760918269}
+  - {fileID: 4956143029735907987}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &6369899760897739142
@@ -886,7 +887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a07c6668aa55403790d27b575279549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStartFeedbacks: {fileID: 365644794635190778}
   AbilityStopFeedbacks: {fileID: 0}
   AbilityPermitted: 1
   BlockingMovementStates: 
@@ -993,7 +994,7 @@ MonoBehaviour:
   ObstaclesDetectionRaycastLength: 0.5
   ObstaclesDetectionRaycastOrigin: {x: 0.5, y: 0}
   ResetPositionOnDeath: 1
---- !u!114 &8164208706432056557
+--- !u!114 &7749846827148732150
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1002,15 +1003,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2761673610427439853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c04223a2fc2b0b04d94ef18df56e2fd5, type: 3}
+  m_Script: {fileID: 11500000, guid: db0a72b251368a642af6e8b62c666ba4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MoreMountains.CorgiEngine.AIActionShoot
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIActionShoot
   InitializationMode: 0
   Label: 
   FaceTarget: 1
   AimAtTarget: 0
   TargetOffset: {x: 0, y: 0, z: 0}
-  TargetHandleWeapon: {fileID: 0}
+  TargetHandleWeapon: {fileID: 6502998322943709812}
 --- !u!114 &2472786301526036825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1069,7 +1070,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2761673610427439853}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: a8ce791f25d4cf244826a64f15c3237c, type: 2}
   m_CullingMode: 0
@@ -1091,7 +1092,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2761673610427439853}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1129,7 +1130,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1628607475
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 0}
@@ -1221,7 +1222,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1628607475
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 514741926505248972, guid: c851980b94d0d7e4987f09fe0f7adf5f, type: 3}
@@ -1256,6 +1257,244 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &4926041196062047766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4956143029735907987}
+  - component: {fileID: 365644794635190778}
+  m_Layer: 0
+  m_Name: ShootFeedbacks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4956143029735907987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4926041196062047766}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2204336348695106160}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &365644794635190778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4926041196062047766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da43522623d4704e979466dc7650b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Feedbacks:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  InitializationMode: 2
+  AutoInitialization: 1
+  SafeMode: 3
+  Direction: 0
+  AutoChangeDirectionOnEnd: 0
+  AutoPlayOnStart: 0
+  AutoPlayOnEnable: 0
+  ForceTimescaleMode: 0
+  ForcedTimescaleMode: 1
+  DurationMultiplier: 1
+  TimescaleMultiplier: 1
+  RandomizeDuration: 0
+  RandomDurationMultiplier: {x: 0.5, y: 1.5}
+  DisplayFullDurationDetails: 0
+  PlayerTimescaleMode: 1
+  OnlyPlayIfWithinRange: 0
+  RangeCenter: {fileID: 0}
+  RangeDistance: 5
+  UseRangeFalloff: 0
+  RangeFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  RemapRangeFalloff: {x: 0, y: 1}
+  IgnoreRangeEvents: 0
+  CooldownDuration: 0
+  InitialDelay: 0
+  CanPlay: 1
+  CanPlayWhileAlreadyPlaying: 1
+  ChanceToPlay: 100
+  FeedbacksIntensity: 1
+  Events:
+    TriggerMMFeedbacksEvents: 0
+    TriggerUnityEvents: 1
+    OnPlay:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPause:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStop:
+      m_PersistentCalls:
+        m_Calls: []
+    OnResume:
+      m_PersistentCalls:
+        m_Calls: []
+    OnChangeDirection:
+      m_PersistentCalls:
+        m_Calls: []
+    OnComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    OnRestoreInitialValues:
+      m_PersistentCalls:
+        m_Calls: []
+    OnSkipToTheEnd:
+      m_PersistentCalls:
+        m_Calls: []
+    OnInitializationComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    OnEnable:
+      m_PersistentCalls:
+        m_Calls: []
+    OnDisable:
+      m_PersistentCalls:
+        m_Calls: []
+  DebugActive: 0
+  InScriptDrivenPause: 0
+  FeedbacksList:
+  - rid: 1310665794742386805
+  KeepPlayModeChanges: 0
+  PerformanceMode: 0
+  RestoreInitialValuesOnDisable: 0
+  StopFeedbacksOnDisable: 0
+  PlayCount: 0
+  MMF_ChannelMode: 0
+  MMF_Channel: 0
+  MMF_ChannelDefinition: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1310665794742386805
+      type: {class: MMF_SpriteSheetAnimation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
+      data:
+        Active: 1
+        UniqueID: 1173158375
+        Label: Sprite Sheet Animation
+        OriginalLabel: Sprite Sheet Animation
+        ChannelMode: 0
+        Channel: 0
+        MMChannelDefinition: {fileID: 0}
+        Chance: 100
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          PlayCount: 0
+          LimitPlayCount: 0
+          MaxPlayCount: 3
+          SetPlayCountToZeroOnReset: 0
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        AutomatedTargetAcquisition:
+          Mode: 0
+          ChildIndex: 0
+        RandomizeOutput: 0
+        RandomMultiplier: {x: 0.8, y: 1}
+        RandomizeDuration: 0
+        RandomDurationMultiplier: {x: 0.5, y: 2}
+        UseRange: 0
+        RangeDistance: 5
+        UseRangeFalloff: 0
+        RangeFalloff:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RemapRangeFalloff: {x: 0, y: 1}
+        AutomaticShakerSetupButton:
+          ButtonText: 
+        Owner: {fileID: 365644794635190778}
+        DebugActive: 0
+        TargetSpriteRenderers:
+        - {fileID: 1327647030264937004}
+        TargetImages: []
+        AnimationSprites:
+        - {fileID: -4964607475257166295, guid: 8b67e6d739b052a479ad4460cce30d97, type: 3}
+        - {fileID: 7321348136105070950, guid: 8b67e6d739b052a479ad4460cce30d97, type: 3}
+        - {fileID: -8191530748766330411, guid: 8b67e6d739b052a479ad4460cce30d97, type: 3}
+        - {fileID: -2894654531742235759, guid: 8b67e6d739b052a479ad4460cce30d97, type: 3}
+        - {fileID: 8649154788861726060, guid: 8b67e6d739b052a479ad4460cce30d97, type: 3}
+        - {fileID: 7390490624993071185, guid: 8b67e6d739b052a479ad4460cce30d97, type: 3}
+        - {fileID: -4964607475257166295, guid: 8b67e6d739b052a479ad4460cce30d97, type: 3}
+        FrameRate: 12
+        RandomOffset: {x: 0, y: 0}
+        Loop: 0
 --- !u!1 &7692478564423766990
 GameObject:
   m_ObjectHideFlags: 0

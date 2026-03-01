@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 748b129357f61b146bb16d744355cc64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7608477182403490027
+    second: RobotMisil Disparo_0
+  - first:
+      213: 7621033978562597152
+    second: RobotMisil Disparo_1
+  - first:
+      213: 3004005776224364767
+    second: RobotMisil Disparo_2
+  - first:
+      213: 7047607170595276519
+    second: RobotMisil Disparo_3
+  - first:
+      213: 428934210136852964
+    second: RobotMisil Disparo_4
+  - first:
+      213: 8650294558426700973
+    second: RobotMisil Disparo_5
+  - first:
+      213: 4949682848053920980
+    second: RobotMisil Disparo_6
+  - first:
+      213: 4762192812771214689
+    second: RobotMisil Disparo_7
+  - first:
+      213: 5725901847296491682
+    second: RobotMisil Disparo_8
+  - first:
+      213: 3122938628570884778
+    second: RobotMisil Disparo_9
+  - first:
+      213: -6719762629188677073
+    second: RobotMisil Disparo_10
+  - first:
+      213: 6531421242889736453
+    second: RobotMisil Disparo_11
+  - first:
+      213: -8872528939008563365
+    second: RobotMisil Disparo_12
+  - first:
+      213: -1157245733330157844
+    second: RobotMisil Disparo_13
+  - first:
+      213: -952441848886744953
+    second: RobotMisil Disparo_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RobotMisil Disparo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be033da9fadb69960800000000000000
+      internalID: 7608477182403490027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_1
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021d769860a53c960800000000000000
+      internalID: 7621033978562597152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_2
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8231b665f50b920800000000000000
+      internalID: 3004005776224364767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_3
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6c3dfb1612ec160800000000000000
+      internalID: 7047607170595276519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9483b3461e3f500800000000000000
+      internalID: 428934210136852964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_5
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac9485d1150c0870800000000000000
+      internalID: 8650294558426700973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_6
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d40915635ec0b440800000000000000
+      internalID: 4949682848053920980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_7
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165852dc125b61240800000000000000
+      internalID: 4762192812771214689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a04cda946d767f40800000000000000
+      internalID: 5725901847296491682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_9
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa205bf228e65b20800000000000000
+      internalID: 3122938628570884778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_10
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f229348dd7b9eb2a0800000000000000
+      internalID: -6719762629188677073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_11
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50112e4f30544aa50800000000000000
+      internalID: 6531421242889736453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57650b40f17ed480800000000000000
+      internalID: -8872528939008563365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_13
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceef40b0323a0ffe0800000000000000
+      internalID: -1157245733330157844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotMisil Disparo_14
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788a3e74f2f38c2f0800000000000000
+      internalID: -952441848886744953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a8616592ef0647b43a4330a0f9718f65
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      RobotMisil Disparo_0: 7608477182403490027
+      RobotMisil Disparo_1: 7621033978562597152
+      RobotMisil Disparo_10: -6719762629188677073
+      RobotMisil Disparo_11: 6531421242889736453
+      RobotMisil Disparo_12: -8872528939008563365
+      RobotMisil Disparo_13: -1157245733330157844
+      RobotMisil Disparo_14: -952441848886744953
+      RobotMisil Disparo_2: 3004005776224364767
+      RobotMisil Disparo_3: 7047607170595276519
+      RobotMisil Disparo_4: 428934210136852964
+      RobotMisil Disparo_5: 8650294558426700973
+      RobotMisil Disparo_6: 4949682848053920980
+      RobotMisil Disparo_7: 4762192812771214689
+      RobotMisil Disparo_8: 5725901847296491682
+      RobotMisil Disparo_9: 3122938628570884778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
