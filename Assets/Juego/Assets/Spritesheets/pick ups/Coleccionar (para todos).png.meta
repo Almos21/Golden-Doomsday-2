@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: 42119ee1363624a4ca210985f693f2dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6086066386668109806
+    second: Coleccionar (para todos)_0
+  - first:
+      213: 4508547177354358366
+    second: Coleccionar (para todos)_1
+  - first:
+      213: 6731142172087405252
+    second: Coleccionar (para todos)_2
+  - first:
+      213: 4322418789810993416
+    second: Coleccionar (para todos)_3
+  - first:
+      213: -2485770396468328307
+    second: Coleccionar (para todos)_4
+  - first:
+      213: 8861695885461024679
+    second: Coleccionar (para todos)_5
+  - first:
+      213: -2097941705029378201
+    second: Coleccionar (para todos)_6
+  - first:
+      213: 3080298026185060300
+    second: Coleccionar (para todos)_7
+  - first:
+      213: 3470816052417544623
+    second: Coleccionar (para todos)_8
+  - first:
+      213: 923529023885363692
+    second: Coleccionar (para todos)_9
+  - first:
+      213: -1881738325503386357
+    second: Coleccionar (para todos)_10
+  - first:
+      213: -1543980547878289256
+    second: Coleccionar (para todos)_11
+  - first:
+      213: -3303156069975067048
+    second: Coleccionar (para todos)_12
+  - first:
+      213: -1228206283188768653
+    second: Coleccionar (para todos)_13
+  - first:
+      213: 1727778490649031959
+    second: Coleccionar (para todos)_14
+  - first:
+      213: 3353344723574719311
+    second: Coleccionar (para todos)_15
+  - first:
+      213: -5584999402156385501
+    second: Coleccionar (para todos)_16
+  - first:
+      213: -9083195777048239182
+    second: Coleccionar (para todos)_17
+  - first:
+      213: -7318980127547446112
+    second: Coleccionar (para todos)_18
+  - first:
+      213: 3656511108679690488
+    second: Coleccionar (para todos)_19
+  - first:
+      213: -823553971939658479
+    second: Coleccionar (para todos)_20
+  - first:
+      213: 446021422273325059
+    second: Coleccionar (para todos)_21
+  - first:
+      213: -3178093788685102489
+    second: Coleccionar (para todos)_22
+  - first:
+      213: -1189897417641912686
+    second: Coleccionar (para todos)_23
+  - first:
+      213: -6575860595711682086
+    second: Coleccionar (para todos)_24
+  - first:
+      213: 1221466514687655709
+    second: Coleccionar (para todos)_25
+  - first:
+      213: -8371141175954571166
+    second: Coleccionar (para todos)_26
+  - first:
+      213: 2220064670254441427
+    second: Coleccionar (para todos)_27
+  - first:
+      213: 58580030776852256
+    second: Coleccionar (para todos)_28
+  - first:
+      213: 991476966309799068
+    second: Coleccionar (para todos)_29
+  - first:
+      213: -2617647077665439619
+    second: Coleccionar (para todos)_30
+  - first:
+      213: 9159115349988500832
+    second: Coleccionar (para todos)_31
+  - first:
+      213: 5235564843325354849
+    second: Coleccionar (para todos)_32
+  - first:
+      213: -3615372191727076119
+    second: Coleccionar (para todos)_33
+  - first:
+      213: 6296740441232680134
+    second: Coleccionar (para todos)_34
+  - first:
+      213: -6515974681957554379
+    second: Coleccionar (para todos)_35
+  - first:
+      213: 2948524409782436977
+    second: Coleccionar (para todos)_36
+  - first:
+      213: 6932044912272003914
+    second: Coleccionar (para todos)_37
+  - first:
+      213: -3306082706392010943
+    second: Coleccionar (para todos)_38
+  - first:
+      213: -3169294783684043167
+    second: Coleccionar (para todos)_39
+  - first:
+      213: -4681830431462638811
+    second: Coleccionar (para todos)_40
+  - first:
+      213: -6887456911964339066
+    second: Coleccionar (para todos)_41
+  - first:
+      213: 488665638743435893
+    second: Coleccionar (para todos)_42
+  - first:
+      213: 5055916267679932683
+    second: Coleccionar (para todos)_43
+  - first:
+      213: -2228948464914548163
+    second: Coleccionar (para todos)_44
+  - first:
+      213: 7534730892931880423
+    second: Coleccionar (para todos)_45
+  - first:
+      213: 7137847304265172440
+    second: Coleccionar (para todos)_46
+  - first:
+      213: 5492408597223399633
+    second: Coleccionar (para todos)_47
+  - first:
+      213: 958368301936066007
+    second: Coleccionar (para todos)_48
+  - first:
+      213: -5331696224777463331
+    second: Coleccionar (para todos)_49
+  - first:
+      213: -3512170778027708889
+    second: Coleccionar (para todos)_50
+  - first:
+      213: -447983246955779540
+    second: Coleccionar (para todos)_51
+  - first:
+      213: 5891721289011027057
+    second: Coleccionar (para todos)_52
+  - first:
+      213: -4162084713507756690
+    second: Coleccionar (para todos)_53
+  - first:
+      213: 8869214717920240303
+    second: Coleccionar (para todos)_54
+  - first:
+      213: -6544380690393275461
+    second: Coleccionar (para todos)_55
+  - first:
+      213: 7069901059679098522
+    second: Coleccionar (para todos)_56
+  - first:
+      213: 8037636737395497761
+    second: Coleccionar (para todos)_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Coleccionar (para todos)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210c33fddd2f98ba0800000000000000
+      internalID: -6086066386668109806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coleccionar (para todos)_1
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5eeb4f35c3919e30800000000000000
+      internalID: 4508547177354358366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coleccionar (para todos)_2
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cacbe37422d96d50800000000000000
+      internalID: 6731142172087405252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coleccionar (para todos)_3
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8097829fcf05cfb30800000000000000
+      internalID: 4322418789810993416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coleccionar (para todos)_4
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88c25d9ef4c08dd0800000000000000
+      internalID: -2485770396468328307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coleccionar (para todos)_5
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afe170e4711bfa70800000000000000
+      internalID: 8861695885461024679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7daf22239a8290842b6f3439668cb226
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Coleccionar (para todos)_0: -6086066386668109806
+      Coleccionar (para todos)_1: 4508547177354358366
+      Coleccionar (para todos)_2: 6731142172087405252
+      Coleccionar (para todos)_3: 4322418789810993416
+      Coleccionar (para todos)_4: -2485770396468328307
+      Coleccionar (para todos)_5: 8861695885461024679
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
