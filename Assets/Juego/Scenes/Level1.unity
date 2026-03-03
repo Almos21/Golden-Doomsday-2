@@ -696,7 +696,7 @@ MonoBehaviour:
     m_Extent: {x: 62.99, y: 17.06, z: 5}
   ConvertToColliderBoundsButton: 0
   LoadingSceneMode: 1
-  LoadingSceneName: LoadingScreen
+  LoadingSceneName: Loading
   AdditiveLoadingSettings:
     LoadingSceneName: MMAdditiveLoadingScreen
     ThreadPriority: 4
@@ -874,6 +874,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 923a01d66c4618446abb082250646478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &425064890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8311365800034060968, guid: 96255438dcf51444992336aa631decd6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7346147162820533642}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da43522623d4704e979466dc7650b65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &518086194
@@ -2406,6 +2418,7 @@ Transform:
   m_Children:
   - {fileID: 933180168}
   - {fileID: 916266301}
+  - {fileID: 1083333378}
   m_Father: {fileID: 1858949006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &963572895 stripped
@@ -2902,6 +2915,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6921459496623126243, guid: aed8df36563210644aaa9030fecd5e1b,
     type: 3}
   m_PrefabInstance: {fileID: 8256157639360579480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1083333371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3849889432763743950, guid: 96255438dcf51444992336aa631decd6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7346147162820533642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1083333372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083333371}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f28c3491060ae4b8b35f1258d1e6f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::easterEgg
+  PickFeedbacks: {fileID: 425064890}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  starID: 1
+--- !u!4 &1083333378 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6010043318873076837, guid: 96255438dcf51444992336aa631decd6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7346147162820533642}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1088304286
 PrefabInstance:
@@ -7533,6 +7578,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: GameOverScene
+      value: DeathScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
       propertyPath: ResetLivesOnGameOver
       value: 0
       objectReference: {fileID: 0}
@@ -9133,7 +9182,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 963362575}
     m_Modifications:
     - target: {fileID: 3849889432763743950, guid: 96255438dcf51444992336aa631decd6,
         type: 3}
@@ -9143,12 +9192,12 @@ PrefabInstance:
     - target: {fileID: 6010043318873076837, guid: 96255438dcf51444992336aa631decd6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.83
+      value: -25.19355
       objectReference: {fileID: 0}
     - target: {fileID: 6010043318873076837, guid: 96255438dcf51444992336aa631decd6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.67
+      value: 20.05087
       objectReference: {fileID: 0}
     - target: {fileID: 6010043318873076837, guid: 96255438dcf51444992336aa631decd6,
         type: 3}
@@ -9193,7 +9242,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3849889432763743950, guid: 96255438dcf51444992336aa631decd6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1083333372}
   m_SourcePrefab: {fileID: 100100000, guid: 96255438dcf51444992336aa631decd6, type: 3}
 --- !u!1001 &7527089919638454027
 PrefabInstance:
@@ -9517,4 +9570,3 @@ SceneRoots:
   - {fileID: 8040196612217246658}
   - {fileID: 213527045}
   - {fileID: 1858949006}
-  - {fileID: 7346147162820533642}

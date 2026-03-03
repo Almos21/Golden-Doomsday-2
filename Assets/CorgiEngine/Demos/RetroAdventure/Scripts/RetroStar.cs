@@ -33,6 +33,7 @@ namespace MoreMountains.CorgiEngine
 					{
 						if (scene.CollectedStars[StarID])
 						{
+							Debug.Log("cien a");
 							Disable ();
 						}
 					}
