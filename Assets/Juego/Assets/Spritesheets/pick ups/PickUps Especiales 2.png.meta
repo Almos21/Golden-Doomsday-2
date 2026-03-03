@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 2cbc0992df0588d4b8cda041c2a3bf82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2495076176310752077
+    second: PickUps Especiales 2_0
+  - first:
+      213: -1776256893759661173
+    second: PickUps Especiales 2_1
+  - first:
+      213: 8473825840347177380
+    second: PickUps Especiales 2_2
+  - first:
+      213: 4278181545582370882
+    second: PickUps Especiales 2_3
+  - first:
+      213: 6989424628284850559
+    second: PickUps Especiales 2_4
+  - first:
+      213: 6839750498372230524
+    second: PickUps Especiales 2_5
+  - first:
+      213: -6726668324032780404
+    second: PickUps Especiales 2_6
+  - first:
+      213: -678650542809017372
+    second: PickUps Especiales 2_7
+  - first:
+      213: 3581831979858932222
+    second: PickUps Especiales 2_8
+  - first:
+      213: -8027562036529548028
+    second: PickUps Especiales 2_9
+  - first:
+      213: 1254915536451350739
+    second: PickUps Especiales 2_10
+  - first:
+      213: -1538882743967181839
+    second: PickUps Especiales 2_11
+  - first:
+      213: -1949206237144072912
+    second: PickUps Especiales 2_12
+  - first:
+      213: 4179787033254555279
+    second: PickUps Especiales 2_13
+  - first:
+      213: 3822803837059562552
+    second: PickUps Especiales 2_14
+  - first:
+      213: -905735431525727799
+    second: PickUps Especiales 2_15
+  - first:
+      213: 5237481487919796230
+    second: PickUps Especiales 2_16
+  - first:
+      213: -6511799160617298713
+    second: PickUps Especiales 2_17
+  - first:
+      213: 4768344662641408641
+    second: PickUps Especiales 2_18
+  - first:
+      213: 8291649835000991130
+    second: PickUps Especiales 2_19
+  - first:
+      213: 5343297323680875213
+    second: PickUps Especiales 2_20
+  - first:
+      213: -4678169234222418352
+    second: PickUps Especiales 2_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PickUps Especiales 2_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43da88109a40a220800000000000000
+      internalID: 2495076176310752077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_1
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 49
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bdd9124c77957e0800000000000000
+      internalID: -1776256893759661173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_2
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 49
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a16b6e94b3199570800000000000000
+      internalID: 8473825840347177380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_3
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 62
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240a11de2772f5b30800000000000000
+      internalID: 4278181545582370882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_4
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 54
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f710949faac6ff060800000000000000
+      internalID: 6989424628284850559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_5
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 62
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d17c7f6dcabee50800000000000000
+      internalID: 6839750498372230524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_6
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 54
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8767287cc216a2a0800000000000000
+      internalID: -6726668324032780404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_7
+      rect:
+        serializedVersion: 2
+        x: 3127
+        y: 74
+        width: 574
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e31e3d4de2f496f0800000000000000
+      internalID: -678650542809017372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_8
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 34
+        width: 80
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef130a4553935b130800000000000000
+      internalID: 3581831979858932222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_9
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 74
+        width: 574
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405be301cde589090800000000000000
+      internalID: -8027562036529548028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_10
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 34
+        width: 80
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d03d45180b5a6110800000000000000
+      internalID: 1254915536451350739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_11
+      rect:
+        serializedVersion: 2
+        x: 4365
+        y: 62
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f39bd63c4ac4aae0800000000000000
+      internalID: -1538882743967181839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_12
+      rect:
+        serializedVersion: 2
+        x: 4518
+        y: 54
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d3d01314703f4e0800000000000000
+      internalID: -1949206237144072912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_13
+      rect:
+        serializedVersion: 2
+        x: 4984
+        y: 62
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eebe94926910a30800000000000000
+      internalID: 4179787033254555279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_14
+      rect:
+        serializedVersion: 2
+        x: 5137
+        y: 54
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c7fe1f5d35d0530800000000000000
+      internalID: 3822803837059562552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_15
+      rect:
+        serializedVersion: 2
+        x: 5603
+        y: 49
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c18c6f7c6e2e63f0800000000000000
+      internalID: -905735431525727799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_16
+      rect:
+        serializedVersion: 2
+        x: 6222
+        y: 49
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600d425f9a54fa840800000000000000
+      internalID: 5237481487919796230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_17
+      rect:
+        serializedVersion: 2
+        x: 6841
+        y: 33
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e418b61a2171a5a0800000000000000
+      internalID: -6511799160617298713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_18
+      rect:
+        serializedVersion: 2
+        x: 7460
+        y: 33
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18afe57f4309c2240800000000000000
+      internalID: 4768344662641408641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_19
+      rect:
+        serializedVersion: 2
+        x: 8079
+        y: 16
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d0929089bd11370800000000000000
+      internalID: 8291649835000991130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_20
+      rect:
+        serializedVersion: 2
+        x: 8698
+        y: 16
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc24b4b1b94372a40800000000000000
+      internalID: 5343297323680875213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PickUps Especiales 2_21
+      rect:
+        serializedVersion: 2
+        x: 9317
+        y: 33
+        width: 570
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056f2031eddc31fb0800000000000000
+      internalID: -4678169234222418352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PickUps Especiales 2_0: 2495076176310752077
+      PickUps Especiales 2_1: -1776256893759661173
+      PickUps Especiales 2_10: 1254915536451350739
+      PickUps Especiales 2_11: -1538882743967181839
+      PickUps Especiales 2_12: -1949206237144072912
+      PickUps Especiales 2_13: 4179787033254555279
+      PickUps Especiales 2_14: 3822803837059562552
+      PickUps Especiales 2_15: -905735431525727799
+      PickUps Especiales 2_16: 5237481487919796230
+      PickUps Especiales 2_17: -6511799160617298713
+      PickUps Especiales 2_18: 4768344662641408641
+      PickUps Especiales 2_19: 8291649835000991130
+      PickUps Especiales 2_2: 8473825840347177380
+      PickUps Especiales 2_20: 5343297323680875213
+      PickUps Especiales 2_21: -4678169234222418352
+      PickUps Especiales 2_3: 4278181545582370882
+      PickUps Especiales 2_4: 6989424628284850559
+      PickUps Especiales 2_5: 6839750498372230524
+      PickUps Especiales 2_6: -6726668324032780404
+      PickUps Especiales 2_7: -678650542809017372
+      PickUps Especiales 2_8: 3581831979858932222
+      PickUps Especiales 2_9: -8027562036529548028
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

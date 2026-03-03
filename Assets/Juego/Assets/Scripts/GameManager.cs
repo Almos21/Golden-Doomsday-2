@@ -1,15 +1,14 @@
 using UnityEngine;
-
-using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int score = 0;
+    public TextMeshProUGUI scoreText;
 
     void Awake()
     {
-        // Singleton para acceder desde cualquier script
         if (instance == null)
         {
             instance = this;
@@ -18,5 +17,11 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void AddScore(int amount = 1)
+    {
+        score += amount;
+        scoreText.text = "Score: " + score.ToString();
     }
 }

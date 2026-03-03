@@ -1,7 +1,5 @@
 using UnityEngine;
 
-using UnityEngine;
-
 public class Moneda : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
@@ -9,10 +7,9 @@ public class Moneda : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // Suma al score del GameManager
-            GameManager.instance.score++;
-
-            // Destruye la moneda
-            Destroy(gameObject);
+            GameManager.instance.AddScore();
+            // Desactiva la moneda en lugar de destruirla
+            gameObject.SetActive(false);
         }
     }
 }
