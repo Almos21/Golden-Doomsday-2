@@ -57,6 +57,9 @@ TagManager:
   - name: Player
     uniqueID: 2666359821
     locked: 0
+  - name: Pick Ups
+    uniqueID: 3650427029
+    locked: 0
   - name: Foreground
     uniqueID: 1795597123
     locked: 0

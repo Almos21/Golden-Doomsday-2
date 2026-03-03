@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 16bab44358d4de24d90d43478ffe0348
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 80013437751406784
+    second: Silleta (Escudo)_0
+  - first:
+      213: -9071906736160579691
+    second: Silleta (Escudo)_1
+  - first:
+      213: 1870008047861764876
+    second: Silleta (Escudo)_2
+  - first:
+      213: -3449453102427332684
+    second: Silleta (Escudo)_3
+  - first:
+      213: 9181017930657275380
+    second: Silleta (Escudo)_4
+  - first:
+      213: 1658236398444131129
+    second: Silleta (Escudo)_5
+  - first:
+      213: 8263433014590054618
+    second: Silleta (Escudo)_6
+  - first:
+      213: 1431606320234913800
+    second: Silleta (Escudo)_7
+  - first:
+      213: -5342297757927664810
+    second: Silleta (Escudo)_8
+  - first:
+      213: 1843515243202803604
+    second: Silleta (Escudo)_9
+  - first:
+      213: -1044818930554004525
+    second: Silleta (Escudo)_10
+  - first:
+      213: 675733383914742934
+    second: Silleta (Escudo)_11
+  - first:
+      213: -7207793300667381311
+    second: Silleta (Escudo)_12
+  - first:
+      213: 5231046514832643861
+    second: Silleta (Escudo)_13
+  - first:
+      213: -9208394553146830150
+    second: Silleta (Escudo)_14
+  - first:
+      213: 6427116678000149122
+    second: Silleta (Escudo)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Silleta (Escudo)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c03e663cc34c1100800000000000000
+      internalID: 80013437751406784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_1
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fdca373ec1a1280800000000000000
+      internalID: -9071906736160579691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_2
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c031ceb696a93f910800000000000000
+      internalID: 1870008047861764876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_3
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf1378eda41120d0800000000000000
+      internalID: -3449453102427332684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_4
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd91513a27896f70800000000000000
+      internalID: 9181017930657275380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_5
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933b2eaf73d330710800000000000000
+      internalID: 1658236398444131129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_6
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad020e39b8c9da270800000000000000
+      internalID: 8263433014590054618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_7
+      rect:
+        serializedVersion: 2
+        x: 4333
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8006ecffc561ed310800000000000000
+      internalID: 1431606320234913800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_8
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6531b5e6e785cd5b0800000000000000
+      internalID: -5342297757927664810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_9
+      rect:
+        serializedVersion: 2
+        x: 5571
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497fe19a85b759910800000000000000
+      internalID: 1843515243202803604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_10
+      rect:
+        serializedVersion: 2
+        x: 6190
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db99b5e7be0081f0800000000000000
+      internalID: -1044818930554004525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_11
+      rect:
+        serializedVersion: 2
+        x: 6809
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6946c17beefa06900800000000000000
+      internalID: 675733383914742934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_12
+      rect:
+        serializedVersion: 2
+        x: 7428
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9c74b7e26c8fb90800000000000000
+      internalID: -7207793300667381311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_13
+      rect:
+        serializedVersion: 2
+        x: 8047
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51715280719689840800000000000000
+      internalID: 5231046514832643861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_14
+      rect:
+        serializedVersion: 2
+        x: 8666
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab29a0c21f5353080800000000000000
+      internalID: -9208394553146830150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silleta (Escudo)_15
+      rect:
+        serializedVersion: 2
+        x: 9285
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282003af094b13950800000000000000
+      internalID: 6427116678000149122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a63ad450d186d464b92783b94eaa3c20
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Silleta (Escudo)_0: 80013437751406784
+      Silleta (Escudo)_1: -9071906736160579691
+      Silleta (Escudo)_10: -1044818930554004525
+      Silleta (Escudo)_11: 675733383914742934
+      Silleta (Escudo)_12: -7207793300667381311
+      Silleta (Escudo)_13: 5231046514832643861
+      Silleta (Escudo)_14: -9208394553146830150
+      Silleta (Escudo)_15: 6427116678000149122
+      Silleta (Escudo)_2: 1870008047861764876
+      Silleta (Escudo)_3: -3449453102427332684
+      Silleta (Escudo)_4: 9181017930657275380
+      Silleta (Escudo)_5: 1658236398444131129
+      Silleta (Escudo)_6: 8263433014590054618
+      Silleta (Escudo)_7: 1431606320234913800
+      Silleta (Escudo)_8: -5342297757927664810
+      Silleta (Escudo)_9: 1843515243202803604
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
