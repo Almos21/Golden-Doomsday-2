@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 2a5d0acfe6364f84aa2f025bead862eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9199887206527773797
+    second: "Oso Transformaci\xF3n_0"
+  - first:
+      213: 6771662686777784956
+    second: "Oso Transformaci\xF3n_1"
+  - first:
+      213: 1920069472316243165
+    second: "Oso Transformaci\xF3n_2"
+  - first:
+      213: 4913362189047906805
+    second: "Oso Transformaci\xF3n_3"
+  - first:
+      213: 5041903754728219693
+    second: "Oso Transformaci\xF3n_4"
+  - first:
+      213: 7781732186868146656
+    second: "Oso Transformaci\xF3n_5"
+  - first:
+      213: 1808090440964952304
+    second: "Oso Transformaci\xF3n_6"
+  - first:
+      213: 5073249504246353033
+    second: "Oso Transformaci\xF3n_7"
+  - first:
+      213: 7887283446574202358
+    second: "Oso Transformaci\xF3n_8"
+  - first:
+      213: -6968358303179837716
+    second: "Oso Transformaci\xF3n_9"
+  - first:
+      213: 5640411259777234110
+    second: "Oso Transformaci\xF3n_10"
+  - first:
+      213: 3812266839873755615
+    second: "Oso Transformaci\xF3n_11"
+  - first:
+      213: -3932024530784714344
+    second: "Oso Transformaci\xF3n_12"
+  - first:
+      213: -5718463163522417900
+    second: "Oso Transformaci\xF3n_13"
+  - first:
+      213: 6207834950593621127
+    second: "Oso Transformaci\xF3n_14"
+  - first:
+      213: 7405873467631786178
+    second: "Oso Transformaci\xF3n_15"
+  - first:
+      213: 3065932711788157680
+    second: "Oso Transformaci\xF3n_16"
+  - first:
+      213: 769833333135037094
+    second: "Oso Transformaci\xF3n_17"
+  - first:
+      213: 6751811540864148201
+    second: "Oso Transformaci\xF3n_18"
+  - first:
+      213: -4704388415899169965
+    second: "Oso Transformaci\xF3n_19"
+  - first:
+      213: 4029429617223217571
+    second: "Oso Transformaci\xF3n_20"
+  - first:
+      213: 3168193065202361684
+    second: "Oso Transformaci\xF3n_21"
+  - first:
+      213: 8515644947406527173
+    second: "Oso Transformaci\xF3n_22"
+  - first:
+      213: -5698203047546703771
+    second: "Oso Transformaci\xF3n_23"
+  - first:
+      213: -2191173441861393577
+    second: "Oso Transformaci\xF3n_24"
+  - first:
+      213: -6629305842900037005
+    second: "Oso Transformaci\xF3n_25"
+  - first:
+      213: -4812533745970648484
+    second: "Oso Transformaci\xF3n_26"
+  - first:
+      213: 6195773484456214730
+    second: "Oso Transformaci\xF3n_27"
+  - first:
+      213: 3851376771405902183
+    second: "Oso Transformaci\xF3n_28"
+  - first:
+      213: -747952813658678864
+    second: "Oso Transformaci\xF3n_29"
+  - first:
+      213: -2044684116705918173
+    second: "Oso Transformaci\xF3n_30"
+  - first:
+      213: 4330240323863939195
+    second: "Oso Transformaci\xF3n_31"
+  - first:
+      213: 8606458188836437600
+    second: "Oso Transformaci\xF3n_32"
+  - first:
+      213: 1614089932172630438
+    second: "Oso Transformaci\xF3n_33"
+  - first:
+      213: 825469608577442201
+    second: "Oso Transformaci\xF3n_34"
+  - first:
+      213: -2776825826189520223
+    second: "Oso Transformaci\xF3n_35"
+  - first:
+      213: 148060281327253289
+    second: "Oso Transformaci\xF3n_36"
+  - first:
+      213: 3227570293198567454
+    second: "Oso Transformaci\xF3n_37"
+  - first:
+      213: -4864414731854365294
+    second: "Oso Transformaci\xF3n_38"
+  - first:
+      213: -7087373084415708282
+    second: "Oso Transformaci\xF3n_39"
+  - first:
+      213: 2302897210247446222
+    second: "Oso Transformaci\xF3n_40"
+  - first:
+      213: 2500315188701566477
+    second: "Oso Transformaci\xF3n_41"
+  - first:
+      213: -1208435717749627543
+    second: "Oso Transformaci\xF3n_42"
+  - first:
+      213: 1142801826383206058
+    second: "Oso Transformaci\xF3n_43"
+  - first:
+      213: 8205510081137581142
+    second: "Oso Transformaci\xF3n_44"
+  - first:
+      213: 7355346766682085879
+    second: "Oso Transformaci\xF3n_45"
+  - first:
+      213: -2149573018975020285
+    second: "Oso Transformaci\xF3n_46"
+  - first:
+      213: 4883720810294478134
+    second: "Oso Transformaci\xF3n_47"
+  - first:
+      213: -5433849587406324112
+    second: "Oso Transformaci\xF3n_48"
+  - first:
+      213: 7347804114721092910
+    second: "Oso Transformaci\xF3n_49"
+  - first:
+      213: 3291222843391708751
+    second: "Oso Transformaci\xF3n_50"
+  - first:
+      213: -4081449370971240173
+    second: "Oso Transformaci\xF3n_51"
+  - first:
+      213: 3125921117567817580
+    second: "Oso Transformaci\xF3n_52"
+  - first:
+      213: -3534169130520080789
+    second: "Oso Transformaci\xF3n_53"
+  - first:
+      213: 3515446813903040846
+    second: "Oso Transformaci\xF3n_54"
+  - first:
+      213: 4505685267278961327
+    second: "Oso Transformaci\xF3n_55"
+  - first:
+      213: -2325832417095502060
+    second: "Oso Transformaci\xF3n_56"
+  - first:
+      213: -144201332846736805
+    second: "Oso Transformaci\xF3n_57"
+  - first:
+      213: -8326160164382619
+    second: "Oso Transformaci\xF3n_58"
+  - first:
+      213: 218715522816510223
+    second: "Oso Transformaci\xF3n_59"
+  - first:
+      213: 8312423577357991035
+    second: "Oso Transformaci\xF3n_60"
+  - first:
+      213: 5728181336411194022
+    second: "Oso Transformaci\xF3n_61"
+  - first:
+      213: 7474456963317256007
+    second: "Oso Transformaci\xF3n_62"
+  - first:
+      213: -3357747810810575585
+    second: "Oso Transformaci\xF3n_63"
+  - first:
+      213: 6423071944189457404
+    second: "Oso Transformaci\xF3n_64"
+  - first:
+      213: -8365724472274706164
+    second: "Oso Transformaci\xF3n_65"
+  - first:
+      213: 6506115875961497852
+    second: "Oso Transformaci\xF3n_66"
+  - first:
+      213: 3818571699901843816
+    second: "Oso Transformaci\xF3n_67"
+  - first:
+      213: 4883463524986286950
+    second: "Oso Transformaci\xF3n_68"
+  - first:
+      213: 8331268761979858570
+    second: "Oso Transformaci\xF3n_69"
+  - first:
+      213: -8084536387830423793
+    second: "Oso Transformaci\xF3n_70"
+  - first:
+      213: 1855398466975603414
+    second: "Oso Transformaci\xF3n_71"
+  - first:
+      213: 2864525791974352338
+    second: "Oso Transformaci\xF3n_72"
+  - first:
+      213: 246704561199337356
+    second: "Oso Transformaci\xF3n_73"
+  - first:
+      213: -6981691956727280937
+    second: "Oso Transformaci\xF3n_74"
+  - first:
+      213: 2288509279090656078
+    second: "Oso Transformaci\xF3n_75"
+  - first:
+      213: -255829825802019045
+    second: "Oso Transformaci\xF3n_76"
+  - first:
+      213: 5613958246203922721
+    second: "Oso Transformaci\xF3n_77"
+  - first:
+      213: 5841002059744746157
+    second: "Oso Transformaci\xF3n_78"
+  - first:
+      213: -2025101738857469778
+    second: "Oso Transformaci\xF3n_79"
+  - first:
+      213: 1972630492923294197
+    second: "Oso Transformaci\xF3n_80"
+  - first:
+      213: 4326359335827624084
+    second: "Oso Transformaci\xF3n_81"
+  - first:
+      213: 155393157642857660
+    second: "Oso Transformaci\xF3n_82"
+  - first:
+      213: 6551316184780625071
+    second: "Oso Transformaci\xF3n_83"
+  - first:
+      213: -9024280280977474932
+    second: "Oso Transformaci\xF3n_84"
+  - first:
+      213: 2934262880521501669
+    second: "Oso Transformaci\xF3n_85"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Oso Transformaci\xF3n_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cafb6dba09caf70800000000000000
+      internalID: 9199887206527773797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oso Transformaci\xF3n_1"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a3828f557c9fd50800000000000000
+      internalID: 6771662686777784956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oso Transformaci\xF3n_2"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc3b79130575aa10800000000000000
+      internalID: 1920069472316243165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oso Transformaci\xF3n_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1490bf0e4cf2440800000000000000
+      internalID: 4913362189047906805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oso Transformaci\xF3n_4"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24a84470c078f540800000000000000
+      internalID: 5041903754728219693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oso Transformaci\xF3n_5"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1ef7fc1344efb60800000000000000
+      internalID: 7781732186868146656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oso Transformaci\xF3n_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0de772da0a71910800000000000000
+      internalID: 1808090440964952304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oso Transformaci\xF3n_7"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cc78d7b8dc76640800000000000000
+      internalID: 5073249504246353033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oso Transformaci\xF3n_8"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdbfdb8182457d60800000000000000
+      internalID: 7887283446574202358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3171371e23ef0cc4eb76067a1d76440d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Oso Transformaci\xF3n_0": 9199887206527773797
+      "Oso Transformaci\xF3n_1": 6771662686777784956
+      "Oso Transformaci\xF3n_2": 1920069472316243165
+      "Oso Transformaci\xF3n_3": 4913362189047906805
+      "Oso Transformaci\xF3n_4": 5041903754728219693
+      "Oso Transformaci\xF3n_5": 7781732186868146656
+      "Oso Transformaci\xF3n_6": 1808090440964952304
+      "Oso Transformaci\xF3n_7": 5073249504246353033
+      "Oso Transformaci\xF3n_8": 7887283446574202358
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

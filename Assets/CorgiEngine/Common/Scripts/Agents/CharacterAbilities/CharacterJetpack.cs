@@ -42,7 +42,7 @@ namespace MoreMountains.CorgiEngine
 		public float RefuelSpeed = 0.5f;
 		/// the minimum amount of fuel required in the tank to be able to jetpack again
 		[Tooltip("the minimum amount of fuel required in the tank to be able to jetpack again")]
-		public float MinimumFuelRequirement = 0.2f;
+		public float MinimumFuelRequirement = 1f;
 
 		[Header("Jetpack Sounds")]
 		/// The sound to play when the jetpack is refueled again

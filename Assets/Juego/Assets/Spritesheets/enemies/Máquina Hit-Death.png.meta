@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: da2f54cc5f4963e45885200b9abf7d6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3480949297364185930
+    second: "Ma\u0301quina Hit-Death_0"
+  - first:
+      213: 2959695232227871403
+    second: "Ma\u0301quina Hit-Death_1"
+  - first:
+      213: 2576298939368904263
+    second: "Ma\u0301quina Hit-Death_2"
+  - first:
+      213: -5598311609017007254
+    second: "Ma\u0301quina Hit-Death_3"
+  - first:
+      213: -2535572783314055049
+    second: "Ma\u0301quina Hit-Death_4"
+  - first:
+      213: -8883819756097639210
+    second: "Ma\u0301quina Hit-Death_5"
+  - first:
+      213: -6280497949047613736
+    second: "Ma\u0301quina Hit-Death_6"
+  - first:
+      213: 2922055760182508131
+    second: "Ma\u0301quina Hit-Death_7"
+  - first:
+      213: 711079751380575491
+    second: "Ma\u0301quina Hit-Death_8"
+  - first:
+      213: 176284779751541718
+    second: "Ma\u0301quina Hit-Death_9"
+  - first:
+      213: 6210234026179650482
+    second: "Ma\u0301quina Hit-Death_10"
+  - first:
+      213: -4806336463741774176
+    second: "Ma\u0301quina Hit-Death_11"
+  - first:
+      213: 7011575056620451524
+    second: "Ma\u0301quina Hit-Death_12"
+  - first:
+      213: -8305835800551683846
+    second: "Ma\u0301quina Hit-Death_13"
+  - first:
+      213: -6215413685444607572
+    second: "Ma\u0301quina Hit-Death_14"
+  - first:
+      213: -8642525455199055764
+    second: "Ma\u0301quina Hit-Death_15"
+  - first:
+      213: 8740246166308791303
+    second: "Ma\u0301quina Hit-Death_16"
+  - first:
+      213: 5364208639438884505
+    second: "Ma\u0301quina Hit-Death_17"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43b98e61f0de4030800000000000000
+      internalID: 3480949297364185930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_1"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa0c50f123f21920800000000000000
+      internalID: 2959695232227871403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_2"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7469c4c4c3ad0c320800000000000000
+      internalID: 2576298939368904263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_3"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1857
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a638892b04dce42b0800000000000000
+      internalID: -5598311609017007254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770da64dcf5dfccd0800000000000000
+      internalID: -2535572783314055049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_5"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dce335100556b480800000000000000
+      internalID: -8883819756097639210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_6"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6927e046037d8a0800000000000000
+      internalID: -6280497949047613736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_7"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1238
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aff8f6b3a3d8820800000000000000
+      internalID: 2922055760182508131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305230434434ed900800000000000000
+      internalID: 711079751380575491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_9"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db066cb21a427200800000000000000
+      internalID: 176284779751541718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_10"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b36b7e81fe2f2650800000000000000
+      internalID: 6210234026179650482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_11"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 619
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a61aa783767c4db0800000000000000
+      internalID: -4806336463741774176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_12"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6f9d57d5e1e4160800000000000000
+      internalID: 7011575056620451524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_13"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af80569785ebbbc80800000000000000
+      internalID: -8305835800551683846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_14"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca109fa0f2a6eb9a0800000000000000
+      internalID: -6215413685444607572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\u0301quina Hit-Death_15"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 0
+        width: 619
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60d69873e49f0880800000000000000
+      internalID: -8642525455199055764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7a0770ff440bc5d48b4cb53d85778c04
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Ma\u0301quina Hit-Death_0": 3480949297364185930
+      "Ma\u0301quina Hit-Death_1": 2959695232227871403
+      "Ma\u0301quina Hit-Death_10": 6210234026179650482
+      "Ma\u0301quina Hit-Death_11": -4806336463741774176
+      "Ma\u0301quina Hit-Death_12": 7011575056620451524
+      "Ma\u0301quina Hit-Death_13": -8305835800551683846
+      "Ma\u0301quina Hit-Death_14": -6215413685444607572
+      "Ma\u0301quina Hit-Death_15": -8642525455199055764
+      "Ma\u0301quina Hit-Death_2": 2576298939368904263
+      "Ma\u0301quina Hit-Death_3": -5598311609017007254
+      "Ma\u0301quina Hit-Death_4": -2535572783314055049
+      "Ma\u0301quina Hit-Death_5": -8883819756097639210
+      "Ma\u0301quina Hit-Death_6": -6280497949047613736
+      "Ma\u0301quina Hit-Death_7": 2922055760182508131
+      "Ma\u0301quina Hit-Death_8": 711079751380575491
+      "Ma\u0301quina Hit-Death_9": 176284779751541718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
