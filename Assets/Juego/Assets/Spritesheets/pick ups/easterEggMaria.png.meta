@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3a1b3c7878561d3479b9af87c3d7f7bb
+guid: 9a438a96599fd95488f93c3487f2be5e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3074425826407239965
-    second: arbol_0
+      213: -8133294175980788080
+    second: easterEggMaria_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arbol_0
+      name: easterEggMaria_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 15
-        width: 976
-        height: 981
+        x: 374
+        y: 68
+        width: 1508
+        height: 2009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3eea5b8fff17555d0800000000000000
-      internalID: -3074425826407239965
+      spriteID: 09669eaf90cb02f80800000000000000
+      internalID: -8133294175980788080
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      arbol_0: -3074425826407239965
+      easterEggMaria_0: -8133294175980788080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
