@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: ec1aa9f470cbfd148bd4f5d6727642f7
+guid: 404031e2fc84f8b4090c1b92915cf6b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1404028623067837608
-    second: Logo_0
+      213: -5929405817864647190
+    second: thorns_0
   - first:
-      213: 6795467416601567747
-    second: Logo_1
+      213: -2010917458671493427
+    second: thorns_1
   - first:
-      213: 6875538535012287733
-    second: Logo_2
+      213: 7391444822214289219
+    second: thorns_2
   - first:
-      213: 2381070441135384947
-    second: Logo_3
+      213: -1169521843657391632
+    second: thorns_3
+  - first:
+      213: -6218418147159095372
+    second: thorns_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,12 +58,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 350
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,89 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Logo_0
+      name: thorns_0
       rect:
         serializedVersion: 2
-        x: 202
-        y: 115
-        width: 579
-        height: 407
+        x: 0
+        y: 2282
+        width: 3484
+        height: 850
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a47074089c1c7310800000000000000
-      internalID: 1404028623067837608
+      spriteID: aed0b01f2d486bda0800000000000000
+      internalID: -5929405817864647190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_1
+      name: thorns_1
       rect:
         serializedVersion: 2
-        x: 657
-        y: 259
-        width: 240
-        height: 117
+        x: 683
+        y: 1660
+        width: 1917
+        height: 484
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30227498c995e4e50800000000000000
-      internalID: 6795467416601567747
+      spriteID: dce1143c939c714e0800000000000000
+      internalID: -2010917458671493427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_2
+      name: thorns_2
       rect:
         serializedVersion: 2
-        x: 925
-        y: 5
-        width: 393
-        height: 381
+        x: 564
+        y: 1211
+        width: 2109
+        height: 444
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f4cae29ed1da6f50800000000000000
-      internalID: 6875538535012287733
+      spriteID: 347abfc77efa39660800000000000000
+      internalID: 7391444822214289219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_3
+      name: thorns_3
       rect:
         serializedVersion: 2
-        x: 655
-        y: 120
-        width: 327
-        height: 105
+        x: 309
+        y: 0
+        width: 2303
+        height: 700
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 379ae0563f24b0120800000000000000
-      internalID: 2381070441135384947
+      spriteID: 0f1cdbf541605cfe0800000000000000
+      internalID: -1169521843657391632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thorns_4
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 593
+        width: 1813
+        height: 599
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b74db944adb3b9a0800000000000000
+      internalID: -6218418147159095372
       vertices: []
       indices: 
       edges: []
@@ -200,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 7c6bab8eae30f114e95af4eeb93f7e3d
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +233,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Logo_0: 1404028623067837608
-      Logo_1: 6795467416601567747
-      Logo_2: 6875538535012287733
-      Logo_3: 2381070441135384947
+      thorns_0: -5929405817864647190
+      thorns_1: -2010917458671493427
+      thorns_2: 7391444822214289219
+      thorns_3: -1169521843657391632
+      thorns_4: -6218418147159095372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

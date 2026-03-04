@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: ec1aa9f470cbfd148bd4f5d6727642f7
+guid: e355af653c487a64b8c0356a5169eb24
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1404028623067837608
-    second: Logo_0
+      213: -5705000994136107846
+    second: lagoonSpritesheet_0
   - first:
-      213: 6795467416601567747
-    second: Logo_1
+      213: -2567344028851983644
+    second: lagoonSpritesheet_1
   - first:
-      213: 6875538535012287733
-    second: Logo_2
+      213: 3025669449969787832
+    second: lagoonSpritesheet_2
   - first:
-      213: 2381070441135384947
-    second: Logo_3
+      213: -2687598300249993908
+    second: lagoonSpritesheet_3
+  - first:
+      213: -2610577371442576941
+    second: lagoonSpritesheet_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,12 +58,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Logo_0
+      name: lagoonSpritesheet_0
       rect:
         serializedVersion: 2
-        x: 202
-        y: 115
-        width: 579
-        height: 407
+        x: 235
+        y: 121
+        width: 1917
+        height: 348
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a47074089c1c7310800000000000000
-      internalID: 1404028623067837608
+      spriteID: ab4544d72d3c3d0b0800000000000000
+      internalID: -5705000994136107846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_1
+      name: lagoonSpritesheet_1
       rect:
         serializedVersion: 2
-        x: 657
-        y: 259
-        width: 240
-        height: 117
+        x: 2713
+        y: 121
+        width: 1917
+        height: 348
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30227498c995e4e50800000000000000
-      internalID: 6795467416601567747
+      spriteID: 4eaae084536fe5cd0800000000000000
+      internalID: -2567344028851983644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_2
+      name: lagoonSpritesheet_2
       rect:
         serializedVersion: 2
-        x: 925
-        y: 5
-        width: 393
-        height: 381
+        x: 5191
+        y: 121
+        width: 1917
+        height: 348
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f4cae29ed1da6f50800000000000000
-      internalID: 6875538535012287733
+      spriteID: 8b3633585565df920800000000000000
+      internalID: 3025669449969787832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_3
+      name: lagoonSpritesheet_3
       rect:
         serializedVersion: 2
-        x: 655
-        y: 120
-        width: 327
-        height: 105
+        x: 7669
+        y: 121
+        width: 1917
+        height: 348
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +193,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 379ae0563f24b0120800000000000000
-      internalID: 2381070441135384947
+      spriteID: c4dc7aed59bb3bad0800000000000000
+      internalID: -2687598300249993908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagoonSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 10147
+        y: 121
+        width: 1917
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d10e7c46bd55cbd0800000000000000
+      internalID: -2610577371442576941
       vertices: []
       indices: 
       edges: []
@@ -200,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Logo_0: 1404028623067837608
-      Logo_1: 6795467416601567747
-      Logo_2: 6875538535012287733
-      Logo_3: 2381070441135384947
+      lagoonSpritesheet_0: -5705000994136107846
+      lagoonSpritesheet_1: -2567344028851983644
+      lagoonSpritesheet_2: 3025669449969787832
+      lagoonSpritesheet_3: -2687598300249993908
+      lagoonSpritesheet_4: -2610577371442576941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
