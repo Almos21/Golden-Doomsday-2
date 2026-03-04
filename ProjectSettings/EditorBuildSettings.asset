@@ -228,7 +228,7 @@ EditorBuildSettings:
     path: Assets/Juego/Scenes/Home.unity
     guid: 5d67fd00ad0c7d5408cd0f5017b9cfd0
   - enabled: 1
-    path: Assets/Juego/Scenes/Home menu.unity
+    path: Assets/Juego/Scenes/HomeMenu.unity
     guid: 2042b418c1aa84c4ba3fcc75bc787626
   - enabled: 1
     path: Assets/Juego/Scenes/Level1.unity
@@ -236,17 +236,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Juego/Scenes/Cinematic.unity
     guid: 01409db3ec4f1ba4abd956884afa1f21
-  - enabled: 0
-    path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Core/MMSceneLoading/LoadingScreens/LoadingScreen.unity
-    guid: 888394d52616e5e42b3b54c3f2bbd3eb
   - enabled: 1
     path: Assets/Juego/Scenes/DeathScreen.unity
     guid: e261a09f99552ea43a5c596ee195d607
   - enabled: 1
+    path: Assets/Juego/Scenes/Level2.unity
+    guid: 585738e33b068d746be3eff7f14e2dbe
+  - enabled: 1
     path: Assets/Juego/Scenes/Loading.unity
     guid: 4b2222d256e03f2418231fcba98ba7cb
   - enabled: 1
-    path: Assets/Juego/Scenes/Level2.unity
-    guid: 585738e33b068d746be3eff7f14e2dbe
+    path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Core/MMSceneLoading/LoadingScreens/LoadingScreen.unity
+    guid: 888394d52616e5e42b3b54c3f2bbd3eb
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
