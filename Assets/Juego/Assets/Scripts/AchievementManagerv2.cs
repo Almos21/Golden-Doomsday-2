@@ -1,11 +1,10 @@
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using MoreMountains.Tools;
+using System.Collections.Generic;
+using UnityEngine;
 
-
-public class AchievementManagerv2
+public class AchievementManagerV2 : MonoBehaviour
 {
+
     [SerializeField]
     private MMAchievementList list;
     [SerializeField]
@@ -31,10 +30,10 @@ public class AchievementManagerv2
 
     public void UpdateAchievementv2State()
     {
-        int index = 0;  
+        int index = 0;
         foreach (MMAchievement achievement in MMAchievementManager.AchievementsList)
         {
-            if(index<achievementsv2.Count)
+            if (index < achievementsv2.Count)
             {
                 achievementsv2[index++].SetActive(achievement.UnlockedStatus);
             }

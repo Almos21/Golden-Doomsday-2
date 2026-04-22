@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f8f916bd4c5a444fa42e298d90f488d, type: 3}
-  m_Name: AchievementList
+  m_Name: AchievementListV2
   m_EditorClassIdentifier: 
   AchievementsListID: AchievementsList
   Achievements:
@@ -30,13 +30,15 @@ MonoBehaviour:
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Jump Around
-    Description: Jump at least 10 times
+    Title: Salta sin parar
+    Description: Salta un total de 5 veces
     Points: 100
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 9002873278380741700, guid: 16607a8db0b1065498e5e0e4422f67ec,
+      type: 3}
+    UnlockedImage: {fileID: 9002873278380741700, guid: 16607a8db0b1065498e5e0e4422f67ec,
+      type: 3}
     UnlockedSound: {fileID: 0}
-    ProgressTarget: 10
+    ProgressTarget: 5
     ProgressCurrent: 0
   - AchievementID: MoneyMoneyMoney
     AchievementType: 0
@@ -59,6 +61,18 @@ MonoBehaviour:
     Points: 30
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300008, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: Medic
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Medic !
+    Description: Grab a health bonus
+    Points: 25
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300006, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
