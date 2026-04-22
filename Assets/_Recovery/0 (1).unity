@@ -3067,7 +3067,7 @@ PrefabInstance:
     - target: {fileID: 6755984180424314125, guid: 7523bad3ab1543946b465984d0a5bb63,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4699998
+      value: -0.47787726
       objectReference: {fileID: 0}
     - target: {fileID: 6755984180424314125, guid: 7523bad3ab1543946b465984d0a5bb63,
         type: 3}
@@ -7866,7 +7866,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.07707, y: 23.8}
+  m_Offset: {x: -0.4, y: 23.8}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7876,7 +7876,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 13.65414, y: 1.9000015}
+  m_Size: {x: 12.7, y: 1.9}
   m_EdgeRadius: 0
 --- !u!61 &1511560980
 BoxCollider2D:
@@ -7912,7 +7912,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 6, y: 16.171558}
+  m_Offset: {x: 6, y: 16.3}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7922,7 +7922,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.8500004, y: 16.843113}
+  m_Size: {x: 1.85, y: 17.1}
   m_EdgeRadius: 0
 --- !u!61 &1511560981
 BoxCollider2D:
@@ -10457,7 +10457,7 @@ PrefabInstance:
     - target: {fileID: 6755984180424314125, guid: 7523bad3ab1543946b465984d0a5bb63,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4699998
+      value: -0.47787726
       objectReference: {fileID: 0}
     - target: {fileID: 6755984180424314125, guid: 7523bad3ab1543946b465984d0a5bb63,
         type: 3}
@@ -11901,7 +11901,7 @@ PrefabInstance:
     - target: {fileID: 6755984180424314125, guid: 7523bad3ab1543946b465984d0a5bb63,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4699998
+      value: -0.47787726
       objectReference: {fileID: 0}
     - target: {fileID: 6755984180424314125, guid: 7523bad3ab1543946b465984d0a5bb63,
         type: 3}
