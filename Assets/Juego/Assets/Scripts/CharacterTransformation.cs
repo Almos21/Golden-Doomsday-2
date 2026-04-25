@@ -4,7 +4,6 @@ using MoreMountains.Tools;
 
 namespace MoreMountains.CorgiEngine
 {
-    
     [AddComponentMenu("Corgi Engine/Character/Abilities/Character Transformation")]
     public class CharacterTransformation : CharacterAbility
     {
@@ -15,35 +14,29 @@ namespace MoreMountains.CorgiEngine
                    "Assign TransformationStartFeedback and TransformationEndFeedback to GameObjects that hold your transformation animations/VFX.";
         }
 
+        [Header("Transformation Identification")]
+        [Tooltip("Nombre único para identificar esta transformación (ej: Oso). El objeto rompible debe tener este mismo nombre.")]
+        public string TransformationAlias = "Oso";
 
-        [Header("Transformation")]
-
-       
+        [Header("Transformation Settings")]
         [Tooltip("How long the transformation lasts at maximum fuel (seconds)")]
         public float TransformationDuration = 5f;
 
-        
         [Tooltip("Cooldown before fuel starts refilling after the transformation ends (seconds)")]
         public float TransformationRefuelCooldown = 1f;
 
-        
         [Tooltip("How fast the fuel refills (multiplier, 1 = real-time)")]
         public float RefuelSpeed = 0.5f;
 
-        
         [Tooltip("Minimum fuel required to activate the transformation again (0–1 normalized)")]
         [Range(0f, 1f)]
         public float MinimumFuelRequirement = 0.2f;
 
         [Header("Shared Fuel — Jetpack")]
-
-        
-       
         [Tooltip("Drag the CharacterJetpack component from this character here to share fuel and prevent simultaneous use.")]
         public CharacterJetpack SharedJetpack;
 
         [Header("Feedbacks")]
-
         [Tooltip("GameObject activated when the transformation begins")]
         public GameObject TransformationStartFeedback;
 
@@ -51,29 +44,24 @@ namespace MoreMountains.CorgiEngine
         public GameObject TransformationEndFeedback;
 
         [Header("Debug")]
-
         [MMReadOnly]
         public bool IsTransformed = false;
 
-
         protected float _transformationStoppedAt = -999f;
-
         protected const string _transformingAnimationParameterName = "Transforming";
         protected int _transformingAnimationParameter;
-
 
         public virtual bool HasEnoughFuel
         {
             get
             {
-                if (SharedJetpack == null) return true; 
+                if (SharedJetpack == null) return true;
                 if (SharedJetpack.JetpackUnlimited) return true;
                 float normalized = SharedJetpack.JetpackFuelDurationLeft / SharedJetpack.JetpackFuelDuration;
                 return normalized >= MinimumFuelRequirement;
             }
         }
 
-    
         public virtual bool FuelLeft
         {
             get
@@ -83,7 +71,6 @@ namespace MoreMountains.CorgiEngine
                 return SharedJetpack.JetpackFuelDurationLeft > 0f;
             }
         }
-
 
         protected override void Initialization()
         {
@@ -97,9 +84,9 @@ namespace MoreMountains.CorgiEngine
             IsTransformed = false;
         }
 
-
         protected override void HandleInput()
         {
+            // Puedes cambiar KeyCode.Alpha1 por el botón que prefieras
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 if (IsTransformed)
@@ -108,7 +95,6 @@ namespace MoreMountains.CorgiEngine
                     TransformationStart();
             }
         }
-
 
         public virtual void TransformationStart()
         {
@@ -144,7 +130,6 @@ namespace MoreMountains.CorgiEngine
                 MMCharacterEvent.Moments.End);
         }
 
-
         public override void ProcessAbility()
         {
             base.ProcessAbility();
@@ -162,7 +147,6 @@ namespace MoreMountains.CorgiEngine
                     TransformationStop();
             }
         }
-
 
         protected virtual void BurnFuel()
         {
@@ -212,7 +196,6 @@ namespace MoreMountains.CorgiEngine
                 _character.PlayerID);
         }
 
-
         protected virtual void TriggerStartFeedbackObject()
         {
             if (TransformationStartFeedback != null)
@@ -235,7 +218,6 @@ namespace MoreMountains.CorgiEngine
                 TransformationStartFeedback.SetActive(false);
         }
 
-
         public override void ResetAbility()
         {
             base.ResetAbility();
@@ -256,7 +238,6 @@ namespace MoreMountains.CorgiEngine
                     _character.PerformAnimatorSanityChecks);
             }
         }
-
 
         protected override void InitializeAnimatorParameters()
         {

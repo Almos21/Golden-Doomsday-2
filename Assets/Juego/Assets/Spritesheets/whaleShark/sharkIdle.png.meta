@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 66fe33f721a8ae44ca42c2e37051f799
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3474664462007678238
+    second: sharkIdle_0
+  - first:
+      213: 2141526411804168157
+    second: sharkIdle_1
+  - first:
+      213: 1564637143904867321
+    second: sharkIdle_2
+  - first:
+      213: 1811743034225760833
+    second: sharkIdle_3
+  - first:
+      213: -8225354547302694026
+    second: sharkIdle_4
+  - first:
+      213: -962634291538578885
+    second: sharkIdle_5
+  - first:
+      213: 8418407486513978373
+    second: sharkIdle_6
+  - first:
+      213: -8952073917176416319
+    second: sharkIdle_7
+  - first:
+      213: 8253223748665677985
+    second: sharkIdle_8
+  - first:
+      213: 7585134469314684976
+    second: sharkIdle_9
+  - first:
+      213: -5275082998925953556
+    second: sharkIdle_10
+  - first:
+      213: -3562393831695585576
+    second: sharkIdle_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sharkIdle_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 201
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eacb54d41387cfc0800000000000000
+      internalID: -3474664462007678238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_1
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 225
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf44bcdcea38bd10800000000000000
+      internalID: 2141526411804168157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_2
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 209
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3d4dc4135b6b510800000000000000
+      internalID: 1564637143904867321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_3
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 209
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a905bc0ba942910800000000000000
+      internalID: 1811743034225760833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_4
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 201
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67301687e9ba9dd80800000000000000
+      internalID: -8225354547302694026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_5
+      rect:
+        serializedVersion: 2
+        x: 3127
+        y: 217
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32bb3c463904a2f0800000000000000
+      internalID: -962634291538578885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_6
+      rect:
+        serializedVersion: 2
+        x: 3748
+        y: 186
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c9720a10134d470800000000000000
+      internalID: 8418407486513978373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_7
+      rect:
+        serializedVersion: 2
+        x: 4365
+        y: 176
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7f8a3d338d3c380800000000000000
+      internalID: -8952073917176416319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_8
+      rect:
+        serializedVersion: 2
+        x: 4984
+        y: 217
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8190f9547598270800000000000000
+      internalID: 8253223748665677985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_9
+      rect:
+        serializedVersion: 2
+        x: 5607
+        y: 194
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038a211bc9fc34960800000000000000
+      internalID: 7585134469314684976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_10
+      rect:
+        serializedVersion: 2
+        x: 6226
+        y: 194
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5f05806f32bc6b0800000000000000
+      internalID: -5275082998925953556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharkIdle_11
+      rect:
+        serializedVersion: 2
+        x: 6843
+        y: 186
+        width: 556
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8deedb73fa5df8ec0800000000000000
+      internalID: -3562393831695585576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sharkIdle_0: -3474664462007678238
+      sharkIdle_1: 2141526411804168157
+      sharkIdle_10: -5275082998925953556
+      sharkIdle_11: -3562393831695585576
+      sharkIdle_2: 1564637143904867321
+      sharkIdle_3: 1811743034225760833
+      sharkIdle_4: -8225354547302694026
+      sharkIdle_5: -962634291538578885
+      sharkIdle_6: 8418407486513978373
+      sharkIdle_7: -8952073917176416319
+      sharkIdle_8: 8253223748665677985
+      sharkIdle_9: 7585134469314684976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

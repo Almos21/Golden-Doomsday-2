@@ -3,78 +3,54 @@ using MoreMountains.Tools;
 
 namespace MoreMountains.CorgiEngine
 {
-    [AddComponentMenu("Corgi Engine/Environment/Breakable By Transformation")]
     public class BreakableByTransformation : MonoBehaviour
     {
-        [Header("Breakable Settings")]
-        [Tooltip("If true, only Player-type characters can break this object")]
-        public bool PlayerOnly = true;
+        [Header("Settings")]
+        public string TargetTransformationAlias = "Oso";
 
-        [Tooltip("Prefab instantiated at destruction position (leave empty for none)")]
-        public GameObject DestructionFeedback;
-
-        [Tooltip("Sound played when the object breaks")]
-        public AudioClip DestructionSound;
-
-        [Tooltip("Delay before Destroy() is called, useful when feedback has animations")]
-        public float DestructionDelay = 0f;
-
-        [Header("Debug")]
-        [MMReadOnly]
-        public bool AlreadyBroken = false;
-
-        private void OnTriggerEnter2D(Collider2D other)
+        // Usamos OnTrigger para mayor sensibilidad en Corgi Engine
+        protected virtual void OnTriggerStay2D(Collider2D collider)
         {
-            TryBreak(other.gameObject);
+            CheckAndBreak(collider.gameObject);
         }
 
-        private void OnCollisionEnter2D(Collision2D collision)
+        protected virtual void OnCollisionEnter2D(Collision2D collision)
         {
-            TryBreak(collision.gameObject);
+            CheckAndBreak(collision.gameObject);
         }
 
-        protected virtual void TryBreak(GameObject other)
+        protected virtual void CheckAndBreak(GameObject PotentialPlayer)
         {
-            if (AlreadyBroken) return;
-
-            Character character = other.GetComponentInParent<Character>();
+            // Buscamos al personaje
+            Character character = PotentialPlayer.GetComponentInParent<Character>();
             if (character == null) return;
 
-            if (PlayerOnly && character.CharacterType != Character.CharacterTypes.Player) return;
+            // Buscamos la habilidad
+            CharacterTransformation transformation = character.FindAbility<CharacterTransformation>();
 
-            CharacterTransformation transformation = character.GetComponent<CharacterTransformation>();
-            if (transformation == null) return;
-
-            if (!transformation.IsTransformed) return;
-
-            Break(character);
-        }
-
-        protected virtual void Break(Character breakingCharacter)
-        {
-            AlreadyBroken = true;
-
-            if (DestructionFeedback != null)
-                Instantiate(DestructionFeedback, transform.position, transform.rotation);
-
-            if (DestructionSound != null)
+            if (transformation != null)
             {
-                MMSoundManagerSoundPlayEvent.Trigger(
-                    DestructionSound,
-                    MMSoundManager.MMSoundManagerTracks.Sfx,
-                    transform.position);
-            }
+                // DEBUG: Descomenta la línea de abajo para ver en consola si detecta al personaje
+                // Debug.Log($"Tocado por: {character.name}. Transformed: {transformation.IsTransformed}. Alias: {transformation.TransformationAlias}");
 
-            DisableVisuals();
-            Destroy(gameObject, DestructionDelay);
+                if (transformation.IsTransformed && transformation.TransformationAlias == TargetTransformationAlias)
+                {
+                    ExecuteBreak();
+                }
+            }
         }
 
-        protected virtual void DisableVisuals()
+        protected virtual void ExecuteBreak()
         {
-            foreach (Renderer r in GetComponentsInChildren<Renderer>())
-                r.enabled = false;
-            foreach (Collider2D c in GetComponentsInChildren<Collider2D>())
-                c.enabled = false;
+            // Desactivamos colisionadores inmediatamente
+            foreach (Collider2D c in GetComponents<Collider2D>()) c.enabled = false;
+
+            // Desactivamos visuales
+            if (GetComponent<Renderer>() != null) GetComponent<Renderer>().enabled = false;
+            foreach (Renderer r in GetComponentsInChildren<Renderer>()) r.enabled = false;
+
+            Debug.Log("¡OBJETO DESTRUIDO POR OSO!");
+            Destroy(gameObject, 0.1f);
         }
     }
 }
