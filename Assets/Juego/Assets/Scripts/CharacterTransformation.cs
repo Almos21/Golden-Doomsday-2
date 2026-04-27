@@ -15,10 +15,10 @@ namespace MoreMountains.CorgiEngine
         }
 
         [Header("Transformation Identification")]
-        [Tooltip("Nombre único para identificar esta transformación (ej: Oso). El objeto rompible debe tener este mismo nombre.")]
-        public string TransformationAlias = "Oso";
+        [Tooltip("Nombre único para identificar esta transformación (ej: Oso).")]
+        public string TransformationAlias = "Oso"; // <--- UNICA ADICIÓN
 
-        [Header("Transformation Settings")]
+        [Header("Transformation")]
         [Tooltip("How long the transformation lasts at maximum fuel (seconds)")]
         public float TransformationDuration = 5f;
 
@@ -86,8 +86,7 @@ namespace MoreMountains.CorgiEngine
 
         protected override void HandleInput()
         {
-            // Puedes cambiar KeyCode.Alpha1 por el botón que prefieras
-            if (Input.GetKeyDown(KeyCode.Alpha1))
+            if (Input.GetKeyDown(KeyCode.Alpha1)) // Mantenemos tu input original
             {
                 if (IsTransformed)
                     TransformationStop();

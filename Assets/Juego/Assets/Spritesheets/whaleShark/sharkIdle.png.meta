@@ -136,12 +136,12 @@ TextureImporter:
       name: sharkIdle_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 201
-        width: 556
-        height: 276
+        x: 0
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: sharkIdle_1
       rect:
         serializedVersion: 2
-        x: 649
-        y: 225
-        width: 556
-        height: 276
+        x: 619
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: sharkIdle_2
       rect:
         serializedVersion: 2
-        x: 1271
-        y: 209
-        width: 556
-        height: 276
+        x: 1238
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: sharkIdle_3
       rect:
         serializedVersion: 2
-        x: 1890
-        y: 209
-        width: 556
-        height: 276
+        x: 1857
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: sharkIdle_4
       rect:
         serializedVersion: 2
-        x: 2509
-        y: 201
-        width: 556
-        height: 276
+        x: 2476
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: sharkIdle_5
       rect:
         serializedVersion: 2
-        x: 3127
-        y: 217
-        width: 556
-        height: 276
+        x: 3095
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: sharkIdle_6
       rect:
         serializedVersion: 2
-        x: 3748
-        y: 186
-        width: 556
-        height: 276
+        x: 3714
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,12 +290,12 @@ TextureImporter:
       name: sharkIdle_7
       rect:
         serializedVersion: 2
-        x: 4365
-        y: 176
-        width: 556
-        height: 276
+        x: 4333
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -312,12 +312,12 @@ TextureImporter:
       name: sharkIdle_8
       rect:
         serializedVersion: 2
-        x: 4984
-        y: 217
-        width: 556
-        height: 276
+        x: 4952
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -334,12 +334,12 @@ TextureImporter:
       name: sharkIdle_9
       rect:
         serializedVersion: 2
-        x: 5607
-        y: 194
-        width: 556
-        height: 276
+        x: 5571
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,12 +356,12 @@ TextureImporter:
       name: sharkIdle_10
       rect:
         serializedVersion: 2
-        x: 6226
-        y: 194
-        width: 556
-        height: 276
+        x: 6190
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -378,12 +378,12 @@ TextureImporter:
       name: sharkIdle_11
       rect:
         serializedVersion: 2
-        x: 6843
-        y: 186
-        width: 556
-        height: 276
+        x: 6809
+        y: 0
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0031c7f03cdc2634794a8c7238b2e54b
     internalID: 0
     vertices: []
     indices: 
@@ -408,7 +408,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       sharkIdle_0: -3474664462007678238
       sharkIdle_1: 2141526411804168157
