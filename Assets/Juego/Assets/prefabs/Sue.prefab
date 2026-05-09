@@ -20,11 +20,11 @@ GameObject:
   - component: {fileID: 11421110}
   - component: {fileID: 11431242}
   - component: {fileID: 11473620}
-  - component: {fileID: 11463706}
   - component: {fileID: 11453748}
   - component: {fileID: 11431628}
   - component: {fileID: 11475426}
   - component: {fileID: 11433500}
+  - component: {fileID: 1001227801648419634}
   - component: {fileID: 11444118}
   - component: {fileID: 11455680}
   - component: {fileID: 114000012565017190}
@@ -33,10 +33,10 @@ GameObject:
   - component: {fileID: 114000011356687900}
   - component: {fileID: 114522235302448242}
   - component: {fileID: 114408133200064378}
-  - component: {fileID: 114679018816720190}
   - component: {fileID: -4342895061800036961}
   - component: {fileID: 7109013285664458172}
   - component: {fileID: 7273113094030533105}
+  - component: {fileID: -4879343744254661846}
   m_Layer: 9
   m_Name: Sue
   m_TagString: Player
@@ -475,34 +475,6 @@ MonoBehaviour:
   ReadInput: 1
   AutoRun: 0
   AutoRunThreshold: 0.6
---- !u!114 &11463706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d37391d2147a467db78bf732ae24daa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 2460029026005888127}
-  AbilityStopFeedbacks: {fileID: 4377084010543388451}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  MovingPlatformsJumpCollisionOffDuration: 0.05
-  ParticleEmitter: {fileID: 0}
-  JetpackForce: 2.5
-  JetpackUnlimited: 0
-  JetpackFuelDuration: 5
-  JetpackRefuelCooldown: 1
-  RefuelSpeed: 0.5
-  MinimumFuelRequirement: 5
-  JetpackRefueledSfx: {fileID: 0}
-  JetpackFuelDurationLeft: 0
 --- !u!114 &11453748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -594,6 +566,35 @@ MonoBehaviour:
   NumberOfWalljumpsLeft: 0
   AllowCoyoteTime: 0
   CoyoteTimeDuration: 0.2
+--- !u!114 &1001227801648419634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1a2d12ab8ded141a733376289d8827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoreMountains.CorgiEngine.CharacterJetpackManaged
+  AbilityStartFeedbacks: {fileID: 2460029026005888127}
+  AbilityStopFeedbacks: {fileID: 4377084010543388451}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  MovingPlatformsJumpCollisionOffDuration: 0.05
+  ParticleEmitter: {fileID: 0}
+  JetpackForce: 2.5
+  JetpackUnlimited: 0
+  JetpackFuelDuration: 5
+  JetpackRefuelCooldown: 1
+  RefuelSpeed: 0.5
+  MinimumFuelRequirement: 1
+  JetpackRefueledSfx: {fileID: 0}
+  JetpackFuelDurationLeft: 0
+  ExternalFuelControl: 0
 --- !u!114 &11444118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,31 +995,6 @@ MonoBehaviour:
   TransitionForcesMode: 1
   ResetCharacterStateOnGravityChange: 1
   DrawDebugGravityArrow: 1
---- !u!114 &114679018816720190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f6acc45a765d864ba3d69b6c84471f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  InWater: 0
-  SwimHeight: 3.025
-  SwimAnimationDuration: 0.8
-  OnSwimFeedback: {fileID: 0}
-  WaterEntryEffect: {fileID: 143758, guid: 14f27396ac5b4d84cb17d403de44b8a1, type: 3}
-  WaterExitEffect: {fileID: 143758, guid: 14f27396ac5b4d84cb17d403de44b8a1, type: 3}
-  WaterExitForce: {x: 0, y: 12}
 --- !u!114 &-4342895061800036961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1082,14 +1058,36 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  TransformationDuration: 5
+  TransformationAlias: Oso
   TransformationRefuelCooldown: 1
   RefuelSpeed: 0.5
   MinimumFuelRequirement: 1
-  SharedJetpack: {fileID: 11463706}
+  SharedJetpack: {fileID: 1001227801648419634}
   TransformationStartFeedback: {fileID: 669204479016384071}
   TransformationEndFeedback: {fileID: 6933843783658687889}
   IsTransformed: 0
+--- !u!114 &-4879343744254661846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f47703ce4cbee345a405c3ace299961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.CharacterFly
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 0
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  FlySpeed: 6
+  AlwaysFlying: 0
+  StopFlyingOnDeath: 1
+  InstantAcceleration: 0
 --- !u!1 &159142
 GameObject:
   m_ObjectHideFlags: 0

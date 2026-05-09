@@ -10,18 +10,15 @@ namespace MoreMountains.CorgiEngine
         public override string HelpBoxText()
         {
             return "Allows the character to transform on button press. While transformed, contact with BreakableByTransformation objects will destroy them. " +
-                   "Shares a fuel resource with CharacterJetpack — they cannot be active simultaneously. " +
+                   "Shares a fuel resource with CharacterJetpackManaged — they cannot be active simultaneously. " +
                    "Assign TransformationStartFeedback and TransformationEndFeedback to GameObjects that hold your transformation animations/VFX.";
         }
 
         [Header("Transformation Identification")]
         [Tooltip("Nombre único para identificar esta transformación (ej: Oso).")]
-        public string TransformationAlias = "Oso"; // <--- UNICA ADICIÓN
+        public string TransformationAlias = "Oso";
 
         [Header("Transformation")]
-        [Tooltip("How long the transformation lasts at maximum fuel (seconds)")]
-        public float TransformationDuration = 5f;
-
         [Tooltip("Cooldown before fuel starts refilling after the transformation ends (seconds)")]
         public float TransformationRefuelCooldown = 1f;
 
@@ -33,8 +30,8 @@ namespace MoreMountains.CorgiEngine
         public float MinimumFuelRequirement = 0.2f;
 
         [Header("Shared Fuel — Jetpack")]
-        [Tooltip("Drag the CharacterJetpack component from this character here to share fuel and prevent simultaneous use.")]
-        public CharacterJetpack SharedJetpack;
+        [Tooltip("Drag the CharacterJetpackManaged component from this character here to share fuel and prevent simultaneous use.")]
+        public CharacterJetpackManaged SharedJetpack;
 
         [Header("Feedbacks")]
         [Tooltip("GameObject activated when the transformation begins")]
@@ -51,6 +48,9 @@ namespace MoreMountains.CorgiEngine
         protected const string _transformingAnimationParameterName = "Transforming";
         protected int _transformingAnimationParameter;
 
+        /// <summary>
+        /// True si hay suficiente fuel para activar la transformación (usa MinimumFuelRequirement normalizado)
+        /// </summary>
         public virtual bool HasEnoughFuel
         {
             get
@@ -62,6 +62,9 @@ namespace MoreMountains.CorgiEngine
             }
         }
 
+        /// <summary>
+        /// True si queda cualquier cantidad de fuel
+        /// </summary>
         public virtual bool FuelLeft
         {
             get
@@ -72,9 +75,16 @@ namespace MoreMountains.CorgiEngine
             }
         }
 
+        /// <summary>
+        /// Inicialización: tomamos control exclusivo del refuel del jetpack
+        /// </summary>
         protected override void Initialization()
         {
             base.Initialization();
+
+            // Ceder control del refuel al CharacterTransformation para evitar conflictos
+            if (SharedJetpack != null)
+                SharedJetpack.ExternalFuelControl = true;
 
             if (TransformationStartFeedback != null)
                 TransformationStartFeedback.SetActive(false);
@@ -84,9 +94,12 @@ namespace MoreMountains.CorgiEngine
             IsTransformed = false;
         }
 
+        /// <summary>
+        /// Detecta input del jugador para activar/desactivar la transformación
+        /// </summary>
         protected override void HandleInput()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1)) // Mantenemos tu input original
+            if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 if (IsTransformed)
                     TransformationStop();
@@ -95,12 +108,16 @@ namespace MoreMountains.CorgiEngine
             }
         }
 
+        /// <summary>
+        /// Activa la transformación si se cumplen las condiciones
+        /// </summary>
         public virtual void TransformationStart()
         {
             if (!AbilityAuthorized) return;
             if (!HasEnoughFuel) return;
             if (_condition.CurrentState != CharacterStates.CharacterConditions.Normal) return;
 
+            // No transformarse si está volando con el jetpack
             if (SharedJetpack != null &&
                 _movement.CurrentState == CharacterStates.MovementStates.Jetpacking)
                 return;
@@ -114,6 +131,9 @@ namespace MoreMountains.CorgiEngine
                 MMCharacterEvent.Moments.Start);
         }
 
+        /// <summary>
+        /// Desactiva la transformación
+        /// </summary>
         public virtual void TransformationStop()
         {
             if (!IsTransformed) return;
@@ -129,58 +149,68 @@ namespace MoreMountains.CorgiEngine
                 MMCharacterEvent.Moments.End);
         }
 
+        /// <summary>
+        /// Corre cada frame: gestiona conflictos con el jetpack, quema fuel y recarga
+        /// </summary>
         public override void ProcessAbility()
         {
             base.ProcessAbility();
 
+            // Si está transformado y activa el jetpack, cancelar transformación primero
+            if (IsTransformed && SharedJetpack != null &&
+                _movement.CurrentState == CharacterStates.MovementStates.Jetpacking)
+            {
+                TransformationStop();
+                return; // No quemar fuel este frame
+            }
+
             BurnFuel();
             Refuel();
 
+            // Detener transformación si se quedó sin fuel
             if (IsTransformed && !FuelLeft)
                 TransformationStop();
-
-            if (IsTransformed && SharedJetpack != null)
-            {
-                CharacterStates.MovementStates currentMove = _movement.CurrentState;
-                if (currentMove == CharacterStates.MovementStates.Jetpacking)
-                    TransformationStop();
-            }
         }
 
+        /// <summary>
+        /// Quema fuel mientras la transformación está activa.
+        /// CharacterJetpackManaged.Refuel() está bloqueado, así que no hay conflicto.
+        /// </summary>
         protected virtual void BurnFuel()
         {
             if (SharedJetpack == null || SharedJetpack.JetpackUnlimited) return;
             if (!IsTransformed) return;
 
-            SharedJetpack.JetpackFuelDurationLeft -= Time.deltaTime;
             SharedJetpack.JetpackFuelDurationLeft =
-                Mathf.Max(0f, SharedJetpack.JetpackFuelDurationLeft);
+                Mathf.Max(0f, SharedJetpack.JetpackFuelDurationLeft - Time.deltaTime);
 
             UpdateSharedFuelBar();
         }
 
+        /// <summary>
+        /// Recarga el fuel cuando no hay transformación activa ni jetpack en uso.
+        /// Es la única fuente de refuel — CharacterJetpackManaged.Refuel() está deshabilitado.
+        /// </summary>
         protected virtual void Refuel()
         {
             if (SharedJetpack == null || SharedJetpack.JetpackUnlimited) return;
-
             if (IsTransformed) return;
             if (_movement.CurrentState == CharacterStates.MovementStates.Jetpacking) return;
-
             if (Time.time - _transformationStoppedAt < TransformationRefuelCooldown) return;
 
             if (SharedJetpack.JetpackFuelDurationLeft < SharedJetpack.JetpackFuelDuration)
             {
-                SharedJetpack.JetpackFuelDurationLeft +=
-                    Time.deltaTime * RefuelSpeed;
-
-                SharedJetpack.JetpackFuelDurationLeft =
-                    Mathf.Min(SharedJetpack.JetpackFuelDurationLeft,
-                              SharedJetpack.JetpackFuelDuration);
-
+                SharedJetpack.JetpackFuelDurationLeft = Mathf.Min(
+                    SharedJetpack.JetpackFuelDurationLeft + Time.deltaTime * RefuelSpeed,
+                    SharedJetpack.JetpackFuelDuration
+                );
                 UpdateSharedFuelBar();
             }
         }
 
+        /// <summary>
+        /// Actualiza la barra de fuel en la UI (reutiliza la barra del jetpack)
+        /// </summary>
         protected virtual void UpdateSharedFuelBar()
         {
             if (!Application.isPlaying) return;
