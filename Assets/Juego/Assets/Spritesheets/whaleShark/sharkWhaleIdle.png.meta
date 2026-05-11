@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 66fe33f721a8ae44ca42c2e37051f799
+guid: 3fc537c06fa683b498c7ef63990007fe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3474664462007678238
-    second: sharkIdle_0
+      213: -9045951283392478139
+    second: sharkWhaleIdle_0
   - first:
-      213: 2141526411804168157
-    second: sharkIdle_1
+      213: 6226349137704126170
+    second: sharkWhaleIdle_1
   - first:
-      213: 1564637143904867321
-    second: sharkIdle_2
+      213: 8466451179081058538
+    second: sharkWhaleIdle_2
   - first:
-      213: 1811743034225760833
-    second: sharkIdle_3
+      213: 7621987540540041314
+    second: sharkWhaleIdle_3
   - first:
-      213: -8225354547302694026
-    second: sharkIdle_4
+      213: 7270438902473212334
+    second: sharkWhaleIdle_4
   - first:
-      213: -962634291538578885
-    second: sharkIdle_5
+      213: -4142541373601594894
+    second: sharkWhaleIdle_5
   - first:
-      213: 8418407486513978373
-    second: sharkIdle_6
+      213: 2921992175179552390
+    second: sharkWhaleIdle_6
   - first:
-      213: -8952073917176416319
-    second: sharkIdle_7
+      213: 5853632176114968325
+    second: sharkWhaleIdle_7
   - first:
-      213: 8253223748665677985
-    second: sharkIdle_8
+      213: 1027892406829847434
+    second: sharkWhaleIdle_8
   - first:
-      213: 7585134469314684976
-    second: sharkIdle_9
+      213: -8596873967975799
+    second: sharkWhaleIdle_9
   - first:
-      213: -5275082998925953556
-    second: sharkIdle_10
+      213: -2708210682747322860
+    second: sharkWhaleIdle_10
   - first:
-      213: -3562393831695585576
-    second: sharkIdle_11
+      213: -2973020237867198407
+    second: sharkWhaleIdle_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,11 +133,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sharkIdle_0
+      name: sharkWhaleIdle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -148,18 +148,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2eacb54d41387cfc0800000000000000
-      internalID: -3474664462007678238
+      spriteID: 54407e93c33567280800000000000000
+      internalID: -9045951283392478139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_1
+      name: sharkWhaleIdle_1
       rect:
         serializedVersion: 2
         x: 619
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -170,18 +170,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddf44bcdcea38bd10800000000000000
-      internalID: 2141526411804168157
+      spriteID: ad60a685d8f686650800000000000000
+      internalID: 6226349137704126170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_2
+      name: sharkWhaleIdle_2
       rect:
         serializedVersion: 2
         x: 1238
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -192,18 +192,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f3d4dc4135b6b510800000000000000
-      internalID: 1564637143904867321
+      spriteID: ae8405d7d70ee7570800000000000000
+      internalID: 8466451179081058538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_3
+      name: sharkWhaleIdle_3
       rect:
         serializedVersion: 2
         x: 1857
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -214,18 +214,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14a905bc0ba942910800000000000000
-      internalID: 1811743034225760833
+      spriteID: 268a75cf84db6c960800000000000000
+      internalID: 7621987540540041314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_4
+      name: sharkWhaleIdle_4
       rect:
         serializedVersion: 2
         x: 2476
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -236,18 +236,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67301687e9ba9dd80800000000000000
-      internalID: -8225354547302694026
+      spriteID: ea1c81f49a9c5e460800000000000000
+      internalID: 7270438902473212334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_5
+      name: sharkWhaleIdle_5
       rect:
         serializedVersion: 2
         x: 3095
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -258,18 +258,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b32bb3c463904a2f0800000000000000
-      internalID: -962634291538578885
+      spriteID: 2f14e1f919cb286c0800000000000000
+      internalID: -4142541373601594894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_6
+      name: sharkWhaleIdle_6
       rect:
         serializedVersion: 2
         x: 3714
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -280,18 +280,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50c9720a10134d470800000000000000
-      internalID: 8418407486513978373
+      spriteID: 6865c06e6600d8820800000000000000
+      internalID: 2921992175179552390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_7
+      name: sharkWhaleIdle_7
       rect:
         serializedVersion: 2
         x: 4333
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -302,18 +302,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c7f8a3d338d3c380800000000000000
-      internalID: -8952073917176416319
+      spriteID: 507212743774c3150800000000000000
+      internalID: 5853632176114968325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_8
+      name: sharkWhaleIdle_8
       rect:
         serializedVersion: 2
         x: 4952
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -324,18 +324,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a8190f9547598270800000000000000
-      internalID: 8253223748665677985
+      spriteID: a831a60b2bec34e00800000000000000
+      internalID: 1027892406829847434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_9
+      name: sharkWhaleIdle_9
       rect:
         serializedVersion: 2
         x: 5571
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -346,18 +346,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 038a211bc9fc34960800000000000000
-      internalID: 7585134469314684976
+      spriteID: 982c5fc403571eff0800000000000000
+      internalID: -8596873967975799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_10
+      name: sharkWhaleIdle_10
       rect:
         serializedVersion: 2
         x: 6190
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -368,18 +368,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce5f05806f32bc6b0800000000000000
-      internalID: -5275082998925953556
+      spriteID: 41e7de59bb08a6ad0800000000000000
+      internalID: -2708210682747322860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_11
+      name: sharkWhaleIdle_11
       rect:
         serializedVersion: 2
         x: 6809
-        y: 0
+        y: 2
         width: 619
         height: 619
       alignment: 0
@@ -390,8 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8deedb73fa5df8ec0800000000000000
-      internalID: -3562393831695585576
+      spriteID: 938d0eb68d5bdb6d0800000000000000
+      internalID: -2973020237867198407
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0031c7f03cdc2634794a8c7238b2e54b
+    spriteID: adda7c089b66c15478c1ca65e1532b20
     internalID: 0
     vertices: []
     indices: 
@@ -412,18 +412,18 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sharkIdle_0: -3474664462007678238
-      sharkIdle_1: 2141526411804168157
-      sharkIdle_10: -5275082998925953556
-      sharkIdle_11: -3562393831695585576
-      sharkIdle_2: 1564637143904867321
-      sharkIdle_3: 1811743034225760833
-      sharkIdle_4: -8225354547302694026
-      sharkIdle_5: -962634291538578885
-      sharkIdle_6: 8418407486513978373
-      sharkIdle_7: -8952073917176416319
-      sharkIdle_8: 8253223748665677985
-      sharkIdle_9: 7585134469314684976
+      sharkWhaleIdle_0: -9045951283392478139
+      sharkWhaleIdle_1: 6226349137704126170
+      sharkWhaleIdle_10: -2708210682747322860
+      sharkWhaleIdle_11: -2973020237867198407
+      sharkWhaleIdle_2: 8466451179081058538
+      sharkWhaleIdle_3: 7621987540540041314
+      sharkWhaleIdle_4: 7270438902473212334
+      sharkWhaleIdle_5: -4142541373601594894
+      sharkWhaleIdle_6: 2921992175179552390
+      sharkWhaleIdle_7: 5853632176114968325
+      sharkWhaleIdle_8: 1027892406829847434
+      sharkWhaleIdle_9: -8596873967975799
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
