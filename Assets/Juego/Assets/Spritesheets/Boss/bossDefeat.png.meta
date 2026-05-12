@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 1e7ad939f63625a4aaab31f18c013dc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1548381089386570670
+    second: bossDefeat_0
+  - first:
+      213: 7186587361997642386
+    second: bossDefeat_1
+  - first:
+      213: -7194965728131205738
+    second: bossDefeat_2
+  - first:
+      213: 2739166344642997374
+    second: bossDefeat_3
+  - first:
+      213: -5164833863008056777
+    second: bossDefeat_4
+  - first:
+      213: -6689851866089317727
+    second: bossDefeat_5
+  - first:
+      213: 2783840220029748908
+    second: bossDefeat_6
+  - first:
+      213: -8017743494891389158
+    second: bossDefeat_7
+  - first:
+      213: -1586362294726624564
+    second: bossDefeat_8
+  - first:
+      213: 474805832968778570
+    second: bossDefeat_9
+  - first:
+      213: -1015206917156120801
+    second: bossDefeat_10
+  - first:
+      213: -3880297646449871284
+    second: bossDefeat_11
+  - first:
+      213: 3788794245373374939
+    second: bossDefeat_12
+  - first:
+      213: -8983501916902355848
+    second: bossDefeat_13
+  - first:
+      213: -4817371401097770344
+    second: bossDefeat_14
+  - first:
+      213: -408617395120674340
+    second: bossDefeat_15
+  - first:
+      213: 1018911893594955297
+    second: bossDefeat_16
+  - first:
+      213: -8986718515512597459
+    second: bossDefeat_17
+  - first:
+      213: 7303818442767509079
+    second: bossDefeat_18
+  - first:
+      213: 226434122363242647
+    second: bossDefeat_19
+  - first:
+      213: 8955902692082607500
+    second: bossDefeat_20
+  - first:
+      213: 92187061587071878
+    second: bossDefeat_21
+  - first:
+      213: 4821654249668008415
+    second: bossDefeat_22
+  - first:
+      213: -8194360138275714050
+    second: bossDefeat_23
+  - first:
+      213: -3910306317901224599
+    second: bossDefeat_24
+  - first:
+      213: -6661915887294208019
+    second: bossDefeat_25
+  - first:
+      213: -280266678982869074
+    second: bossDefeat_26
+  - first:
+      213: -6618589851066309749
+    second: bossDefeat_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossDefeat_0
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 29
+        width: 1133
+        height: 1033
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c5e265a9b038ae0800000000000000
+      internalID: -1548381089386570670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_1
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 29
+        width: 1133
+        height: 1033
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a5e2b2123ebb360800000000000000
+      internalID: 7186587361997642386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_2
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 29
+        width: 1133
+        height: 1033
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69531a37ac8562c90800000000000000
+      internalID: -7194965728131205738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_3
+      rect:
+        serializedVersion: 2
+        x: 6182
+        y: 29
+        width: 1133
+        height: 1033
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ca6291749730620800000000000000
+      internalID: 2739166344642997374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_4
+      rect:
+        serializedVersion: 2
+        x: 8102
+        y: 29
+        width: 1133
+        height: 1033
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a0f7f47f2d258b0800000000000000
+      internalID: -5164833863008056777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_5
+      rect:
+        serializedVersion: 2
+        x: 10022
+        y: 29
+        width: 1133
+        height: 1033
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa13c11c2fd823a0800000000000000
+      internalID: -6689851866089317727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_6
+      rect:
+        serializedVersion: 2
+        x: 11928
+        y: 22
+        width: 1162
+        height: 1038
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca681524eef22a620800000000000000
+      internalID: 2783840220029748908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_7
+      rect:
+        serializedVersion: 2
+        x: 11934
+        y: 851
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fbcce65c04bb090800000000000000
+      internalID: -8017743494891389158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_8
+      rect:
+        serializedVersion: 2
+        x: 11936
+        y: 863
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccafeb9d5eb1cf9e0800000000000000
+      internalID: -1586362294726624564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_9
+      rect:
+        serializedVersion: 2
+        x: 13768
+        y: 0
+        width: 1287
+        height: 1027
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a433363b369d69600800000000000000
+      internalID: 474805832968778570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_10
+      rect:
+        serializedVersion: 2
+        x: 11939
+        y: 686
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17d36900b249e1f0800000000000000
+      internalID: -1015206917156120801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_11
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 502
+        width: 90
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46329869d9662ac0800000000000000
+      internalID: -3880297646449871284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_12
+      rect:
+        serializedVersion: 2
+        x: 15478
+        y: 0
+        width: 1644
+        height: 1051
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd13682da40849430800000000000000
+      internalID: 3788794245373374939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_13
+      rect:
+        serializedVersion: 2
+        x: 13674
+        y: 448
+        width: 96
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c8efb6a90345380800000000000000
+      internalID: -8983501916902355848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_14
+      rect:
+        serializedVersion: 2
+        x: 13658
+        y: 408
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a0176fb32452db0800000000000000
+      internalID: -4817371401097770344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_15
+      rect:
+        serializedVersion: 2
+        x: 13663
+        y: 369
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd969c2e4ac445af0800000000000000
+      internalID: -408617395120674340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_16
+      rect:
+        serializedVersion: 2
+        x: 13671
+        y: 354
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ed52308f6e32e00800000000000000
+      internalID: 1018911893594955297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_17
+      rect:
+        serializedVersion: 2
+        x: 13676
+        y: 343
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d242272bf13c84380800000000000000
+      internalID: -8986718515512597459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_18
+      rect:
+        serializedVersion: 2
+        x: 13681
+        y: 329
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756aa192d206c5560800000000000000
+      internalID: 7303818442767509079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_19
+      rect:
+        serializedVersion: 2
+        x: 13686
+        y: 315
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7980d7472a4742300800000000000000
+      internalID: 226434122363242647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_20
+      rect:
+        serializedVersion: 2
+        x: 13692
+        y: 298
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c856c8c4c02c94c70800000000000000
+      internalID: 8955902692082607500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_21
+      rect:
+        serializedVersion: 2
+        x: 13700
+        y: 282
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683d8c2e4a3874100800000000000000
+      internalID: 92187061587071878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_22
+      rect:
+        serializedVersion: 2
+        x: 13708
+        y: 255
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9d63d6ef4f9e240800000000000000
+      internalID: 4821654249668008415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_23
+      rect:
+        serializedVersion: 2
+        x: 13723
+        y: 233
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb847caed8c74e80800000000000000
+      internalID: -8194360138275714050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_24
+      rect:
+        serializedVersion: 2
+        x: 13743
+        y: 216
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965288e1f1dcbb9c0800000000000000
+      internalID: -3910306317901224599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_25
+      rect:
+        serializedVersion: 2
+        x: 13760
+        y: 208
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de72c4efbce1c83a0800000000000000
+      internalID: -6661915887294208019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_26
+      rect:
+        serializedVersion: 2
+        x: 13766
+        y: 203
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaff8dcb0fa4c1cf0800000000000000
+      internalID: -280266678982869074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossDefeat_27
+      rect:
+        serializedVersion: 2
+        x: 17733
+        y: 0
+        width: 1052
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83ef25e89b0624a0800000000000000
+      internalID: -6618589851066309749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 83475d4d657b7ae408f98d4fdf60c701
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bossDefeat_0: -1548381089386570670
+      bossDefeat_1: 7186587361997642386
+      bossDefeat_10: -1015206917156120801
+      bossDefeat_11: -3880297646449871284
+      bossDefeat_12: 3788794245373374939
+      bossDefeat_13: -8983501916902355848
+      bossDefeat_14: -4817371401097770344
+      bossDefeat_15: -408617395120674340
+      bossDefeat_16: 1018911893594955297
+      bossDefeat_17: -8986718515512597459
+      bossDefeat_18: 7303818442767509079
+      bossDefeat_19: 226434122363242647
+      bossDefeat_2: -7194965728131205738
+      bossDefeat_20: 8955902692082607500
+      bossDefeat_21: 92187061587071878
+      bossDefeat_22: 4821654249668008415
+      bossDefeat_23: -8194360138275714050
+      bossDefeat_24: -3910306317901224599
+      bossDefeat_25: -6661915887294208019
+      bossDefeat_26: -280266678982869074
+      bossDefeat_27: -6618589851066309749
+      bossDefeat_3: 2739166344642997374
+      bossDefeat_4: -5164833863008056777
+      bossDefeat_5: -6689851866089317727
+      bossDefeat_6: 2783840220029748908
+      bossDefeat_7: -8017743494891389158
+      bossDefeat_8: -1586362294726624564
+      bossDefeat_9: 474805832968778570
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

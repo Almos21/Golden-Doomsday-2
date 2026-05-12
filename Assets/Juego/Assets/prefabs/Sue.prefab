@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 7109013285664458172}
   - component: {fileID: 7273113094030533105}
   - component: {fileID: -4879343744254661846}
+  - component: {fileID: 1671126935232154107}
   m_Layer: 9
   m_Name: Sue
   m_TagString: Player
@@ -1090,6 +1091,33 @@ MonoBehaviour:
   AlwaysFlying: 0
   StopFlyingOnDeath: 1
   InstantAcceleration: 0
+--- !u!114 &1671126935232154107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a29a9beedf6e5ed4a8241d7dc7ace104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  AbilityStartFeedbacks: {fileID: 171892392143013572}
+  AbilityStopFeedbacks: {fileID: 8984590262811498177}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  SwimFuelConsumption: 0.7
+  SwimFlyAbility: {fileID: -4879343744254661846}
+  SharedJetpack: {fileID: 1001227801648419634}
+  SwimStartFeedback: {fileID: 1005472935437046450}
+  SwimEndFeedback: {fileID: 5008131956265243669}
+  OutOfFuelFeedback: {fileID: 5008131956265243669}
+  WaterLayerName: Water
+  KillOnEmptyFuel: 1
+  IsSwimming: 0
 --- !u!1 &159142
 GameObject:
   m_ObjectHideFlags: 0
@@ -6220,6 +6248,7 @@ MonoBehaviour:
   FeedbacksList:
   - rid: 7332359410296029336
   - rid: 7332359438903279697
+  - rid: 5729899508605386853
   KeepPlayModeChanges: 0
   PerformanceMode: 0
   RestoreInitialValuesOnDisable: 0
@@ -6231,6 +6260,111 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 5729899508605386853
+      type: {class: MMF_Animation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
+      data:
+        Active: 1
+        UniqueID: -297763423
+        Label: Animation Parameter
+        OriginalLabel: Animation Parameter
+        ChannelMode: 0
+        Channel: 0
+        MMChannelDefinition: {fileID: 0}
+        Chance: 100
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 1
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          PlayCount: 0
+          LimitPlayCount: 0
+          MaxPlayCount: 3
+          SetPlayCountToZeroOnReset: 0
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        AutomatedTargetAcquisition:
+          Mode: 0
+          ChildIndex: 0
+        RandomizeOutput: 0
+        RandomMultiplier: {x: 0.8, y: 1}
+        RandomizeDuration: 0
+        RandomDurationMultiplier: {x: 0.5, y: 2}
+        UseRange: 0
+        RangeDistance: 5
+        UseRangeFalloff: 0
+        RangeFalloff:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RemapRangeFalloff: {x: 0, y: 1}
+        AutomaticShakerSetupButton:
+          ButtonText: 
+        Owner: {fileID: 1454476473349846889}
+        DebugActive: 0
+        BoundAnimator: {fileID: 7798527774007179782}
+        ExtraBoundAnimators: []
+        DeclaredDuration: 0
+        UpdateTrigger: 0
+        TriggerMode: 1
+        TriggerParameterName: TransfomIn
+        UpdateRandomTrigger: 0
+        RandomTriggerMode: 0
+        RandomTriggerParameterNames: []
+        UpdateBool: 1
+        BoolParameterName: Transforming
+        BoolParameterValue: 1
+        UpdateRandomBool: 0
+        RandomBoolParameterValue: 1
+        RandomBoolParameterNames: []
+        IntValueMode: 0
+        IntParameterName: 
+        IntValue: 0
+        IntValueMin: 0
+        IntValueMax: 5
+        IntIncrement: 1
+        FloatValueMode: 0
+        FloatParameterName: 
+        FloatValue: 0
+        FloatValueMin: 0
+        FloatValueMax: 5
+        FloatIncrement: 1
+        SetLayerWeight: 0
+        TargetLayerIndex: 1
+        LayerName: 
+        NewWeight: 0.5
     - rid: 7332359410296029336
       type: {class: MMF_Animation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
       data:
@@ -8005,7 +8139,7 @@ MonoBehaviour:
         BoundAnimator: {fileID: 7798527774007179782}
         ExtraBoundAnimators: []
         DeclaredDuration: 0
-        UpdateTrigger: 1
+        UpdateTrigger: 0
         TriggerMode: 0
         TriggerParameterName: TransformOut
         UpdateRandomTrigger: 0
@@ -8110,7 +8244,7 @@ MonoBehaviour:
         BoundAnimator: {fileID: 7798527774007179782}
         ExtraBoundAnimators: []
         DeclaredDuration: 0
-        UpdateTrigger: 1
+        UpdateTrigger: 0
         TriggerMode: 0
         TriggerParameterName: TransformOut
         UpdateRandomTrigger: 0
@@ -8654,6 +8788,7 @@ MonoBehaviour:
   DebugActive: 0
   InScriptDrivenPause: 0
   FeedbacksList:
+  - rid: 5729899508605386854
   - rid: 7332359410296029337
   - rid: 7332359438903279698
   KeepPlayModeChanges: 0
@@ -8667,6 +8802,111 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 5729899508605386854
+      type: {class: MMF_Animation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
+      data:
+        Active: 1
+        UniqueID: -1770751329
+        Label: Animation Parameter
+        OriginalLabel: Animation Parameter
+        ChannelMode: 0
+        Channel: 0
+        MMChannelDefinition: {fileID: 0}
+        Chance: 100
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          PlayCount: 0
+          LimitPlayCount: 0
+          MaxPlayCount: 3
+          SetPlayCountToZeroOnReset: 0
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        AutomatedTargetAcquisition:
+          Mode: 0
+          ChildIndex: 0
+        RandomizeOutput: 0
+        RandomMultiplier: {x: 0.8, y: 1}
+        RandomizeDuration: 0
+        RandomDurationMultiplier: {x: 0.5, y: 2}
+        UseRange: 0
+        RangeDistance: 5
+        UseRangeFalloff: 0
+        RangeFalloff:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RemapRangeFalloff: {x: 0, y: 1}
+        AutomaticShakerSetupButton:
+          ButtonText: 
+        Owner: {fileID: 4654197788667428860}
+        DebugActive: 0
+        BoundAnimator: {fileID: 7798527774007179782}
+        ExtraBoundAnimators: []
+        DeclaredDuration: 0
+        UpdateTrigger: 0
+        TriggerMode: 0
+        TriggerParameterName: TransformOut
+        UpdateRandomTrigger: 0
+        RandomTriggerMode: 0
+        RandomTriggerParameterNames: []
+        UpdateBool: 1
+        BoolParameterName: Transforming
+        BoolParameterValue: 0
+        UpdateRandomBool: 0
+        RandomBoolParameterValue: 1
+        RandomBoolParameterNames: []
+        IntValueMode: 0
+        IntParameterName: 
+        IntValue: 0
+        IntValueMin: 0
+        IntValueMax: 5
+        IntIncrement: 1
+        FloatValueMode: 0
+        FloatParameterName: 
+        FloatValue: 0
+        FloatValueMin: 0
+        FloatValueMax: 5
+        FloatIncrement: 1
+        SetLayerWeight: 0
+        TargetLayerIndex: 1
+        LayerName: 
+        NewWeight: 0.5
     - rid: 7332359410296029337
       type: {class: MMF_Animation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
       data:
@@ -8744,7 +8984,7 @@ MonoBehaviour:
         BoundAnimator: {fileID: 7798527774007179782}
         ExtraBoundAnimators: []
         DeclaredDuration: 0
-        UpdateTrigger: 1
+        UpdateTrigger: 0
         TriggerMode: 0
         TriggerParameterName: TransformOut
         UpdateRandomTrigger: 0

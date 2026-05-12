@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6380639903343378926}
   - component: {fileID: 3153809517236132055}
   - component: {fileID: 6925076718730659081}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: BubblesEmitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4820,11 +4820,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7662675622165003260}
   - component: {fileID: 2987762970011306619}
-  - component: {fileID: 3767054698089408101}
   - component: {fileID: 1561578925274158046}
   - component: {fileID: 5141047774457388022}
   - component: {fileID: 3028254895606898293}
-  m_Layer: 10
+  m_Layer: 4
   m_Name: water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4907,52 +4906,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!61 &3767054698089408101
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6944024149910245835}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10.24, y: 10.24}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 9.94, y: 10.23}
-  m_EdgeRadius: 0
 --- !u!114 &1561578925274158046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5052,7 +5005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4821554217434983197}
   - component: {fileID: 8672956113861277544}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: water-top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
