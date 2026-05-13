@@ -34,6 +34,10 @@ namespace MoreMountains.CorgiEngine
         [Tooltip("Multiplier applied to the character's JumpHeight while transformed (e.g. 1.8 = 80% higher)")]
         public float FrogJumpMultiplier = 1.8f;
 
+        [Header("Frog — Tongue")]
+        [Tooltip("Drag the FrogTongue child GameObject here")]
+        public FrogTongue Tongue;
+
         [Header("Shared Fuel — Jetpack")]
         [Tooltip("Drag the CharacterJetpackManaged component from this character here.")]
         public CharacterJetpackManaged SharedJetpack;
@@ -53,6 +57,9 @@ namespace MoreMountains.CorgiEngine
         protected float _transformationStoppedAt = -999f;
         protected float _originalJumpHeight = -1f;
         protected CharacterJump _characterJump;
+
+        // ★ Referencia al Oso para exclusión mutua sin tocarlo
+        protected CharacterTransformation _bearAbility;
 
         // ── animator parameter names ──────────────────────────────────────
         protected const string _transformingAnimationParameterName = "Transforming";
@@ -102,13 +109,21 @@ namespace MoreMountains.CorgiEngine
 
             _characterJump = _character.GetComponent<CharacterJump>();
 
-            if (SharedJetpack != null)
+            // ★ Buscar el Oso en el mismo personaje
+            _bearAbility = _character.GetComponent<CharacterTransformation>();
+
+            // ★ Solo tomar ExternalFuelControl si el Oso no existe
+            // Si el Oso existe, él ya es el dueño del ExternalFuelControl — no lo pisamos
+            if (SharedJetpack != null && _bearAbility == null)
                 SharedJetpack.ExternalFuelControl = true;
 
             if (TransformationStartFeedback != null)
                 TransformationStartFeedback.SetActive(false);
             if (TransformationEndFeedback != null)
                 TransformationEndFeedback.SetActive(false);
+
+            if (Tongue != null)
+                Tongue.gameObject.SetActive(false);
 
             IsTransformed = false;
             _isTongueActive = false;
@@ -133,6 +148,13 @@ namespace MoreMountains.CorgiEngine
                 TransformationStop();
                 return;
             }
+
+            // Click izquierdo → lengua (solo si transformado y la lengua no está en movimiento)
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (!_isTongueActive)
+                    TongueStart();
+            }
         }
 
         #endregion
@@ -153,6 +175,7 @@ namespace MoreMountains.CorgiEngine
 
             BurnFuel();
             Refuel();
+            UpdateTongueState();
 
             if (IsTransformed && !FuelLeft)
                 TransformationStop();
@@ -172,6 +195,10 @@ namespace MoreMountains.CorgiEngine
             if (SharedJetpack != null &&
                 _movement.CurrentState == CharacterStates.MovementStates.Jetpacking)
                 return;
+
+            // ★ Si el Oso está activo, cancelarlo antes de transformarse en Rana
+            if (_bearAbility != null && _bearAbility.IsTransformed)
+                _bearAbility.TransformationStop();
 
             IsTransformed = true;
 
@@ -234,10 +261,29 @@ namespace MoreMountains.CorgiEngine
         {
             if (!IsTransformed) return;
             if (_isTongueActive) return;
+            if (Tongue == null) return;
+            if (Tongue.IsExtending || Tongue.IsRetracting) return;
 
             _isTongueActive = true;
 
-            // ── TODO: tongue logic goes here ──────────────────────────────
+            // Convertir posición del mouse a coordenadas del mundo
+            Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mouseWorld.z = 0f;
+
+            // Calcular ángulo desde la rana hacia el cursor
+            Vector2 direction = (mouseWorld - transform.position).normalized;
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+            // Rotar el GameObject de la lengua hacia el cursor
+            Tongue.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+
+            // Escala siempre positiva — la rotación maneja la dirección
+            Tongue.transform.localScale = new Vector3(
+                Mathf.Abs(Tongue.transform.localScale.x),
+                Tongue.transform.localScale.y,
+                Tongue.transform.localScale.z);
+
+            Tongue.Extend();
         }
 
         public virtual void TongueStop()
@@ -246,7 +292,22 @@ namespace MoreMountains.CorgiEngine
 
             _isTongueActive = false;
 
-            // ── TODO: tongue cleanup goes here ────────────────────────────
+            if (Tongue != null)
+                Tongue.ForceRetract();
+        }
+
+        /// <summary>
+        /// Sincroniza _isTongueActive con el estado real del componente FrogTongue.
+        /// Se llama cada frame desde ProcessAbility.
+        /// </summary>
+        protected virtual void UpdateTongueState()
+        {
+            if (Tongue == null) return;
+            if (!_isTongueActive) return;
+
+            // La lengua terminó de retraerse sola → limpiar el flag
+            if (!Tongue.IsExtending && !Tongue.IsRetracting && !Tongue.IsOut)
+                _isTongueActive = false;
         }
 
         #endregion
@@ -271,6 +332,10 @@ namespace MoreMountains.CorgiEngine
             if (IsTransformed) return;
             if (_movement.CurrentState == CharacterStates.MovementStates.Jetpacking) return;
             if (Time.time - _transformationStoppedAt < TransformationRefuelCooldown) return;
+
+            // ★ Solo recargar si el Oso tampoco está transformado
+            // (el Oso es el dueño del refuel cuando coexisten)
+            if (_bearAbility != null && _bearAbility.IsTransformed) return;
 
             if (SharedJetpack.JetpackFuelDurationLeft < SharedJetpack.JetpackFuelDuration)
             {
@@ -400,20 +465,15 @@ namespace MoreMountains.CorgiEngine
             if (TransformationEndFeedback != null)
                 TransformationEndFeedback.SetActive(false);
 
+            if (Tongue != null)
+                Tongue.gameObject.SetActive(false);
+
             if (_animator != null)
             {
-                MMAnimatorExtensions.UpdateAnimatorBool(
-                    _animator, _transformingAnimationParameter, false,
-                    _character._animatorParameters, _character.PerformAnimatorSanityChecks);
-                MMAnimatorExtensions.UpdateAnimatorBool(
-                    _animator, _frogIdleAnimationParameter, false,
-                    _character._animatorParameters, _character.PerformAnimatorSanityChecks);
-                MMAnimatorExtensions.UpdateAnimatorBool(
-                    _animator, _frogJumpAnimationParameter, false,
-                    _character._animatorParameters, _character.PerformAnimatorSanityChecks);
-                MMAnimatorExtensions.UpdateAnimatorBool(
-                    _animator, _frogTongueAnimationParameter, false,
-                    _character._animatorParameters, _character.PerformAnimatorSanityChecks);
+                MMAnimatorExtensions.UpdateAnimatorBool(_animator, _transformingAnimationParameter, false, _character._animatorParameters, _character.PerformAnimatorSanityChecks);
+                MMAnimatorExtensions.UpdateAnimatorBool(_animator, _frogIdleAnimationParameter, false, _character._animatorParameters, _character.PerformAnimatorSanityChecks);
+                MMAnimatorExtensions.UpdateAnimatorBool(_animator, _frogJumpAnimationParameter, false, _character._animatorParameters, _character.PerformAnimatorSanityChecks);
+                MMAnimatorExtensions.UpdateAnimatorBool(_animator, _frogTongueAnimationParameter, false, _character._animatorParameters, _character.PerformAnimatorSanityChecks);
             }
         }
 
