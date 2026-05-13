@@ -14,6 +14,12 @@ namespace MoreMountains.CorgiEngine
         [Header("Frog Settings")]
         public float FrogJumpMultiplier = 1.8f;
 
+        [Header("Tongue")]
+        public float TongueSpeed = 20f;
+        public float MaxTongueLength = 5f;
+        public float TongueWidth = 0.15f;
+        public Color TongueColor = new Color(1f, 0.4f, 0.6f); // rosado
+
         [Header("Fuel (Optional)")]
         public CharacterJetpackManaged SharedJetpack;
 
@@ -25,19 +31,28 @@ namespace MoreMountains.CorgiEngine
         public GameObject TransformationEndFeedback;
 
         [Header("Debug")]
-        [MMReadOnly]
-        public bool IsTransformed = false;
+        [MMReadOnly] public bool IsTransformed = false;
+        [MMReadOnly] public bool TongueActive = false;
 
         protected CharacterJump _characterJump;
         protected float _originalJumpHeight = -1f;
         protected float _lastTransformStop = -999f;
 
-        // 🔥 referencia a otra transformación (ej: oso)
         protected CharacterTransformation _otherTransformation;
 
-        // ✅ PARAMETRO NUEVO (clave)
         protected const string _frogAnimationParameterName = "FrogTransforming";
         protected int _frogAnimationParameter;
+
+        // ── Lengua ──────────────────────────────────────────
+        protected float _currentLength = 0f;
+        protected bool _extending = false;
+
+        // LineRenderer para dibujar la lengua
+        protected LineRenderer _lineRenderer;
+
+        // Trigger collider en la punta
+        protected GameObject _tongueTip;
+        protected CircleCollider2D _tipCollider;
 
         #region Initialization
 
@@ -46,14 +61,48 @@ namespace MoreMountains.CorgiEngine
             base.Initialization();
 
             _characterJump = _character.GetComponent<CharacterJump>();
-
-            // Buscar otra transformación en el personaje
             _otherTransformation = _character.GetComponent<CharacterTransformation>();
 
             IsTransformed = false;
 
+            CreateTongueVisuals();
+
             if (TransformationStartFeedback != null) TransformationStartFeedback.SetActive(false);
             if (TransformationEndFeedback != null) TransformationEndFeedback.SetActive(false);
+        }
+
+        void CreateTongueVisuals()
+        {
+            // ── LineRenderer ────────────────────────────────
+            GameObject lineObj = new GameObject("TongueLine");
+            lineObj.transform.SetParent(transform);
+            lineObj.transform.localPosition = Vector3.zero;
+
+            _lineRenderer = lineObj.AddComponent<LineRenderer>();
+            _lineRenderer.positionCount = 2;
+            _lineRenderer.startWidth = TongueWidth;
+            _lineRenderer.endWidth = TongueWidth;
+            _lineRenderer.useWorldSpace = true;
+
+            // Material sin textura, color sólido
+            _lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
+            _lineRenderer.startColor = TongueColor;
+            _lineRenderer.endColor = TongueColor;
+            _lineRenderer.sortingOrder = 5;
+
+            _lineRenderer.enabled = false;
+
+            // ── Tip con trigger collider ─────────────────────
+            _tongueTip = new GameObject("TongueTip");
+            _tongueTip.transform.SetParent(transform);
+            _tongueTip.transform.localPosition = Vector3.zero;
+            _tongueTip.layer = gameObject.layer;
+
+            _tipCollider = _tongueTip.AddComponent<CircleCollider2D>();
+            _tipCollider.radius = TongueWidth * 2f;
+            _tipCollider.isTrigger = true;
+
+            _tongueTip.SetActive(false);
         }
 
         #endregion
@@ -69,6 +118,12 @@ namespace MoreMountains.CorgiEngine
                 else
                     StartFrog();
             }
+
+            if (IsTransformed && Input.GetMouseButtonDown(0))
+            {
+                if (!TongueActive)
+                    StartTongue();
+            }
         }
 
         #endregion
@@ -79,7 +134,6 @@ namespace MoreMountains.CorgiEngine
         {
             base.ProcessAbility();
 
-            // ❌ cancelar si empieza a volar
             if (IsTransformed && _movement.CurrentState == CharacterStates.MovementStates.Flying)
             {
                 StopFrog();
@@ -89,6 +143,11 @@ namespace MoreMountains.CorgiEngine
             if (IsTransformed)
             {
                 HandleFuel();
+            }
+
+            if (TongueActive)
+            {
+                UpdateTongue();
             }
         }
 
@@ -103,11 +162,9 @@ namespace MoreMountains.CorgiEngine
             if (_condition.CurrentState != CharacterStates.CharacterConditions.Normal)
                 return;
 
-            // ❌ bloquear si el oso está activo
             if (_otherTransformation != null && _otherTransformation.IsTransformed)
                 return;
 
-            // ❌ respetar estados importantes
             if (_movement.CurrentState == CharacterStates.MovementStates.Flying ||
                 _movement.CurrentState == CharacterStates.MovementStates.Dashing ||
                 _movement.CurrentState == CharacterStates.MovementStates.Gripping)
@@ -115,7 +172,6 @@ namespace MoreMountains.CorgiEngine
                 return;
             }
 
-            // ❌ revisar fuel mínimo
             if (SharedJetpack != null && !SharedJetpack.JetpackUnlimited)
             {
                 float normalized = SharedJetpack.JetpackFuelDurationLeft / SharedJetpack.JetpackFuelDuration;
@@ -126,7 +182,6 @@ namespace MoreMountains.CorgiEngine
             IsTransformed = true;
 
             ApplyJumpBoost();
-
             PlayAbilityStartFeedbacks();
             TriggerStartFeedbackObject();
         }
@@ -138,11 +193,74 @@ namespace MoreMountains.CorgiEngine
             IsTransformed = false;
             _lastTransformStop = Time.time;
 
+            StopTongue();
             RemoveJumpBoost();
-
             StopStartFeedbacks();
             PlayAbilityStopFeedbacks();
             TriggerEndFeedbackObject();
+        }
+
+        #endregion
+
+        #region Tongue
+
+        void StartTongue()
+        {
+            TongueActive = true;
+            _extending = true;
+            _currentLength = 0f;
+
+            _lineRenderer.enabled = true;
+            _tongueTip.SetActive(true);
+        }
+
+        void StopTongue()
+        {
+            TongueActive = false;
+            _extending = false;
+            _currentLength = 0f;
+
+            if (_lineRenderer != null)
+                _lineRenderer.enabled = false;
+
+            if (_tongueTip != null)
+                _tongueTip.SetActive(false);
+        }
+
+        void UpdateTongue()
+        {
+            float dir = _character.IsFacingRight ? 1f : -1f;
+
+            // ── Extender / retraer ────────────────────────
+            if (_extending)
+            {
+                _currentLength += TongueSpeed * Time.deltaTime;
+                if (_currentLength >= MaxTongueLength)
+                {
+                    _currentLength = MaxTongueLength;
+                    _extending = false; // empieza a retroceder
+                }
+            }
+            else
+            {
+                _currentLength -= TongueSpeed * Time.deltaTime;
+                if (_currentLength <= 0f)
+                {
+                    StopTongue();
+                    return;
+                }
+            }
+
+            // ── Posiciones ────────────────────────────────
+            Vector3 origin = transform.position;
+            Vector3 tip = origin + new Vector3(dir * _currentLength, 0f, 0f);
+
+            // ── LineRenderer ──────────────────────────────
+            _lineRenderer.SetPosition(0, origin);
+            _lineRenderer.SetPosition(1, tip);
+
+            // ── Tip collider ──────────────────────────────
+            _tongueTip.transform.position = tip;
         }
 
         #endregion
@@ -157,11 +275,8 @@ namespace MoreMountains.CorgiEngine
             SharedJetpack.JetpackFuelDurationLeft =
                 Mathf.Max(0f, SharedJetpack.JetpackFuelDurationLeft - Time.deltaTime);
 
-            // si se queda sin fuel
             if (SharedJetpack.JetpackFuelDurationLeft <= 0f)
-            {
                 StopFrog();
-            }
         }
 
         #endregion
@@ -197,7 +312,6 @@ namespace MoreMountains.CorgiEngine
                 TransformationStartFeedback.SetActive(false);
                 TransformationStartFeedback.SetActive(true);
             }
-
             if (TransformationEndFeedback != null)
                 TransformationEndFeedback.SetActive(false);
         }
@@ -209,7 +323,6 @@ namespace MoreMountains.CorgiEngine
                 TransformationEndFeedback.SetActive(false);
                 TransformationEndFeedback.SetActive(true);
             }
-
             if (TransformationStartFeedback != null)
                 TransformationStartFeedback.SetActive(false);
         }
