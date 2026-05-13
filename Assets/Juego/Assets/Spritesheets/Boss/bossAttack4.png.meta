@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 66fe33f721a8ae44ca42c2e37051f799
+guid: f10838f91bfa75d4fbd69855fac7013d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3474664462007678238
-    second: sharkIdle_0
+      213: 6182948103782093688
+    second: bossAttack4_0
   - first:
-      213: 2141526411804168157
-    second: sharkIdle_1
+      213: -1236001560199282898
+    second: bossAttack4_1
   - first:
-      213: 1564637143904867321
-    second: sharkIdle_2
+      213: 7153499483334224261
+    second: bossAttack4_2
   - first:
-      213: 1811743034225760833
-    second: sharkIdle_3
+      213: -4122364501750115555
+    second: bossAttack4_3
   - first:
-      213: -8225354547302694026
-    second: sharkIdle_4
+      213: 2133940322518312662
+    second: bossAttack4_4
   - first:
-      213: -962634291538578885
-    second: sharkIdle_5
+      213: -3843628716535727187
+    second: bossAttack4_5
   - first:
-      213: 8418407486513978373
-    second: sharkIdle_6
+      213: -8839854735043403102
+    second: bossAttack4_6
   - first:
-      213: -8952073917176416319
-    second: sharkIdle_7
+      213: -1548583139837700513
+    second: bossAttack4_7
   - first:
-      213: 8253223748665677985
-    second: sharkIdle_8
+      213: 7698653469197983501
+    second: bossAttack4_8
   - first:
-      213: 7585134469314684976
-    second: sharkIdle_9
+      213: -5887360928249555408
+    second: bossAttack4_9
   - first:
-      213: -5275082998925953556
-    second: sharkIdle_10
+      213: -6728966556629372769
+    second: bossAttack4_10
   - first:
-      213: -3562393831695585576
-    second: sharkIdle_11
+      213: 261466011750075052
+    second: bossAttack4_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,10 +105,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -133,265 +133,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sharkIdle_0
+      name: bossAttack4_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 619
-        height: 619
+        x: 422
+        y: 29
+        width: 1133
+        height: 1033
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2eacb54d41387cfc0800000000000000
-      internalID: -3474664462007678238
+      spriteID: 8735b9eaa8e3ec550800000000000000
+      internalID: 6182948103782093688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_1
+      name: bossAttack4_1
       rect:
         serializedVersion: 2
-        x: 619
-        y: 0
-        width: 619
-        height: 619
+        x: 2337
+        y: 30
+        width: 1134
+        height: 1032
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddf44bcdcea38bd10800000000000000
-      internalID: 2141526411804168157
+      spriteID: e2f3e7e2127d8dee0800000000000000
+      internalID: -1236001560199282898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_2
+      name: bossAttack4_2
       rect:
         serializedVersion: 2
-        x: 1238
-        y: 0
-        width: 619
-        height: 619
+        x: 4263
+        y: 32
+        width: 1134
+        height: 1030
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f3d4dc4135b6b510800000000000000
-      internalID: 1564637143904867321
+      spriteID: 589a31511e5564360800000000000000
+      internalID: 7153499483334224261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_3
+      name: bossAttack4_3
       rect:
         serializedVersion: 2
-        x: 1857
-        y: 0
-        width: 619
-        height: 619
+        x: 6175
+        y: 36
+        width: 1133
+        height: 1026
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14a905bc0ba942910800000000000000
-      internalID: 1811743034225760833
+      spriteID: d13118ea35b6ac6c0800000000000000
+      internalID: -4122364501750115555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_4
+      name: bossAttack4_4
       rect:
         serializedVersion: 2
-        x: 2476
-        y: 0
-        width: 619
-        height: 619
+        x: 8102
+        y: 29
+        width: 1133
+        height: 1017
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67301687e9ba9dd80800000000000000
-      internalID: -8225354547302694026
+      spriteID: 6d6269fca674d9d10800000000000000
+      internalID: 2133940322518312662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_5
+      name: bossAttack4_5
       rect:
         serializedVersion: 2
-        x: 3095
-        y: 0
-        width: 619
-        height: 619
+        x: 10022
+        y: 28
+        width: 1134
+        height: 985
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b32bb3c463904a2f0800000000000000
-      internalID: -962634291538578885
+      spriteID: dabb566fb00b8aac0800000000000000
+      internalID: -3843628716535727187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_6
+      name: bossAttack4_6
       rect:
         serializedVersion: 2
-        x: 3714
-        y: 0
-        width: 619
-        height: 619
+        x: 10323
+        y: 1007
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50c9720a10134d470800000000000000
-      internalID: 8418407486513978373
+      spriteID: 2a2eeab34f6825580800000000000000
+      internalID: -8839854735043403102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_7
+      name: bossAttack4_7
       rect:
         serializedVersion: 2
-        x: 4333
-        y: 0
-        width: 619
-        height: 619
+        x: 11967
+        y: 27
+        width: 1091
+        height: 1052
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c7f8a3d338d3c380800000000000000
-      internalID: -8952073917176416319
+      spriteID: f5690dcc6d3528ae0800000000000000
+      internalID: -1548583139837700513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_8
+      name: bossAttack4_8
       rect:
         serializedVersion: 2
-        x: 4952
-        y: 0
-        width: 619
-        height: 619
+        x: 13887
+        y: 27
+        width: 1091
+        height: 1052
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a8190f9547598270800000000000000
-      internalID: 8253223748665677985
+      spriteID: d0fdf508a8c17da60800000000000000
+      internalID: 7698653469197983501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_9
+      name: bossAttack4_9
       rect:
         serializedVersion: 2
-        x: 5571
-        y: 0
-        width: 619
-        height: 619
+        x: 15782
+        y: 29
+        width: 1133
+        height: 1017
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 038a211bc9fc34960800000000000000
-      internalID: 7585134469314684976
+      spriteID: 036db27ad64eb4ea0800000000000000
+      internalID: -5887360928249555408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_10
+      name: bossAttack4_10
       rect:
         serializedVersion: 2
-        x: 6190
-        y: 0
-        width: 619
-        height: 619
+        x: 17702
+        y: 29
+        width: 1133
+        height: 1033
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce5f05806f32bc6b0800000000000000
-      internalID: -5275082998925953556
+      spriteID: f907f9e7198ed92a0800000000000000
+      internalID: -6728966556629372769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharkIdle_11
+      name: bossAttack4_11
       rect:
         serializedVersion: 2
-        x: 6809
-        y: 0
-        width: 619
-        height: 619
+        x: 19622
+        y: 29
+        width: 1133
+        height: 1033
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8deedb73fa5df8ec0800000000000000
-      internalID: -3562393831695585576
+      spriteID: caa833fc3f9e0a300800000000000000
+      internalID: 261466011750075052
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0031c7f03cdc2634794a8c7238b2e54b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -408,22 +408,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      sharkIdle_0: -3474664462007678238
-      sharkIdle_1: 2141526411804168157
-      sharkIdle_10: -5275082998925953556
-      sharkIdle_11: -3562393831695585576
-      sharkIdle_2: 1564637143904867321
-      sharkIdle_3: 1811743034225760833
-      sharkIdle_4: -8225354547302694026
-      sharkIdle_5: -962634291538578885
-      sharkIdle_6: 8418407486513978373
-      sharkIdle_7: -8952073917176416319
-      sharkIdle_8: 8253223748665677985
-      sharkIdle_9: 7585134469314684976
+      bossAttack4_0: 6182948103782093688
+      bossAttack4_1: -1236001560199282898
+      bossAttack4_10: -6728966556629372769
+      bossAttack4_11: 261466011750075052
+      bossAttack4_2: 7153499483334224261
+      bossAttack4_3: -4122364501750115555
+      bossAttack4_4: 2133940322518312662
+      bossAttack4_5: -3843628716535727187
+      bossAttack4_6: -8839854735043403102
+      bossAttack4_7: -1548583139837700513
+      bossAttack4_8: 7698653469197983501
+      bossAttack4_9: -5887360928249555408
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

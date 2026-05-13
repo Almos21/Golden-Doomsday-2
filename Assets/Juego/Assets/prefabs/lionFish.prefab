@@ -507,7 +507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: MoreMountains.CorgiEngine::MoreMountains.CorgiEngine.AIDecisionDistanceToTarget
   Label: 
   ComparisonMode: 4
-  Distance: 13
+  Distance: 5
 --- !u!114 &3815187468570502196
 MonoBehaviour:
   m_ObjectHideFlags: 0
