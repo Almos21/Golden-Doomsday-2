@@ -90,7 +90,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -121,12 +121,12 @@ TextureImporter:
       name: frogIdle_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 10
-        width: 412
-        height: 343
+        x: 0
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -143,12 +143,12 @@ TextureImporter:
       name: frogIdle_1
       rect:
         serializedVersion: 2
-        x: 717
-        y: 5
-        width: 412
-        height: 342
+        x: 619
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: frogIdle_2
       rect:
         serializedVersion: 2
-        x: 1338
-        y: 0
-        width: 412
-        height: 339
+        x: 1238
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: frogIdle_3
       rect:
         serializedVersion: 2
-        x: 1957
-        y: 4
-        width: 412
-        height: 329
+        x: 1857
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: frogIdle_4
       rect:
         serializedVersion: 2
-        x: 2580
-        y: 0
-        width: 412
-        height: 339
+        x: 2476
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: frogIdle_5
       rect:
         serializedVersion: 2
-        x: 3201
-        y: 5
-        width: 412
-        height: 342
+        x: 3095
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: frogIdle_6
       rect:
         serializedVersion: 2
-        x: 3822
-        y: 10
-        width: 412
-        height: 343
+        x: 3714
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,7 +275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c7c15c7426a05f04c8130ca947de58ef
     internalID: 0
     vertices: []
     indices: 
@@ -283,7 +283,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       frogIdle_0: 1078565165254752206
       frogIdle_1: -8136541515853773115

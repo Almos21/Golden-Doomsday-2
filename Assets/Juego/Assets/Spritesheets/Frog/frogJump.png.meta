@@ -105,7 +105,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -136,12 +136,12 @@ TextureImporter:
       name: frogJump_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 10
-        width: 412
-        height: 343
+        x: 0
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: frogJump_1
       rect:
         serializedVersion: 2
-        x: 717
-        y: 0
-        width: 412
-        height: 339
+        x: 619
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: frogJump_2
       rect:
         serializedVersion: 2
-        x: 1330
-        y: 10
-        width: 435
-        height: 323
+        x: 1238
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: frogJump_3
       rect:
         serializedVersion: 2
-        x: 1960
-        y: 10
-        width: 376
-        height: 481
+        x: 1857
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: frogJump_4
       rect:
         serializedVersion: 2
-        x: 2536
+        x: 2476
         y: 2
-        width: 528
-        height: 585
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: frogJump_5
       rect:
         serializedVersion: 2
-        x: 3197
-        y: 239
-        width: 6
-        height: 10
+        x: 3095
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: frogJump_6
       rect:
         serializedVersion: 2
-        x: 3198
-        y: 219
-        width: 9
-        height: 22
+        x: 3714
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,12 +290,12 @@ TextureImporter:
       name: frogJump_7
       rect:
         serializedVersion: 2
-        x: 3201
-        y: 172
-        width: 498
-        height: 443
+        x: 4333
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -312,12 +312,12 @@ TextureImporter:
       name: frogJump_8
       rect:
         serializedVersion: 2
-        x: 3732
-        y: 46
-        width: 547
-        height: 570
+        x: 4952
+        y: 2
+        width: 619
+        height: 619
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -330,77 +330,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: frogJump_9
-      rect:
-        serializedVersion: 2
-        x: 4435
-        y: 10
-        width: 435
-        height: 323
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03993b2c7d356f5f0800000000000000
-      internalID: -723298503996761808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frogJump_10
-      rect:
-        serializedVersion: 2
-        x: 5064
-        y: 0
-        width: 412
-        height: 339
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc78d2ed158a3b070800000000000000
-      internalID: 8121019622652479436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frogJump_11
-      rect:
-        serializedVersion: 2
-        x: 2338
-        y: 190
-        width: 38
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4af21308fd5e31e0800000000000000
-      internalID: -2216230646834857397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f01ec9ec0b896194a8cc0a9dd02d623a
     internalID: 0
     vertices: []
     indices: 
@@ -408,12 +342,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":619.0,"y":619.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       frogJump_0: 7669461812996002887
       frogJump_1: -4019222922047333904
-      frogJump_10: 8121019622652479436
-      frogJump_11: -2216230646834857397
       frogJump_2: 7416931508938686113
       frogJump_3: -3508598928859518841
       frogJump_4: 8565406561095778440
@@ -421,7 +355,6 @@ TextureImporter:
       frogJump_6: 7259440534889165938
       frogJump_7: 4526378045156627395
       frogJump_8: -2097881646938524337
-      frogJump_9: -723298503996761808
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

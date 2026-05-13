@@ -184,6 +184,7 @@ namespace MoreMountains.CorgiEngine
             ApplyJumpBoost();
             PlayAbilityStartFeedbacks();
             TriggerStartFeedbackObject();
+            UpdateAnimator(); // Forzamos actualización de animación al cambiar estado
         }
 
         public virtual void StopFrog()
@@ -198,6 +199,7 @@ namespace MoreMountains.CorgiEngine
             StopStartFeedbacks();
             PlayAbilityStopFeedbacks();
             TriggerEndFeedbackObject();
+            UpdateAnimator(); // Forzamos actualización de animación al cambiar estado
         }
 
         #endregion
@@ -307,24 +309,28 @@ namespace MoreMountains.CorgiEngine
 
         protected virtual void TriggerStartFeedbackObject()
         {
+            // Apagamos el de fin por si estaba activo
+            if (TransformationEndFeedback != null)
+                TransformationEndFeedback.SetActive(false);
+
             if (TransformationStartFeedback != null)
             {
                 TransformationStartFeedback.SetActive(false);
                 TransformationStartFeedback.SetActive(true);
             }
-            if (TransformationEndFeedback != null)
-                TransformationEndFeedback.SetActive(false);
         }
 
         protected virtual void TriggerEndFeedbackObject()
         {
+            // Apagamos el de inicio
+            if (TransformationStartFeedback != null)
+                TransformationStartFeedback.SetActive(false);
+
             if (TransformationEndFeedback != null)
             {
                 TransformationEndFeedback.SetActive(false);
                 TransformationEndFeedback.SetActive(true);
             }
-            if (TransformationStartFeedback != null)
-                TransformationStartFeedback.SetActive(false);
         }
 
         #endregion
@@ -358,19 +364,7 @@ namespace MoreMountains.CorgiEngine
         public override void ResetAbility()
         {
             base.ResetAbility();
-
             StopFrog();
-
-            if (_animator != null)
-            {
-                MMAnimatorExtensions.UpdateAnimatorBool(
-                    _animator,
-                    _frogAnimationParameter,
-                    false,
-                    _character._animatorParameters,
-                    _character.PerformAnimatorSanityChecks
-                );
-            }
         }
 
         #endregion
