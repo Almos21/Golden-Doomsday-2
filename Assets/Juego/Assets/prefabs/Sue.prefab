@@ -36,8 +36,10 @@ GameObject:
   - component: {fileID: -4342895061800036961}
   - component: {fileID: 7109013285664458172}
   - component: {fileID: 7273113094030533105}
+  - component: {fileID: 5332338045553177501}
   - component: {fileID: -4879343744254661846}
   - component: {fileID: 1671126935232154107}
+  - component: {fileID: 933131799330528601}
   m_Layer: 9
   m_Name: Sue
   m_TagString: Player
@@ -1069,6 +1071,33 @@ MonoBehaviour:
   TransformationStartFeedback: {fileID: 669204479016384071}
   TransformationEndFeedback: {fileID: 6933843783658687889}
   IsTransformed: 0
+--- !u!114 &5332338045553177501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5c03ef9c8ed444985d94286197ca5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Character_Frog
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  TransformationAlias: Rana
+  TransformationRefuelCooldown: 1
+  RefuelSpeed: 0.5
+  MinimumFuelRequirement: 0.2
+  FrogJumpMultiplier: 1.8
+  SharedJetpack: {fileID: 0}
+  TransformationStartFeedback: {fileID: 0}
+  TransformationEndFeedback: {fileID: 0}
+  IsTransformed: 0
 --- !u!114 &-4879343744254661846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,6 +1147,33 @@ MonoBehaviour:
   WaterLayerName: Water
   KillOnEmptyFuel: 1
   IsSwimming: 0
+--- !u!114 &933131799330528601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5c03ef9c8ed444985d94286197ca5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  TransformationAlias: Rana
+  TransformationRefuelCooldown: 1
+  RefuelSpeed: 0.5
+  MinimumFuelRequirement: 0.2
+  FrogJumpMultiplier: 1.8
+  SharedJetpack: {fileID: 1001227801648419634}
+  TransformationStartFeedback: {fileID: 0}
+  TransformationEndFeedback: {fileID: 0}
+  IsTransformed: 0
 --- !u!1 &159142
 GameObject:
   m_ObjectHideFlags: 0

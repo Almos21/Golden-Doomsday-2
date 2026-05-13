@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 3175cd7320712ee47918c44c29124369
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9055236807421620635
+    second: frogTongueAttack_0
+  - first:
+      213: 3320728281872222495
+    second: frogTongueAttack_1
+  - first:
+      213: 4622147766539660500
+    second: frogTongueAttack_2
+  - first:
+      213: -2703983800380669926
+    second: frogTongueAttack_3
+  - first:
+      213: -7294106797079943011
+    second: frogTongueAttack_4
+  - first:
+      213: -3873361667247657759
+    second: frogTongueAttack_5
+  - first:
+      213: 7465170798967093617
+    second: frogTongueAttack_6
+  - first:
+      213: -396480734752835294
+    second: frogTongueAttack_7
+  - first:
+      213: -4534207304416655575
+    second: frogTongueAttack_8
+  - first:
+      213: 2345161669239348593
+    second: frogTongueAttack_9
+  - first:
+      213: 1159765465437961669
+    second: frogTongueAttack_10
+  - first:
+      213: 3128174769513417656
+    second: frogTongueAttack_11
+  - first:
+      213: -3905334571851622429
+    second: frogTongueAttack_12
+  - first:
+      213: 2143339167786790950
+    second: frogTongueAttack_13
+  - first:
+      213: 9210687864731576565
+    second: frogTongueAttack_14
+  - first:
+      213: 4295658809734993275
+    second: frogTongueAttack_15
+  - first:
+      213: 8985069214444217501
+    second: frogTongueAttack_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frogTongueAttack_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 11
+        width: 412
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e8790b916555280800000000000000
+      internalID: -9055236807421620635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_1
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 10
+        width: 398
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19469447c8951e20800000000000000
+      internalID: 3320728281872222495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_2
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 11
+        width: 390
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc26fb87ea252040800000000000000
+      internalID: 4622147766539660500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 1
+        width: 386
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1046e35f05897ad0800000000000000
+      internalID: -2703983800380669926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_4
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 8
+        width: 472
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98a94e838026ca90800000000000000
+      internalID: -7294106797079943011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_5
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 261
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eca619e51e0f3ac0800000000000000
+      internalID: -3873361667247657759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_6
+      rect:
+        serializedVersion: 2
+        x: 3127
+        y: 19
+        width: 472
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1797d0c1a4d999760800000000000000
+      internalID: 7465170798967093617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_7
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 8
+        width: 472
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22975c45fda6f7af0800000000000000
+      internalID: -396480734752835294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_8
+      rect:
+        serializedVersion: 2
+        x: 4438
+        y: 10
+        width: 390
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927834ada724311c0800000000000000
+      internalID: -4534207304416655575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_9
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 231
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d9fdbec10bb8020800000000000000
+      internalID: 2345161669239348593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_10
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 231
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdf13ecb80581010800000000000000
+      internalID: 1159765465437961669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_11
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 173
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbcf2c0162896b20800000000000000
+      internalID: 3128174769513417656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_12
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 173
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e75bb3f5e67dc9c0800000000000000
+      internalID: -3905334571851622429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_13
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 134
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620fc110e9baebd10800000000000000
+      internalID: 2143339167786790950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_14
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 145
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8a35a00dfe2df70800000000000000
+      internalID: 9210687864731576565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_15
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 134
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7518869dee3d9b30800000000000000
+      internalID: 4295658809734993275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frogTongueAttack_16
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 5
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94ee3978d061bc70800000000000000
+      internalID: 8985069214444217501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      frogTongueAttack_0: -9055236807421620635
+      frogTongueAttack_1: 3320728281872222495
+      frogTongueAttack_10: 1159765465437961669
+      frogTongueAttack_11: 3128174769513417656
+      frogTongueAttack_12: -3905334571851622429
+      frogTongueAttack_13: 2143339167786790950
+      frogTongueAttack_14: 9210687864731576565
+      frogTongueAttack_15: 4295658809734993275
+      frogTongueAttack_16: 8985069214444217501
+      frogTongueAttack_2: 4622147766539660500
+      frogTongueAttack_3: -2703983800380669926
+      frogTongueAttack_4: -7294106797079943011
+      frogTongueAttack_5: -3873361667247657759
+      frogTongueAttack_6: 7465170798967093617
+      frogTongueAttack_7: -396480734752835294
+      frogTongueAttack_8: -4534207304416655575
+      frogTongueAttack_9: 2345161669239348593
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
